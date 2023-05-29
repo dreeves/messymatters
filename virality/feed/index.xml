@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: This is Viral	</title>
+	<atom:link href="/virality/feed/" rel="self" type="application/rss+xml" />
+	<link>/virality/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Thu, 20 Jun 2013 03:28:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/virality/#comment-176163</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Thu, 20 Jun 2013 03:28:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1660#comment-176163</guid>
+
+					<description><![CDATA[I thought this was a pretty sane analysis of so-called virality:
+
+http://www.linkedin.com/today/post/article/20121002124206-18876785-how-to-model-viral-growth-the-hybrid-model
+
+My take-away was that it&#039;s a myth that there&#039;s such a thing as virality coefficient &#062; 1 (where propagation is self-sustaining) but that making something &quot;more viral&quot; is good and viable — it just means getting more bang for your marketing buck. Of course it will still immediately fizzle if you stop marketing. 
+
+
+The link above suggests that if you can get something like virality 0.7 (which the article calls &quot;outstanding&quot;) then that can triple the your non-viral user acquisition.
+
+Or a simpler takeaway: No matter how viral you think you are you still have to do non-viral user acquisition. There has to be something for the virality to amplify. Because actual virus-like virality, ie, self-amplification, doesn&#039;t really exist. 
+
+
+It sounds like Sharad&#039;s data suggests that viral propagation is literally a one-in-a-million event (or even a bit rarer than that).]]></description>
+			<content:encoded><![CDATA[<p>I thought this was a pretty sane analysis of so-called virality:</p>
+<p><a href="http://www.linkedin.com/today/post/article/20121002124206-18876785-how-to-model-viral-growth-the-hybrid-model" rel="nofollow ugc">http://www.linkedin.com/today/post/article/20121002124206-18876785-how-to-model-viral-growth-the-hybrid-model</a></p>
+<p>My take-away was that it&#8217;s a myth that there&#8217;s such a thing as virality coefficient &gt; 1 (where propagation is self-sustaining) but that making something &#8220;more viral&#8221; is good and viable — it just means getting more bang for your marketing buck. Of course it will still immediately fizzle if you stop marketing. </p>
+<p>The link above suggests that if you can get something like virality 0.7 (which the article calls &#8220;outstanding&#8221;) then that can triple the your non-viral user acquisition.</p>
+<p>Or a simpler takeaway: No matter how viral you think you are you still have to do non-viral user acquisition. There has to be something for the virality to amplify. Because actual virus-like virality, ie, self-amplification, doesn&#8217;t really exist. </p>
+<p>It sounds like Sharad&#8217;s data suggests that viral propagation is literally a one-in-a-million event (or even a bit rarer than that).</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

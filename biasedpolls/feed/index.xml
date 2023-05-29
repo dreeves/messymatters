@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Forecasting Elections with Dirty Data	</title>
+	<atom:link href="/biasedpolls/feed/" rel="self" type="application/rss+xml" />
+	<link>/biasedpolls/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Thu, 21 Nov 2013 11:51:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Ashish Soni		</title>
+		<link>/biasedpolls/#comment-180402</link>
+
+		<dc:creator><![CDATA[Ashish Soni]]></dc:creator>
+		<pubDate>Thu, 21 Nov 2013 11:51:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1678#comment-180402</guid>
+
+					<description><![CDATA[Very nice and informative article on big data role in politics. with so accurate prediction of elections in U.S nate silver said that it is not at all about lot of data but it all about how to use it and where to use it. In politics the data is often manipulated and presented and manipulated data can never give us the accurate results. on the other hand exit polls that are based on very less no of samples from a single parameter  (In india the voter class is divided on various parameters religion, caste, urban, rural, state, tribal. etc etc (elections are due this year in india. ) however, what I have been observing from past 12-13 years that exit polls have never been able to predict the actual results . the reason being is only considering one or 2 parameter from such a diverse voter base that exit polls have been going against the actual verdict all the time. It is really great to see how far is big data helpful in politics apart form predicting US elections.]]></description>
+			<content:encoded><![CDATA[<p>Very nice and informative article on big data role in politics. with so accurate prediction of elections in U.S nate silver said that it is not at all about lot of data but it all about how to use it and where to use it. In politics the data is often manipulated and presented and manipulated data can never give us the accurate results. on the other hand exit polls that are based on very less no of samples from a single parameter  (In india the voter class is divided on various parameters religion, caste, urban, rural, state, tribal. etc etc (elections are due this year in india. ) however, what I have been observing from past 12-13 years that exit polls have never been able to predict the actual results . the reason being is only considering one or 2 parameter from such a diverse voter base that exit polls have been going against the actual verdict all the time. It is really great to see how far is big data helpful in politics apart form predicting US elections.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: ValerioDeCamillis		</title>
+		<link>/biasedpolls/#comment-179268</link>
+
+		<dc:creator><![CDATA[ValerioDeCamillis]]></dc:creator>
+		<pubDate>Wed, 09 Oct 2013 15:14:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1678#comment-179268</guid>
+
+					<description><![CDATA[It&#039;s been a while since the last article i read on an interesting breakthrough in statistical science.
+Great work!
+For a possible commercial application contact Wunderloop (now AudienceScience), or any other behavioural advertising platform. They do have economic interests in making their surveys as accurate as possible on audiences that don&#039;t usually respond to them.]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s been a while since the last article i read on an interesting breakthrough in statistical science.<br />
+Great work!<br />
+For a possible commercial application contact Wunderloop (now AudienceScience), or any other behavioural advertising platform. They do have economic interests in making their surveys as accurate as possible on audiences that don&#8217;t usually respond to them.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

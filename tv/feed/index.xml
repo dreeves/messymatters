@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Living the Robot-Mediated Life	</title>
+	<atom:link href="/tv/feed/" rel="self" type="application/rss+xml" />
+	<link>/tv/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Thu, 07 May 2015 21:46:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/tv/#comment-230418</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Thu, 07 May 2015 21:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1703#comment-230418</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tv/#comment-230399&quot;&gt;David Rutter&lt;/a&gt;.
+
+Great question! Our mechanism is similar to a Vickrey auction in that the 2nd highest bid is used as the price, but it&#039;s different in that there&#039;s no 3rd-party seller. The good is jointly owned and the payment will go from one player to the other. So our decision auctions are not strictly incentive compatible like Vickrey is (though in practice it seems to be close enough). If you&#039;re *very* interested I can tell you the Nash equilibrium for a decision auction (with unrealistic assumptions about type distributions).]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tv/#comment-230399">David Rutter</a>.</p>
+<p>Great question! Our mechanism is similar to a Vickrey auction in that the 2nd highest bid is used as the price, but it&#8217;s different in that there&#8217;s no 3rd-party seller. The good is jointly owned and the payment will go from one player to the other. So our decision auctions are not strictly incentive compatible like Vickrey is (though in practice it seems to be close enough). If you&#8217;re *very* interested I can tell you the Nash equilibrium for a decision auction (with unrealistic assumptions about type distributions).</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David Rutter		</title>
+		<link>/tv/#comment-230399</link>
+
+		<dc:creator><![CDATA[David Rutter]]></dc:creator>
+		<pubDate>Thu, 07 May 2015 16:06:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1703#comment-230399</guid>
+
+					<description><![CDATA[Wouldn&#039;t the simplest answer to both of questions 8 and 9 be simply &quot;Vickrey auctions are honest&quot;? Actually, now that I look at it, this argument has some difficulty adapting to decision auctions. I feel like it can be adapted, at least in expectation. I&#039;ll be thinking about it. http://en.wikipedia.org/wiki/Vickrey_auction#Proof_of_dominance_of_truthful_bidding]]></description>
+			<content:encoded><![CDATA[<p>Wouldn&#8217;t the simplest answer to both of questions 8 and 9 be simply &#8220;Vickrey auctions are honest&#8221;? Actually, now that I look at it, this argument has some difficulty adapting to decision auctions. I feel like it can be adapted, at least in expectation. I&#8217;ll be thinking about it. <a href="http://en.wikipedia.org/wiki/Vickrey_auction#Proof_of_dominance_of_truthful_bidding" rel="nofollow ugc">http://en.wikipedia.org/wiki/Vickrey_auction#Proof_of_dominance_of_truthful_bidding</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Press Roundup 5 &#124; Beeminder Blog		</title>
+		<link>/tv/#comment-200150</link>
+
+		<dc:creator><![CDATA[Press Roundup 5 &#124; Beeminder Blog]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 06:55:50 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1703#comment-200150</guid>
+
+					<description><![CDATA[[&#8230;] Special mention goes to a couple mentions of Beeminder on national television, first as part of a crazy media frenzy around the Beeminder founders and more recently a mention on PBS (and cued up to the Beeminder [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] Special mention goes to a couple mentions of Beeminder on national television, first as part of a crazy media frenzy around the Beeminder founders and more recently a mention on PBS (and cued up to the Beeminder [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/tv/#comment-184677</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Sat, 22 Mar 2014 22:27:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1703#comment-184677</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tv/#comment-184556&quot;&gt;Emanuel Rylke&lt;/a&gt;.
+
+Thanks Emanuel! Fixed now. I might owe you $20 for that, though it was kind of intentional at the time. I made a ton of edits since I hit publish on this seconds before the deadline. I&#039;m definitely still honoring the $20 typo bounty, btw, for anything that&#039;s unambiguously an error.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tv/#comment-184556">Emanuel Rylke</a>.</p>
+<p>Thanks Emanuel! Fixed now. I might owe you $20 for that, though it was kind of intentional at the time. I made a ton of edits since I hit publish on this seconds before the deadline. I&#8217;m definitely still honoring the $20 typo bounty, btw, for anything that&#8217;s unambiguously an error.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Emanuel Rylke		</title>
+		<link>/tv/#comment-184556</link>
+
+		<dc:creator><![CDATA[Emanuel Rylke]]></dc:creator>
+		<pubDate>Fri, 21 Mar 2014 05:27:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1703#comment-184556</guid>
+
+					<description><![CDATA[Footnote 3 isn&#039;t referenced in the article.]]></description>
+			<content:encoded><![CDATA[<p>Footnote 3 isn&#8217;t referenced in the article.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

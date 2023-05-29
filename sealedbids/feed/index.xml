@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Extremely Weak Cryptography: Rot13 for Numbers	</title>
+	<atom:link href="/sealedbids/feed/" rel="self" type="application/rss+xml" />
+	<link>/sealedbids/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Sun, 13 Dec 2015 14:03:20 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Rot13 for numbers &#124; Questions		</title>
+		<link>/sealedbids/#comment-252214</link>
+
+		<dc:creator><![CDATA[Rot13 for numbers &#124; Questions]]></dc:creator>
+		<pubDate>Sun, 13 Dec 2015 14:03:20 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-252214</guid>
+
+					<description><![CDATA[[&#8230;] EDIT: Now a Major Motion Blog Post at /sealedbids [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] EDIT: Now a Major Motion Blog Post at <a href="/sealedbids" rel="nofollow ugc">/sealedbids</a> [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Stephen P		</title>
+		<link>/sealedbids/#comment-196318</link>
+
+		<dc:creator><![CDATA[Stephen P]]></dc:creator>
+		<pubDate>Fri, 18 Jul 2014 07:51:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-196318</guid>
+
+					<description><![CDATA[good work here is my version of rot13 its called cicada https://sites.google.com/site/psychocatdemo/cid]]></description>
+			<content:encoded><![CDATA[<p>good work here is my version of rot13 its called cicada <a href="https://sites.google.com/site/psychocatdemo/cid" rel="nofollow ugc">https://sites.google.com/site/psychocatdemo/cid</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Rot13 for numbers &#124; Ask Programming &#38; Technology		</title>
+		<link>/sealedbids/#comment-180277</link>
+
+		<dc:creator><![CDATA[Rot13 for numbers &#124; Ask Programming &#38; Technology]]></dc:creator>
+		<pubDate>Sun, 17 Nov 2013 13:44:12 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-180277</guid>
+
+					<description><![CDATA[[&#8230;] EDIT: Now a Major Motion Blog Post at /sealedbids [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] EDIT: Now a Major Motion Blog Post at <a href="/sealedbids" rel="nofollow ugc">/sealedbids</a> [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: dreeves		</title>
+		<link>/sealedbids/#comment-5298</link>
+
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Wed, 14 Jul 2010 13:46:22 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-5298</guid>
+
+					<description><![CDATA[@David Pennock: Thanks for the idea of turning the unsealing part into a single click; smart. And roman numeralizing as anchor-prevention, ha!  I still say you can only get anchored by numbers you entertain as candidate valuations, however briefly.  But IANAP (I am not a psychologist).
+
+Also to Dave: Have you coined &quot;zero-knowledge auction&quot; by analogy to &lt;a href=&quot;http://en.wikipedia.org/wiki/Zero-knowledge_proof&quot; rel=&quot;nofollow&quot;&gt;zero-knowledge proof&lt;/a&gt;?  Does it boil down to a commitment scheme (see link at the end of the post)?  I tried having wolframalpha multiply some big random numbers, but for anything not totally unwieldy it seems to factor them as fast as it multiplies them.  But you can do this:
+
+http://www.wolframalpha.com/input/?i=md5+%22my+bid+is+123+and+my+nonce+is+somerandomstring%22
+
+The hash is in theory unreversible so if you first tell each other the hashes per above, you can then reveal your bids sequentially.  The second person has to stick with the bid they committed to because that&#039;s the only thing that will generate the same hash.  (Note the need for the nonce otherwise you could find out the bid from the hash just by trying all possible bids.)]]></description>
+			<content:encoded><![CDATA[<p>@David Pennock: Thanks for the idea of turning the unsealing part into a single click; smart. And roman numeralizing as anchor-prevention, ha!  I still say you can only get anchored by numbers you entertain as candidate valuations, however briefly.  But IANAP (I am not a psychologist).</p>
+<p>Also to Dave: Have you coined &#8220;zero-knowledge auction&#8221; by analogy to <a href="http://en.wikipedia.org/wiki/Zero-knowledge_proof" rel="nofollow">zero-knowledge proof</a>?  Does it boil down to a commitment scheme (see link at the end of the post)?  I tried having wolframalpha multiply some big random numbers, but for anything not totally unwieldy it seems to factor them as fast as it multiplies them.  But you can do this:</p>
+<p><a href="http://www.wolframalpha.com/input/?i=md5+%22my+bid+is+123+and+my+nonce+is+somerandomstring%22" rel="nofollow ugc">http://www.wolframalpha.com/input/?i=md5+%22my+bid+is+123+and+my+nonce+is+somerandomstring%22</a></p>
+<p>The hash is in theory unreversible so if you first tell each other the hashes per above, you can then reveal your bids sequentially.  The second person has to stick with the bid they committed to because that&#8217;s the only thing that will generate the same hash.  (Note the need for the nonce otherwise you could find out the bid from the hash just by trying all possible bids.)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David Pennock		</title>
+		<link>/sealedbids/#comment-5065</link>
+
+		<dc:creator><![CDATA[David Pennock]]></dc:creator>
+		<pubDate>Thu, 08 Jul 2010 14:15:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-5065</guid>
+
+					<description><![CDATA[Dan G might be happy with the encoder sending their bid in this form:
+http://www.wolframalpha.com/input/?i=CDXXIX1000%2BCMLXIV+mod9999]]></description>
+			<content:encoded><![CDATA[<p>Dan G might be happy with the encoder sending their bid in this form:<br />
+<a href="http://www.wolframalpha.com/input/?i=CDXXIX1000%2BCMLXIV+mod9999" rel="nofollow ugc">http://www.wolframalpha.com/input/?i=CDXXIX1000%2BCMLXIV+mod9999</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David Pennock		</title>
+		<link>/sealedbids/#comment-5062</link>
+
+		<dc:creator><![CDATA[David Pennock]]></dc:creator>
+		<pubDate>Thu, 08 Jul 2010 12:47:25 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-5062</guid>
+
+					<description><![CDATA[Thinking about this further: Can anyone come up with a simple way to use search engines or wolfram alpha to conduct a true zero-knowledge auction? Something nearly as simple but that doesn&#039;t have to rely on trust?]]></description>
+			<content:encoded><![CDATA[<p>Thinking about this further: Can anyone come up with a simple way to use search engines or wolfram alpha to conduct a true zero-knowledge auction? Something nearly as simple but that doesn&#8217;t have to rely on trust?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David Pennock		</title>
+		<link>/sealedbids/#comment-4917</link>
+
+		<dc:creator><![CDATA[David Pennock]]></dc:creator>
+		<pubDate>Fri, 02 Jul 2010 13:53:42 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-4917</guid>
+
+					<description><![CDATA[I like this a lot. Very clever. Adding to Tom&#039;s point, to simplify life for the unsealer, the sealer can send the encoded number as a URL: http://www.bing.com/search?q=429964mod9999 
+
+It might make Dan G happy (and increase the security) to go further and bit.ly that URL, but I agree with Dan R that this seems like overkill.]]></description>
+			<content:encoded><![CDATA[<p>I like this a lot. Very clever. Adding to Tom&#8217;s point, to simplify life for the unsealer, the sealer can send the encoded number as a URL: <a href="http://www.bing.com/search?q=429964mod9999" rel="nofollow ugc">http://www.bing.com/search?q=429964mod9999</a> </p>
+<p>It might make Dan G happy (and increase the security) to go further and bit.ly that URL, but I agree with Dan R that this seems like overkill.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: dreeves		</title>
+		<link>/sealedbids/#comment-4618</link>
+
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Tue, 22 Jun 2010 19:46:24 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-4618</guid>
+
+					<description><![CDATA[Thanks Dan, excellent point.  I acknowledge that the anchoring effect is significant.  Have you actually become so self-aware that you can feel its effect on you, like the equivalent of someone yelling the Star-Spangled Banner while you&#039;re trying to think?  At best I can realize in retrospect that I must&#039;ve gotten anchored.
+
+As for this application, I&#039;m not convinced it&#039;s such an issue. Even in the famous example where subjects anchored on their own social security numbers they first wrote down a portion of their SSN that was within a plausible range for their bids.  How do you get anchored by a totally random long-ish string of digits?]]></description>
+			<content:encoded><![CDATA[<p>Thanks Dan, excellent point.  I acknowledge that the anchoring effect is significant.  Have you actually become so self-aware that you can feel its effect on you, like the equivalent of someone yelling the Star-Spangled Banner while you&#8217;re trying to think?  At best I can realize in retrospect that I must&#8217;ve gotten anchored.</p>
+<p>As for this application, I&#8217;m not convinced it&#8217;s such an issue. Even in the famous example where subjects anchored on their own social security numbers they first wrote down a portion of their SSN that was within a plausible range for their bids.  How do you get anchored by a totally random long-ish string of digits?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Dan		</title>
+		<link>/sealedbids/#comment-4248</link>
+
+		<dc:creator><![CDATA[Dan]]></dc:creator>
+		<pubDate>Sat, 12 Jun 2010 10:45:08 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-4248</guid>
+
+					<description><![CDATA[Since people who see numbers, any numbers, make estimates that are influenced by them (so-called &quot;anchoring effects&quot;), a tiny improvement would be getting it to encode as a string, which you say is possible. 
+
+The effect of anchoring may cancel out over repeated plays, but why have it there when it makes it harder for the other person to think clearly? I mean, you wouldn&#039;t sing the Star Spangled Banner at the top of your lungs when the other person is trying to come up with a bid, a distraction is a distraction.
+
+While no representation is neutral, you can probably do better than a longish number.]]></description>
+			<content:encoded><![CDATA[<p>Since people who see numbers, any numbers, make estimates that are influenced by them (so-called &#8220;anchoring effects&#8221;), a tiny improvement would be getting it to encode as a string, which you say is possible. </p>
+<p>The effect of anchoring may cancel out over repeated plays, but why have it there when it makes it harder for the other person to think clearly? I mean, you wouldn&#8217;t sing the Star Spangled Banner at the top of your lungs when the other person is trying to come up with a bid, a distraction is a distraction.</p>
+<p>While no representation is neutral, you can probably do better than a longish number.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: dreeves		</title>
+		<link>/sealedbids/#comment-3756</link>
+
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Tue, 01 Jun 2010 14:35:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=640#comment-3756</guid>
+
+					<description><![CDATA[Ha, thanks Tom! I hadn&#039;t realized that. For those who don&#039;t know, &quot;a mod b&quot; is commonly abbreviated &quot;a % b&quot;.  Google is finicky though -- it doesn&#039;t understand if there are spaces around the percent sign and it doesn&#039;t understand if you use &quot;mod&quot; instead of &quot;%&quot;.  Both bing.com and wolframalpha.com give the answer however you enter it.]]></description>
+			<content:encoded><![CDATA[<p>Ha, thanks Tom! I hadn&#8217;t realized that. For those who don&#8217;t know, &#8220;a mod b&#8221; is commonly abbreviated &#8220;a % b&#8221;.  Google is finicky though &#8212; it doesn&#8217;t understand if there are spaces around the percent sign and it doesn&#8217;t understand if you use &#8220;mod&#8221; instead of &#8220;%&#8221;.  Both bing.com and wolframalpha.com give the answer however you enter it.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

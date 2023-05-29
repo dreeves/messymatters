@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Measuring the Impact of the Sharing Economy	</title>
+	<atom:link href="/airbnb/feed/" rel="self" type="application/rss+xml" />
+	<link>/airbnb/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Thu, 15 May 2014 07:20:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Ashish Soni		</title>
+		<link>/airbnb/#comment-189860</link>
+
+		<dc:creator><![CDATA[Ashish Soni]]></dc:creator>
+		<pubDate>Thu, 15 May 2014 07:20:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1708#comment-189860</guid>
+
+					<description><![CDATA[Wow, an awesome piece of writing!! Beautifully explained espically the examples!!]]></description>
+			<content:encoded><![CDATA[<p>Wow, an awesome piece of writing!! Beautifully explained espically the examples!!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alexandros		</title>
+		<link>/airbnb/#comment-186177</link>
+
+		<dc:creator><![CDATA[Alexandros]]></dc:creator>
+		<pubDate>Mon, 21 Apr 2014 22:01:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1708#comment-186177</guid>
+
+					<description><![CDATA[Great piece. 
+Landmark paper. Hopefully, many to come.]]></description>
+			<content:encoded><![CDATA[<p>Great piece.<br />
+Landmark paper. Hopefully, many to come.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/airbnb/#comment-185508</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Sun, 06 Apr 2014 22:26:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1708#comment-185508</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/airbnb/#comment-185434&quot;&gt;JMR&lt;/a&gt;.
+
+Do you mean Giorgos vs Georgios? Those are just the informal vs formal versions of his name, like Mike vs Michael.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/airbnb/#comment-185434">JMR</a>.</p>
+<p>Do you mean Giorgos vs Georgios? Those are just the informal vs formal versions of his name, like Mike vs Michael.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: JMR		</title>
+		<link>/airbnb/#comment-185434</link>
+
+		<dc:creator><![CDATA[JMR]]></dc:creator>
+		<pubDate>Sat, 05 Apr 2014 18:29:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1708#comment-185434</guid>
+
+					<description><![CDATA[great post and best illustration yet. 
+I think your name is misspelled in the by-line, Prof Zervas.]]></description>
+			<content:encoded><![CDATA[<p>great post and best illustration yet.<br />
+I think your name is misspelled in the by-line, Prof Zervas.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

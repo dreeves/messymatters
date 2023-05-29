@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: TagTime: Stochastic Time Tracking for Space Cadets	</title>
+	<atom:link href="/tagtime/feed/" rel="self" type="application/rss+xml" />
+	<link>/tagtime/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Thu, 09 Aug 2018 20:05:53 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Jose		</title>
+		<link>/tagtime/#comment-297509</link>
+
+		<dc:creator><![CDATA[Jose]]></dc:creator>
+		<pubDate>Fri, 15 Apr 2016 12:45:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-297509</guid>
+
+					<description><![CDATA[Hello,
+
+We’ve recently launched our personal productivity software which currently has over 500 users. Although it’s still a beta version, Kiply allows you to track your activity in order to know how you really spend your time while using your computer.
+
+With Kiply you automatically record your activity in real time and keep it completely private. You can view your activity either on the web or on your desktop app, as well as create new projects and see your progress according to your goals.
+
+You can download Kiply beta version from our website www.kiply.com at no cost. Please share your thoughts about it! :)]]></description>
+			<content:encoded><![CDATA[<p>Hello,</p>
+<p>We’ve recently launched our personal productivity software which currently has over 500 users. Although it’s still a beta version, Kiply allows you to track your activity in order to know how you really spend your time while using your computer.</p>
+<p>With Kiply you automatically record your activity in real time and keep it completely private. You can view your activity either on the web or on your desktop app, as well as create new projects and see your progress according to your goals.</p>
+<p>You can download Kiply beta version from our website <a href="http://www.kiply.com/" rel="nofollow ugc">http://www.kiply.com/</a> at no cost. Please share your thoughts about it! :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/tagtime/#comment-238161</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Fri, 04 Sep 2015 18:43:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-238161</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-238160&quot;&gt;Evan Hendrix&lt;/a&gt;.
+
+Surprising! Best to email support@beeminder.com with a link to the Beeminder goal in question.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-238160">Evan Hendrix</a>.</p>
+<p>Surprising! Best to email <a href="mailto:support@beeminder.com">support@beeminder.com</a> with a link to the Beeminder goal in question.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Evan Hendrix		</title>
+		<link>/tagtime/#comment-238160</link>
+
+		<dc:creator><![CDATA[Evan Hendrix]]></dc:creator>
+		<pubDate>Fri, 04 Sep 2015 15:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-238160</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-55471&quot;&gt;dreeves&lt;/a&gt;.
+
+Could someone help me figure out how to get my actual tagtime values to plot in beeminder?  I have tagtime linked to abeeminder goal and it posts the tags themselves to the beeminder goal, however the value is still zero.  Is this an easy fix you can point me to?  Thanks.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-55471">dreeves</a>.</p>
+<p>Could someone help me figure out how to get my actual tagtime values to plot in beeminder?  I have tagtime linked to abeeminder goal and it posts the tags themselves to the beeminder goal, however the value is still zero.  Is this an easy fix you can point me to?  Thanks.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/tagtime/#comment-235879</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Wed, 05 Aug 2015 20:19:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-235879</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-235878&quot;&gt;Danielle&lt;/a&gt;.
+
+It catches back up when the computer is turned on and automatically tags all the missing pings as &quot;off&quot; and &quot;afk&quot;.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-235878">Danielle</a>.</p>
+<p>It catches back up when the computer is turned on and automatically tags all the missing pings as &#8220;off&#8221; and &#8220;afk&#8221;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Danielle		</title>
+		<link>/tagtime/#comment-235878</link>
+
+		<dc:creator><![CDATA[Danielle]]></dc:creator>
+		<pubDate>Wed, 05 Aug 2015 19:11:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-235878</guid>
+
+					<description><![CDATA[I&#039;m interested in installing this. I&#039;m just wondering if anyone knows what the behaviour is if the computer is off.]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m interested in installing this. I&#8217;m just wondering if anyone knows what the behaviour is if the computer is off.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/tagtime/#comment-182165</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Thu, 16 Jan 2014 23:49:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-182165</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-182108&quot;&gt;mikero&lt;/a&gt;.
+
+Aha! It&#039;s not that there&#039;s a missing parameter, it&#039;s that I&#039;m making a hidden assumption. I think it will be more clear with an extreme example:
+
+
+Suppose my TagTime gap is 45 minutes, per usual, and I work for 45 minutes. Despite the googol-to-one odds, I manage to get pinged 100 times during that time. Half the pings are for activity X and half are for activity Y. So *given* the highly unlikely ping sequence, the best estimate of my time is 22.5 minutes on activity X and 22.5 minutes on activity Y.
+
+
+That&#039;s much more accurate that my formula above which will think I spent thousands of minutes on each activity (50 pings&#039; worth each).
+
+
+BUT, if pings actually happen every 45 minutes -- and in the long run, on average, they do -- then both methods agree, and you don&#039;t have to worry about the denominator.
+
+
+So you&#039;re quite right, but over the course of days and weeks it doesn&#039;t matter, and TagTime is only accurate over days or weeks anyway, where the average gap between pings will be very close to 45 minutes.
+
+
+So you might as well just treat each ping as representing 45 minutes for the tagged activity, regardless of how many pings didn&#039;t match or how long you were tagging your time.
+
+
+PS: You&#039;re quite right (in your other comment below) that you can model this as many consecutive Bernoulli trials. Like every second there&#039;s a tiny independent probability of a ping happening. The equations we&#039;re using actually compute this for the limit where the Bernoulli trials happen continuously with infinitesimal probabilities -- but still happen every 45 minutes on average.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-182108">mikero</a>.</p>
+<p>Aha! It&#8217;s not that there&#8217;s a missing parameter, it&#8217;s that I&#8217;m making a hidden assumption. I think it will be more clear with an extreme example:</p>
+<p>Suppose my TagTime gap is 45 minutes, per usual, and I work for 45 minutes. Despite the googol-to-one odds, I manage to get pinged 100 times during that time. Half the pings are for activity X and half are for activity Y. So *given* the highly unlikely ping sequence, the best estimate of my time is 22.5 minutes on activity X and 22.5 minutes on activity Y.</p>
+<p>That&#8217;s much more accurate that my formula above which will think I spent thousands of minutes on each activity (50 pings&#8217; worth each).</p>
+<p>BUT, if pings actually happen every 45 minutes &#8212; and in the long run, on average, they do &#8212; then both methods agree, and you don&#8217;t have to worry about the denominator.</p>
+<p>So you&#8217;re quite right, but over the course of days and weeks it doesn&#8217;t matter, and TagTime is only accurate over days or weeks anyway, where the average gap between pings will be very close to 45 minutes.</p>
+<p>So you might as well just treat each ping as representing 45 minutes for the tagged activity, regardless of how many pings didn&#8217;t match or how long you were tagging your time.</p>
+<p>PS: You&#8217;re quite right (in your other comment below) that you can model this as many consecutive Bernoulli trials. Like every second there&#8217;s a tiny independent probability of a ping happening. The equations we&#8217;re using actually compute this for the limit where the Bernoulli trials happen continuously with infinitesimal probabilities &#8212; but still happen every 45 minutes on average.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: mikero		</title>
+		<link>/tagtime/#comment-182110</link>
+
+		<dc:creator><![CDATA[mikero]]></dc:creator>
+		<pubDate>Wed, 15 Jan 2014 06:53:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-182110</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-182109&quot;&gt;mikero&lt;/a&gt;.
+
+Forgot to mention, the z=1.96 in the Wolfram Alpha link is hard-coded normal-distribution-quantile for 95% confidence interval.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-182109">mikero</a>.</p>
+<p>Forgot to mention, the z=1.96 in the Wolfram Alpha link is hard-coded normal-distribution-quantile for 95% confidence interval.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: mikero		</title>
+		<link>/tagtime/#comment-182109</link>
+
+		<dc:creator><![CDATA[mikero]]></dc:creator>
+		<pubDate>Wed, 15 Jan 2014 06:51:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-182109</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-182108&quot;&gt;mikero&lt;/a&gt;.
+
+Actually, I think you should model pings as independent Bernoulli trials. You have an activity that is happening with some probability p and tagtime occasionally takes a sample which is either a yes or a no. Given the total number of samples you took, and how many &quot;yes&quot; samples you saw, you want a confidence interval for p.
+
+This is exactly the confidence interval for a binomial distribution, and there are many formulas to estimate this: http://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval
+
+I used the Wilson score interval with the example earlier in this thread: 13 out of 58 samples were &quot;yes&quot; samples, for a sample p of 13/58 = 0.224. Plugging that into wolfram alpha:
+
+http://www.wolframalpha.com/input/?i=%7B+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+-+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29%2C+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+%2B+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29+%7D+where+n%3D58%2C+p%3D13%2F58%2C+z%3D1.96
+
+
+
+I get a confidence interval for p of {.1359, .3466}. Multiply by (gap=0.75) * (n=58) for a confidence interval for time spent of {5.912, 15.077}.
+
+
+Those other formulas for Poisson confidence interval seem to be related to sampling a Poisson variable for an estimate of its parameter lambda. But with tagtime, the only Poisson process is the one that decides &quot;do I ping in this second or not?&quot; and its parameter lambda is already known (it&#039;s the &quot;gap&quot; setting).
+
+
+In contrast, given that a ping already means tagtime has decided to ping (how&#039;s that for tautological), the Poisson aspects are irrelevant. Your response to the ping is a Bernoulli sample of whether your desired tag is present or not. The unknown parameter is the true probability p of your tag being present at any given point in time. The Poisson properties only come into play when scaling p into real time (supposing that the true probability is actually such-and-such, and that I was sampling on average every 45 minutes, how much time was I really spending doing that activity?)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-182108">mikero</a>.</p>
+<p>Actually, I think you should model pings as independent Bernoulli trials. You have an activity that is happening with some probability p and tagtime occasionally takes a sample which is either a yes or a no. Given the total number of samples you took, and how many &#8220;yes&#8221; samples you saw, you want a confidence interval for p.</p>
+<p>This is exactly the confidence interval for a binomial distribution, and there are many formulas to estimate this: <a href="http://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval" rel="nofollow ugc">http://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval</a></p>
+<p>I used the Wilson score interval with the example earlier in this thread: 13 out of 58 samples were &#8220;yes&#8221; samples, for a sample p of 13/58 = 0.224. Plugging that into wolfram alpha:</p>
+<p><a href="http://www.wolframalpha.com/input/?i=%7B+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+-+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29%2C+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+%2B+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29+%7D+where+n%3D58%2C+p%3D13%2F58%2C+z%3D1.96" rel="nofollow ugc">http://www.wolframalpha.com/input/?i=%7B+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+-+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29%2C+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+%2B+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29+%7D+where+n%3D58%2C+p%3D13%2F58%2C+z%3D1.96</a></p>
+<p>I get a confidence interval for p of {.1359, .3466}. Multiply by (gap=0.75) * (n=58) for a confidence interval for time spent of {5.912, 15.077}.</p>
+<p>Those other formulas for Poisson confidence interval seem to be related to sampling a Poisson variable for an estimate of its parameter lambda. But with tagtime, the only Poisson process is the one that decides &#8220;do I ping in this second or not?&#8221; and its parameter lambda is already known (it&#8217;s the &#8220;gap&#8221; setting).</p>
+<p>In contrast, given that a ping already means tagtime has decided to ping (how&#8217;s that for tautological), the Poisson aspects are irrelevant. Your response to the ping is a Bernoulli sample of whether your desired tag is present or not. The unknown parameter is the true probability p of your tag being present at any given point in time. The Poisson properties only come into play when scaling p into real time (supposing that the true probability is actually such-and-such, and that I was sampling on average every 45 minutes, how much time was I really spending doing that activity?)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: mikero		</title>
+		<link>/tagtime/#comment-182108</link>
+
+		<dc:creator><![CDATA[mikero]]></dc:creator>
+		<pubDate>Wed, 15 Jan 2014 05:51:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-182108</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-172474&quot;&gt;Daniel Reeves&lt;/a&gt;.
+
+It seems that there is a missing parameter. Shouldn&#039;t you need the number of pings matching the condition as well as the number of pings not matching the condition? I only see one of those parameters here (n, which I think refers to the former only).
+
+
+Consider situation A: I have 1 week of pings, 10 of which for activity X. Situation B: I have 10 weeks of pings, 100 of which are for activity X. Surely both of these sample means will be the same but the confidence interval for B should be much smaller.
+
+
+I am not strong in statistics so can&#039;t really help beyond that, though.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-172474">Daniel Reeves</a>.</p>
+<p>It seems that there is a missing parameter. Shouldn&#8217;t you need the number of pings matching the condition as well as the number of pings not matching the condition? I only see one of those parameters here (n, which I think refers to the former only).</p>
+<p>Consider situation A: I have 1 week of pings, 10 of which for activity X. Situation B: I have 10 weeks of pings, 100 of which are for activity X. Surely both of these sample means will be the same but the confidence interval for B should be much smaller.</p>
+<p>I am not strong in statistics so can&#8217;t really help beyond that, though.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/tagtime/#comment-178458</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Fri, 06 Sep 2013 17:01:00 +0000</pubDate>
+		<guid isPermaLink="false">/tagtime/#comment-178458</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/tagtime/#comment-178457&quot;&gt;DanielHilgarth&lt;/a&gt;.
+
+Ooh, yes, TagTime tracks exactly how long you spend using TagTime itself. It doesn&#039;t even need any special accounting to do so. I just use the tag &quot;ap&quot; (for &quot;answering pings&quot;) and if a new ping pings while I&#039;m answering the last one then the new ping is tagged &quot;ap&quot;. I have averaged just under 5 minutes per day answering pings over the last couple years. 
+
+
+Bethany spends quite a bit less than that because she puts less thought into her tag ontology. (For example, she can&#039;t answer this question very well because she hasn&#039;t been consistent in using a tag for &quot;answering previous pings&quot; :))]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/tagtime/#comment-178457">DanielHilgarth</a>.</p>
+<p>Ooh, yes, TagTime tracks exactly how long you spend using TagTime itself. It doesn&#8217;t even need any special accounting to do so. I just use the tag &#8220;ap&#8221; (for &#8220;answering pings&#8221;) and if a new ping pings while I&#8217;m answering the last one then the new ping is tagged &#8220;ap&#8221;. I have averaged just under 5 minutes per day answering pings over the last couple years. </p>
+<p>Bethany spends quite a bit less than that because she puts less thought into her tag ontology. (For example, she can&#8217;t answer this question very well because she hasn&#8217;t been consistent in using a tag for &#8220;answering previous pings&#8221; :))</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

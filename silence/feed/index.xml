@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Sounds of Silence	</title>
+	<atom:link href="/silence/feed/" rel="self" type="application/rss+xml" />
+	<link>/silence/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Wed, 09 May 2012 21:41:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Mohammad		</title>
+		<link>/silence/#comment-34613</link>
+
+		<dc:creator><![CDATA[Mohammad]]></dc:creator>
+		<pubDate>Thu, 17 Feb 2011 03:40:58 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-34613</guid>
+
+					<description><![CDATA[there are two big differences between image and music: first, image is 2 dimensional but music is 1 dimensional.  so after removing a fraction of the data points, the 2 dimensional image is &quot;more connected&quot; than the 1 dimensional song.  second, you have random access to an image when you look at it, but you experience music as a stream.]]></description>
+			<content:encoded><![CDATA[<p>there are two big differences between image and music: first, image is 2 dimensional but music is 1 dimensional.  so after removing a fraction of the data points, the 2 dimensional image is &#8220;more connected&#8221; than the 1 dimensional song.  second, you have random access to an image when you look at it, but you experience music as a stream.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sharad Goel		</title>
+		<link>/silence/#comment-32715</link>
+
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Tue, 08 Feb 2011 20:44:34 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-32715</guid>
+
+					<description><![CDATA[@jeff, right on---very impressive!]]></description>
+			<content:encoded><![CDATA[<p>@jeff, right on&#8212;very impressive!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: jeff ely		</title>
+		<link>/silence/#comment-31714</link>
+
+		<dc:creator><![CDATA[jeff ely]]></dc:creator>
+		<pubDate>Thu, 03 Feb 2011 19:44:50 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31714</guid>
+
+					<description><![CDATA[And I should have gotten Aretha Franklin but my excuse on Lady Gaga is that I have never heard that song.]]></description>
+			<content:encoded><![CDATA[<p>And I should have gotten Aretha Franklin but my excuse on Lady Gaga is that I have never heard that song.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: jeff ely		</title>
+		<link>/silence/#comment-31713</link>
+
+		<dc:creator><![CDATA[jeff ely]]></dc:creator>
+		<pubDate>Thu, 03 Feb 2011 19:43:51 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31713</guid>
+
+					<description><![CDATA[mystery song #6 is I Feel Good]]></description>
+			<content:encoded><![CDATA[<p>mystery song #6 is I Feel Good</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: dreeves		</title>
+		<link>/silence/#comment-31685</link>
+
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Thu, 03 Feb 2011 17:00:34 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31685</guid>
+
+					<description><![CDATA[@John Cox, are you saying you can identify the nursery rhyme on that page?  I couldn&#039;t, even after training on all the example sentences.
+
+This reminds me of another interesting phenomenon: priming. If you made up some snippet of speech that matched the rhythm in that example I would think I was hearing it plain as day.  Here&#039;s a funny example: http://languagelog.ldc.upenn.edu/nll/?p=1944]]></description>
+			<content:encoded><![CDATA[<p>@John Cox, are you saying you can identify the nursery rhyme on that page?  I couldn&#8217;t, even after training on all the example sentences.</p>
+<p>This reminds me of another interesting phenomenon: priming. If you made up some snippet of speech that matched the rhythm in that example I would think I was hearing it plain as day.  Here&#8217;s a funny example: <a href="http://languagelog.ldc.upenn.edu/nll/?p=1944" rel="nofollow ugc">http://languagelog.ldc.upenn.edu/nll/?p=1944</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Cox		</title>
+		<link>/silence/#comment-31680</link>
+
+		<dc:creator><![CDATA[John Cox]]></dc:creator>
+		<pubDate>Thu, 03 Feb 2011 16:06:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31680</guid>
+
+					<description><![CDATA[This reminds me of &lt;a href=&quot;http://www.lifesci.sussex.ac.uk/home/Chris_Darwin/SWS/&quot; rel=&quot;nofollow&quot;&gt;sine-wave speech distortions&lt;/a&gt;.
+
+The linked page has a table of audio snippets. Recordings in the right column contain a sentence of speech, one per row. The middle column contains that same sentence, distorted. Can you tell what the sentence is for each row without listening to the recording on the right?
+
+If not, listen to the original and then listen to the distorted recording in the middle again. With this new information you&#039;ll make out the distorted recordings easily. I also found that after cheating on the first two sentences I was able to identify the rest without listening to the original. My brain rapidly got better at teasing speech out of this particular deformation.
+
+The amount of processing your brain does to &#039;raw&#039; sensory input before you consciously perceive it is really surprising.
+
+(Also, I wonder how possible it would be to identify the Bach fugue at the beginning of Bad Romance if you replaced 90% of it with silence. It&#039;s already hard to recognize because it&#039;s played so fast.)]]></description>
+			<content:encoded><![CDATA[<p>This reminds me of <a href="http://www.lifesci.sussex.ac.uk/home/Chris_Darwin/SWS/" rel="nofollow">sine-wave speech distortions</a>.</p>
+<p>The linked page has a table of audio snippets. Recordings in the right column contain a sentence of speech, one per row. The middle column contains that same sentence, distorted. Can you tell what the sentence is for each row without listening to the recording on the right?</p>
+<p>If not, listen to the original and then listen to the distorted recording in the middle again. With this new information you&#8217;ll make out the distorted recordings easily. I also found that after cheating on the first two sentences I was able to identify the rest without listening to the original. My brain rapidly got better at teasing speech out of this particular deformation.</p>
+<p>The amount of processing your brain does to &#8216;raw&#8217; sensory input before you consciously perceive it is really surprising.</p>
+<p>(Also, I wonder how possible it would be to identify the Bach fugue at the beginning of Bad Romance if you replaced 90% of it with silence. It&#8217;s already hard to recognize because it&#8217;s played so fast.)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Basil		</title>
+		<link>/silence/#comment-31465</link>
+
+		<dc:creator><![CDATA[Basil]]></dc:creator>
+		<pubDate>Wed, 02 Feb 2011 19:21:33 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31465</guid>
+
+					<description><![CDATA[I didn&#039;t think it was that easy.  I had my class help me.
+We came up with:
+1.  Hey Jude - Beetles
+2.  ?Sounded like a choir?
+3.  Aretha Franklin - Respect
+4.  ?We thought of an old rock song?
+5.  Bad Romance - Lady GaGa]]></description>
+			<content:encoded><![CDATA[<p>I didn&#8217;t think it was that easy.  I had my class help me.<br />
+We came up with:<br />
+1.  Hey Jude &#8211; Beetles<br />
+2.  ?Sounded like a choir?<br />
+3.  Aretha Franklin &#8211; Respect<br />
+4.  ?We thought of an old rock song?<br />
+5.  Bad Romance &#8211; Lady GaGa</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sharad Goel		</title>
+		<link>/silence/#comment-31459</link>
+
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Wed, 02 Feb 2011 18:55:43 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31459</guid>
+
+					<description><![CDATA[Just to clarify, Kevin&#039;s answers are all correct, but his numbering is a bit different from how the songs are labeled in the post.]]></description>
+			<content:encoded><![CDATA[<p>Just to clarify, Kevin&#8217;s answers are all correct, but his numbering is a bit different from how the songs are labeled in the post.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sharad Goel		</title>
+		<link>/silence/#comment-31456</link>
+
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Wed, 02 Feb 2011 18:47:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31456</guid>
+
+					<description><![CDATA[Kevin: Wow, nice job! Are you up for a bonus challenge? &lt;a href=&quot;http://cdn.messymatters.com/silence/song6_5_prct.mp3&quot; rel=&quot;nofollow&quot;&gt;Mystery Song #6&lt;/a&gt; is 95% silence: you hear one-tenth of a second of music for every &lt;strong&gt;two&lt;/strong&gt; seconds of play time. Can you name that tune?]]></description>
+			<content:encoded><![CDATA[<p>Kevin: Wow, nice job! Are you up for a bonus challenge? <a href="http://cdn.messymatters.com/silence/song6_5_prct.mp3" rel="nofollow">Mystery Song #6</a> is 95% silence: you hear one-tenth of a second of music for every <strong>two</strong> seconds of play time. Can you name that tune?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: eileen		</title>
+		<link>/silence/#comment-31282</link>
+
+		<dc:creator><![CDATA[eileen]]></dc:creator>
+		<pubDate>Tue, 01 Feb 2011 22:52:22 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1294#comment-31282</guid>
+
+					<description><![CDATA[I did one listenthrough.  The only one I actually got was Aretha, although I could figure out bits of other stuff (meaning genres, i.e. Ode to Joy was obviously a large orchestral choral piece.  Also I thought the Beatles sounded like Rivers Cuomo, which is unsurprising). 
+
+One thing I found interesting: even though I told myself I was trying to figure out what the songs were, my brain was all like &quot;let&#039;s see if we can use our musical knowledge to predict what&#039;s coming next instead!&quot;]]></description>
+			<content:encoded><![CDATA[<p>I did one listenthrough.  The only one I actually got was Aretha, although I could figure out bits of other stuff (meaning genres, i.e. Ode to Joy was obviously a large orchestral choral piece.  Also I thought the Beatles sounded like Rivers Cuomo, which is unsurprising). </p>
+<p>One thing I found interesting: even though I told myself I was trying to figure out what the songs were, my brain was all like &#8220;let&#8217;s see if we can use our musical knowledge to predict what&#8217;s coming next instead!&#8221;</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

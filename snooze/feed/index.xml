@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Email Snooze and Gmail Zero	</title>
+	<atom:link href="/snooze/feed/" rel="self" type="application/rss+xml" />
+	<link>/snooze/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Mon, 24 Aug 2020 19:45:57 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Redqueening, Inbox Zero, Backlogs, and Fluid Dynamics &#124; Beeminder Blog		</title>
+		<link>/snooze/#comment-836071</link>
+
+		<dc:creator><![CDATA[Redqueening, Inbox Zero, Backlogs, and Fluid Dynamics &#124; Beeminder Blog]]></dc:creator>
+		<pubDate>Mon, 24 Aug 2020 19:45:57 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-836071</guid>
+
+					<description><![CDATA[[&#8230;] you on top of your email focus on the efficiency of sorting and replying to it. Automatic filters, snoozing, canned replies, etc, etc. Those are all nice but miss the fundamental problem: the messages you [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] you on top of your email focus on the efficiency of sorting and replying to it. Automatic filters, snoozing, canned replies, etc, etc. Those are all nice but miss the fundamental problem: the messages you [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GmailZero: Not Just For Your Inbox Anymore &#124; Beeminder Blog		</title>
+		<link>/snooze/#comment-230159</link>
+
+		<dc:creator><![CDATA[GmailZero: Not Just For Your Inbox Anymore &#124; Beeminder Blog]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2015 11:08:08 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-230159</guid>
+
+					<description><![CDATA[[&#8230;] accounts. We&#8217;ve talked about our Gmail integration, GmailZero before. (Actually we talk about email a lot, including recently in the forum.) But Inbox Zero is only one inbox strategy, and we&#8217;ve [&#8230;]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] accounts. We&#8217;ve talked about our Gmail integration, GmailZero before. (Actually we talk about email a lot, including recently in the forum.) But Inbox Zero is only one inbox strategy, and we&#8217;ve [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/snooze/#comment-224402</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Wed, 21 Jan 2015 03:09:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-224402</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/snooze/#comment-224184&quot;&gt;Amitmai&lt;/a&gt;.
+
+I used to have it do that but decided I didn&#039;t like it. I have the code here if you want to fork it / generalize it: https://github.com/dreeves/gmailsnooze]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/snooze/#comment-224184">Amitmai</a>.</p>
+<p>I used to have it do that but decided I didn&#8217;t like it. I have the code here if you want to fork it / generalize it: <a href="https://github.com/dreeves/gmailsnooze" rel="nofollow ugc">https://github.com/dreeves/gmailsnooze</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Amitmai		</title>
+		<link>/snooze/#comment-224184</link>
+
+		<dc:creator><![CDATA[Amitmai]]></dc:creator>
+		<pubDate>Sun, 18 Jan 2015 16:44:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-224184</guid>
+
+					<description><![CDATA[Hi, I love the gmail snooze app. Is there a way to have it automatically mark the returning emails as unread?]]></description>
+			<content:encoded><![CDATA[<p>Hi, I love the gmail snooze app. Is there a way to have it automatically mark the returning emails as unread?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/snooze/#comment-182135</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Thu, 16 Jan 2014 05:24:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-182135</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/snooze/#comment-182111&quot;&gt;Mike Rosulek&lt;/a&gt;.
+
+Thanks so much for sharing this. Beautifully done! I added it to the list of other tools at the end of the post for now. Would like to say more about it in the post too. I&#039;m actually wondering if it could make sense to combine these approaches into a single tool that does both.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/snooze/#comment-182111">Mike Rosulek</a>.</p>
+<p>Thanks so much for sharing this. Beautifully done! I added it to the list of other tools at the end of the post for now. Would like to say more about it in the post too. I&#8217;m actually wondering if it could make sense to combine these approaches into a single tool that does both.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mike Rosulek		</title>
+		<link>/snooze/#comment-182111</link>
+
+		<dc:creator><![CDATA[Mike Rosulek]]></dc:creator>
+		<pubDate>Wed, 15 Jan 2014 07:05:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-182111</guid>
+
+					<description><![CDATA[Readers of the blog post might be interested in a similar google apps script that I put together:  https://github.com/rosulek/gmail-tickler .. The user experience is much more reminiscent of followup.cc, which is mentioned above.
+
+Here, you send email (forward, bcc, etc) to an address like:
+
+yourusername+tickler+jul17@gmail
+yourusername+tickler+next+monday@gmail
+yourusername+tickler+2weeks@gmail
+yourusername+tickler+friday+10am@gmail
+
+etc etc. The threads then reappear in your inbox at the specified time.
+
+Compared to your gmail snoozer, I&#039;d concede that forwarding to an email address is probably a little bit clunkier than applying a label. On the other hand, more flexible syntax is supported (i.e., snoozing an email until &quot;jul 17&quot; without figuring out how many days that is) that would otherwise clutter up your labels namespace. Also, times of day are supported (though limited by the reliability/granularity of google apps&#039; time-triggering of scripts).
+
+
+
+Anyone reading this is welcome to try it out and send feedback!]]></description>
+			<content:encoded><![CDATA[<p>Readers of the blog post might be interested in a similar google apps script that I put together:  <a href="https://github.com/rosulek/gmail-tickler" rel="nofollow ugc">https://github.com/rosulek/gmail-tickler</a> .. The user experience is much more reminiscent of followup.cc, which is mentioned above.</p>
+<p>Here, you send email (forward, bcc, etc) to an address like:</p>
+<p>yourusername+tickler+jul17@gmail<br />
+yourusername+tickler+next+monday@gmail<br />
+yourusername+tickler+2weeks@gmail<br />
+yourusername+tickler+friday+10am@gmail</p>
+<p>etc etc. The threads then reappear in your inbox at the specified time.</p>
+<p>Compared to your gmail snoozer, I&#8217;d concede that forwarding to an email address is probably a little bit clunkier than applying a label. On the other hand, more flexible syntax is supported (i.e., snoozing an email until &#8220;jul 17&#8221; without figuring out how many days that is) that would otherwise clutter up your labels namespace. Also, times of day are supported (though limited by the reliability/granularity of google apps&#8217; time-triggering of scripts).</p>
+<p>Anyone reading this is welcome to try it out and send feedback!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/snooze/#comment-180460</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Sat, 23 Nov 2013 21:28:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-180460</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/snooze/#comment-180457&quot;&gt;Jan Frederik Léger&lt;/a&gt;.
+
+Yeah, my problem with it is that if I had the discipline to set an auto-expiry then I might as well get it out of the inbox right then -- often by snoozing it. So, really, snooze is all you need. 
+
+
+If you had filters for auto-expiry it might be useful. Like &quot;messages containing the word &#039;unsubscribe&#039; get label &#039;x14&#039;&quot; -- so anything likely from a mailing list will take itself out of your inbox in 2 weeks.
+
+
+I&#039;ll keep experimenting!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/snooze/#comment-180457">Jan Frederik Léger</a>.</p>
+<p>Yeah, my problem with it is that if I had the discipline to set an auto-expiry then I might as well get it out of the inbox right then &#8212; often by snoozing it. So, really, snooze is all you need. </p>
+<p>If you had filters for auto-expiry it might be useful. Like &#8220;messages containing the word &#8216;unsubscribe&#8217; get label &#8216;x14&#8242;&#8221; &#8212; so anything likely from a mailing list will take itself out of your inbox in 2 weeks.</p>
+<p>I&#8217;ll keep experimenting!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/snooze/#comment-180459</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Sat, 23 Nov 2013 21:20:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-180459</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/snooze/#comment-180458&quot;&gt;Jan Frederik Léger&lt;/a&gt;.
+
+Yeah, no problem with that. The current implementation bogs down when you have dozens of labels so my workaround is to snooze to an existing label as much as possible.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/snooze/#comment-180458">Jan Frederik Léger</a>.</p>
+<p>Yeah, no problem with that. The current implementation bogs down when you have dozens of labels so my workaround is to snooze to an existing label as much as possible.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jan Frederik Léger		</title>
+		<link>/snooze/#comment-180457</link>
+
+		<dc:creator><![CDATA[Jan Frederik Léger]]></dc:creator>
+		<pubDate>Sat, 23 Nov 2013 21:03:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-180457</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/snooze/#comment-180456&quot;&gt;Daniel Reeves&lt;/a&gt;.
+
+Hmm, I just installed it, so I thought &quot;in theory&quot; that auto-expire is a great feature. I recognize the use case very much: letting a message rotten in my mailbox until it is not relevant anymore.
+However, as soon as you have a good inbox-discipline, this feature shouldn&#039;t be necessary anymore.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/snooze/#comment-180456">Daniel Reeves</a>.</p>
+<p>Hmm, I just installed it, so I thought &#8220;in theory&#8221; that auto-expire is a great feature. I recognize the use case very much: letting a message rotten in my mailbox until it is not relevant anymore.<br />
+However, as soon as you have a good inbox-discipline, this feature shouldn&#8217;t be necessary anymore.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Jan Frederik Léger		</title>
+		<link>/snooze/#comment-180458</link>
+
+		<dc:creator><![CDATA[Jan Frederik Léger]]></dc:creator>
+		<pubDate>Sat, 23 Nov 2013 21:03:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1635#comment-180458</guid>
+
+					<description><![CDATA[Does Snooze work with multi-digit labels as well (e.g. label &quot;30&quot;)?]]></description>
+			<content:encoded><![CDATA[<p>Does Snooze work with multi-digit labels as well (e.g. label &#8220;30&#8221;)?</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Meta Matters	</title>
+	<atom:link href="/meta/feed/" rel="self" type="application/rss+xml" />
+	<link>/meta/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Thu, 09 Aug 2018 19:48:24 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/meta/#comment-343066</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2016 20:11:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-343066</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/meta/#comment-343064&quot;&gt;nikana&lt;/a&gt;.
+
+Looks like all of letter.ly has died, in fact. Thanks for pointing it out!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/meta/#comment-343064">nikana</a>.</p>
+<p>Looks like all of letter.ly has died, in fact. Thanks for pointing it out!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: nikana		</title>
+		<link>/meta/#comment-343064</link>
+
+		<dc:creator><![CDATA[nikana]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2016 19:57:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-343064</guid>
+
+					<description><![CDATA[http://letter.ly/dave apparently died.]]></description>
+			<content:encoded><![CDATA[<p><a href="http://letter.ly/dave" rel="nofollow ugc">http://letter.ly/dave</a> apparently died.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Flexible Self-Control &#124; Beeminder Blog		</title>
+		<link>/meta/#comment-157286</link>
+
+		<dc:creator><![CDATA[Flexible Self-Control &#124; Beeminder Blog]]></dc:creator>
+		<pubDate>Mon, 26 Mar 2012 03:48:43 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-157286</guid>
+
+					<description><![CDATA[[...] $800 offer, subject to some fine print [7]. As the dozen or so people who have collected on our $20 typo bounties will attest, we&#8217;re good for it. [...]]]></description>
+			<content:encoded><![CDATA[<p>[&#8230;] $800 offer, subject to some fine print [7]. As the dozen or so people who have collected on our $20 typo bounties will attest, we&#8217;re good for it. [&#8230;]</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sharad Goel		</title>
+		<link>/meta/#comment-29379</link>
+
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Tue, 25 Jan 2011 19:27:56 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-29379</guid>
+
+					<description><![CDATA[Ah, I understand the confusion. Yes, I&#039;m talking about a situation in which you&#039;re interested in &lt;strong&gt;repeatedly&lt;/strong&gt; generating 50-50 outcomes, not just a single fair coin flip.]]></description>
+			<content:encoded><![CDATA[<p>Ah, I understand the confusion. Yes, I&#8217;m talking about a situation in which you&#8217;re interested in <strong>repeatedly</strong> generating 50-50 outcomes, not just a single fair coin flip.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lev Reyzin		</title>
+		<link>/meta/#comment-29369</link>
+
+		<dc:creator><![CDATA[Lev Reyzin]]></dc:creator>
+		<pubDate>Tue, 25 Jan 2011 19:10:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-29369</guid>
+
+					<description><![CDATA[Sharad -- I don&#039;t get it.  Once you have any die land on different numbers, you&#039;re done (High-&#062;Low=Tails; Low-&#062;High=Heads).  Is the MAB problem you set up to learn over time (ie. needing a fair coin many times) which coin is best?]]></description>
+			<content:encoded><![CDATA[<p>Sharad &#8212; I don&#8217;t get it.  Once you have any die land on different numbers, you&#8217;re done (High-&gt;Low=Tails; Low-&gt;High=Heads).  Is the MAB problem you set up to learn over time (ie. needing a fair coin many times) which coin is best?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sharad Goel		</title>
+		<link>/meta/#comment-28973</link>
+
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Mon, 24 Jan 2011 22:28:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-28973</guid>
+
+					<description><![CDATA[Lev: for two rolls of the same die the payoff is 0 if they land on the same number, and 1 otherwise. Then the expected reward is the probability that the die results in distinct numbers on successive rolls (i.e., the probability that you can assert &#039;heads&#039; or &#039;tails&#039;).]]></description>
+			<content:encoded><![CDATA[<p>Lev: for two rolls of the same die the payoff is 0 if they land on the same number, and 1 otherwise. Then the expected reward is the probability that the die results in distinct numbers on successive rolls (i.e., the probability that you can assert &#8216;heads&#8217; or &#8216;tails&#8217;).</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lev Reyzin		</title>
+		<link>/meta/#comment-28947</link>
+
+		<dc:creator><![CDATA[Lev Reyzin]]></dc:creator>
+		<pubDate>Mon, 24 Jan 2011 20:57:57 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-28947</guid>
+
+					<description><![CDATA[Sharad - what are the payoffs in this bandit problem?]]></description>
+			<content:encoded><![CDATA[<p>Sharad &#8211; what are the payoffs in this bandit problem?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Cris Iconomu		</title>
+		<link>/meta/#comment-28451</link>
+
+		<dc:creator><![CDATA[Cris Iconomu]]></dc:creator>
+		<pubDate>Sat, 22 Jan 2011 22:16:40 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-28451</guid>
+
+					<description><![CDATA[use new rules: 
+- the face &quot;facing&quot; the thrower is the one that counts. 
+- if the die is pointing an edge at the thrower, use a ruler or something similar to push it agains the wall and force it to present a face (okay, this is a bit streched but you get the idea...)
+no matter how the dice are loaded, by disregarding which face is up you eliminate the one factor participating in the &quot;mechanism&quot; - gravity. the rest is just ... random
+i asumed the use of cubic dice :)]]></description>
+			<content:encoded><![CDATA[<p>use new rules:<br />
+&#8211; the face &#8220;facing&#8221; the thrower is the one that counts.<br />
+&#8211; if the die is pointing an edge at the thrower, use a ruler or something similar to push it agains the wall and force it to present a face (okay, this is a bit streched but you get the idea&#8230;)<br />
+no matter how the dice are loaded, by disregarding which face is up you eliminate the one factor participating in the &#8220;mechanism&#8221; &#8211; gravity. the rest is just &#8230; random<br />
+i asumed the use of cubic dice :)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Sharad Goel		</title>
+		<link>/meta/#comment-28380</link>
+
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Sat, 22 Jan 2011 15:15:07 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-28380</guid>
+
+					<description><![CDATA[Alex, I admit that it&#039;s a subjective call, and really, the two solutions are nearly identical. As an aside, if your goal is to efficiently generate 50-50 outcomes, instead of alternating between coins you could treat the situation as a &lt;a href=&quot;http://en.wikipedia.org/wiki/Multi-armed_bandit&quot; rel=&quot;nofollow&quot;&gt;multi-armed bandit&lt;/a&gt;, learning over time the better coin to flip.]]></description>
+			<content:encoded><![CDATA[<p>Alex, I admit that it&#8217;s a subjective call, and really, the two solutions are nearly identical. As an aside, if your goal is to efficiently generate 50-50 outcomes, instead of alternating between coins you could treat the situation as a <a href="http://en.wikipedia.org/wiki/Multi-armed_bandit" rel="nofollow">multi-armed bandit</a>, learning over time the better coin to flip.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alex Strehl		</title>
+		<link>/meta/#comment-28255</link>
+
+		<dc:creator><![CDATA[Alex Strehl]]></dc:creator>
+		<pubDate>Sat, 22 Jan 2011 03:27:54 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1346#comment-28255</guid>
+
+					<description><![CDATA[fwiw, I still like my answer better than Bill&#039;s, because it requires less rolls on average to halt (even if you&#039;re required to roll both dice each turn).]]></description>
+			<content:encoded><![CDATA[<p>fwiw, I still like my answer better than Bill&#8217;s, because it requires less rolls on average to halt (even if you&#8217;re required to roll both dice each turn).</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

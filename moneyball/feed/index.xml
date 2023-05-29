@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How Close is Close	</title>
+	<atom:link href="/moneyball/feed/" rel="self" type="application/rss+xml" />
+	<link>/moneyball/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Tue, 25 Nov 2014 12:52:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: Tod		</title>
+		<link>/moneyball/#comment-213627</link>
+
+		<dc:creator><![CDATA[Tod]]></dc:creator>
+		<pubDate>Tue, 25 Nov 2014 12:52:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-213627</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172460&quot;&gt;Matthias Kullowatz&lt;/a&gt;.
+
+Lead changes at interval???...... How is it that one team wins a quarter say eg; score;  37 - 18, then next quarter the opposition comes out and wins the next quarter say 38 - 17...??? then next quarter the other team comes out and wins the next??? WTF????......is there a advantage or rule or whatever that makes it like that or not. If a higher ranked team is aging a lower ranked to then you&#039;d think it would win every quarter, right?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172460">Matthias Kullowatz</a>.</p>
+<p>Lead changes at interval???&#8230;&#8230; How is it that one team wins a quarter say eg; score;  37 &#8211; 18, then next quarter the opposition comes out and wins the next quarter say 38 &#8211; 17&#8230;??? then next quarter the other team comes out and wins the next??? WTF????&#8230;&#8230;is there a advantage or rule or whatever that makes it like that or not. If a higher ranked team is aging a lower ranked to then you&#8217;d think it would win every quarter, right?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: 5harad		</title>
+		<link>/moneyball/#comment-172475</link>
+
+		<dc:creator><![CDATA[5harad]]></dc:creator>
+		<pubDate>Fri, 08 Jun 2012 11:58:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172475</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172470&quot;&gt;B_pengelly&lt;/a&gt;.
+
+Yes, this approach could be used to make predictions earlier in the game as well. But the earlier you attempt to apply it, the better it would be to incorporate additional sources of information. For example, the current method suggests both teams have an equal likelihood of winning at the beginning of the game (before either team has scored), because it doesn&#039;t incorporate factors such as team strength or home court advantage.
+
+The heuristic outlined in this post is simply a fun rule-of-thumb for making predictions while you watch the game. If the goal is to achieve the best possible possible predictive accuracy, I&#039;m sure one could do much better.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172470">B_pengelly</a>.</p>
+<p>Yes, this approach could be used to make predictions earlier in the game as well. But the earlier you attempt to apply it, the better it would be to incorporate additional sources of information. For example, the current method suggests both teams have an equal likelihood of winning at the beginning of the game (before either team has scored), because it doesn&#8217;t incorporate factors such as team strength or home court advantage.</p>
+<p>The heuristic outlined in this post is simply a fun rule-of-thumb for making predictions while you watch the game. If the goal is to achieve the best possible possible predictive accuracy, I&#8217;m sure one could do much better.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: B_pengelly		</title>
+		<link>/moneyball/#comment-172470</link>
+
+		<dc:creator><![CDATA[B_pengelly]]></dc:creator>
+		<pubDate>Thu, 07 Jun 2012 00:42:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172470</guid>
+
+					<description><![CDATA[This article and research is all based on the last 12 minutes of a game. Is there any reason that this equation wouldn&#039;t work just as well for the rest of the game? For example, would it be accurate after calculating 30 minutes left along with the current point margin? ]]></description>
+			<content:encoded><![CDATA[<p>This article and research is all based on the last 12 minutes of a game. Is there any reason that this equation wouldn&#8217;t work just as well for the rest of the game? For example, would it be accurate after calculating 30 minutes left along with the current point margin? </p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/moneyball/#comment-172467</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Wed, 06 Jun 2012 00:32:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172467</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172466&quot;&gt;B_pengelly&lt;/a&gt;.
+
+Lots of options! Simplest might be WolframAlpha. Note also the widget I linked to in the comments above.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172466">B_pengelly</a>.</p>
+<p>Lots of options! Simplest might be WolframAlpha. Note also the widget I linked to in the comments above.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: B_pengelly		</title>
+		<link>/moneyball/#comment-172466</link>
+
+		<dc:creator><![CDATA[B_pengelly]]></dc:creator>
+		<pubDate>Wed, 06 Jun 2012 00:26:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172466</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172465&quot;&gt;Daniel Reeves&lt;/a&gt;.
+
+Ok, glad I wasn&#039;t losing my mind. Now I have this new problem because neither versions of Excel prior to 2010 or Goog Docs can calculate ERFC functions when x is a negative number. Do you have any suggestions of calculators I can use to easily use this formula? 
+
+Thanks for taking the time to respond to my messages.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172465">Daniel Reeves</a>.</p>
+<p>Ok, glad I wasn&#8217;t losing my mind. Now I have this new problem because neither versions of Excel prior to 2010 or Goog Docs can calculate ERFC functions when x is a negative number. Do you have any suggestions of calculators I can use to easily use this formula? </p>
+<p>Thanks for taking the time to respond to my messages.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/moneyball/#comment-172465</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Wed, 06 Jun 2012 00:11:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172465</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172464&quot;&gt;B_pengelly&lt;/a&gt;.
+
+Oh! I bet my formula is for number of minutes, not seconds.
+Yeah, here&#039;s WolframAlpha confirming that&#039;s true:
+ 
+http://www.wolframalpha.com/input/?i=plot+1%2F2+Erfc%5B-%285%2F%28Sqrt%5B2%5D+%281.26336+%2B+1.61989+Sqrt%5Bt%5D+%2B+0.0642438+t+-+0.0010607+t%5E2%29%29%29%5D+from+1+to+12
+
+I&#039;ll edit my comment above. Thanks for catching that!
+(Good thing Sharad didn&#039;t let me include that in the post or it would&#039;ve cost me $20 for the typo bounty!)]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172464">B_pengelly</a>.</p>
+<p>Oh! I bet my formula is for number of minutes, not seconds.<br />
+Yeah, here&#8217;s WolframAlpha confirming that&#8217;s true:<br />
+ <br />
+<a href="http://www.wolframalpha.com/input/?i=plot+1%2F2+Erfc%5B-%285%2F%28Sqrt%5B2%5D+%281.26336+%2B+1.61989+Sqrt%5Bt%5D+%2B+0.0642438+t+-+0.0010607+t%5E2%29%29%29%5D+from+1+to+12" rel="nofollow ugc">http://www.wolframalpha.com/input/?i=plot+1%2F2+Erfc%5B-%285%2F%28Sqrt%5B2%5D+%281.26336+%2B+1.61989+Sqrt%5Bt%5D+%2B+0.0642438+t+-+0.0010607+t%5E2%29%29%29%5D+from+1+to+12</a></p>
+<p>I&#8217;ll edit my comment above. Thanks for catching that!<br />
+(Good thing Sharad didn&#8217;t let me include that in the post or it would&#8217;ve cost me $20 for the typo bounty!)</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: B_pengelly		</title>
+		<link>/moneyball/#comment-172464</link>
+
+		<dc:creator><![CDATA[B_pengelly]]></dc:creator>
+		<pubDate>Tue, 05 Jun 2012 22:00:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172464</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172463&quot;&gt;B_pengelly&lt;/a&gt;.
+
+ Maybe this could help dial in the issue. If I use the assumptions of a 5 point lead and 300 seconds left and only use the part of the equation after 1/2 ERFC, I get 7.54%. If that matches your results then the issue is clearly with my ERFC function. Is that what your equation gives you?]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172463">B_pengelly</a>.</p>
+<p> Maybe this could help dial in the issue. If I use the assumptions of a 5 point lead and 300 seconds left and only use the part of the equation after 1/2 ERFC, I get 7.54%. If that matches your results then the issue is clearly with my ERFC function. Is that what your equation gives you?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: B_pengelly		</title>
+		<link>/moneyball/#comment-172463</link>
+
+		<dc:creator><![CDATA[B_pengelly]]></dc:creator>
+		<pubDate>Tue, 05 Jun 2012 20:46:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172463</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172462&quot;&gt;Daniel Reeves&lt;/a&gt;.
+
+ Yeah, Excel has the ERFC function. I also tried it in Google docs and got the same result. All my results end up being close to 50% no matter what time and score assumptions I use. Uggggg]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172462">Daniel Reeves</a>.</p>
+<p> Yeah, Excel has the ERFC function. I also tried it in Google docs and got the same result. All my results end up being close to 50% no matter what time and score assumptions I use. Uggggg</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Daniel Reeves		</title>
+		<link>/moneyball/#comment-172462</link>
+
+		<dc:creator><![CDATA[Daniel Reeves]]></dc:creator>
+		<pubDate>Tue, 05 Jun 2012 20:01:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172462</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/moneyball/#comment-172461&quot;&gt;B_pengelly&lt;/a&gt;.
+
+Does Excel know the erfc function? If not you could find an approximation of it: http://en.wikipedia.org/wiki/Error_function]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/moneyball/#comment-172461">B_pengelly</a>.</p>
+<p>Does Excel know the erfc function? If not you could find an approximation of it: http://en.wikipedia.org/wiki/Error_function</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: B_pengelly		</title>
+		<link>/moneyball/#comment-172461</link>
+
+		<dc:creator><![CDATA[B_pengelly]]></dc:creator>
+		<pubDate>Tue, 05 Jun 2012 19:51:00 +0000</pubDate>
+		<guid isPermaLink="false">/moneyball/#comment-172461</guid>
+
+					<description><![CDATA[Thanks for providing this formula Daniel but for the life of me I can&#039;t get it to work properly in Excel.  Do you have any suggestions on how I can make it work? I will put in assumptions like 450 seconds remaining and up 5 pts and it will return a value close to 49%. I really want to figure this out.]]></description>
+			<content:encoded><![CDATA[<p>Thanks for providing this formula Daniel but for the life of me I can&#8217;t get it to work properly in Excel.  Do you have any suggestions on how I can make it work? I will put in assumptions like 450 seconds remaining and up 5 pts and it will return a value close to 49%. I really want to figure this out.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

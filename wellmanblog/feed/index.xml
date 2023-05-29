@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: High-Frequency Trading and the Robot-Led Holocaust	</title>
+	<atom:link href="/wellmanblog/feed/" rel="self" type="application/rss+xml" />
+	<link>/wellmanblog/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Sat, 05 Apr 2014 06:53:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: michael vassar		</title>
+		<link>/wellmanblog/#comment-347</link>
+
+		<dc:creator><![CDATA[michael vassar]]></dc:creator>
+		<pubDate>Wed, 19 Aug 2009 09:08:19 +0000</pubDate>
+		<guid isPermaLink="false">/?p=363#comment-347</guid>
+
+					<description><![CDATA[Chimps also can&#039;t solve simple block problems, yet they are a trivial evolutionary distance from &quot;Human singularity&quot;.]]></description>
+			<content:encoded><![CDATA[<p>Chimps also can&#8217;t solve simple block problems, yet they are a trivial evolutionary distance from &#8220;Human singularity&#8221;.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Michael Wellman		</title>
+		<link>/wellmanblog/#comment-288</link>
+
+		<dc:creator><![CDATA[Michael Wellman]]></dc:creator>
+		<pubDate>Tue, 04 Aug 2009 19:41:59 +0000</pubDate>
+		<guid isPermaLink="false">/?p=363#comment-288</guid>
+
+					<description><![CDATA[Thanks for the plug, Dan.  I was pleased to see that Felix Salmon picked up on my proposal for one-second call markets.  It will be pretty hard to get there (discrete-time trading) from here (continuous-time trading), but I&#039;m convinced it is worth hashing out the proposal.  
+
+Besides, maybe working on designs for countering the trading bots will give us good practice for fending off the robots when the singularity hits...]]></description>
+			<content:encoded><![CDATA[<p>Thanks for the plug, Dan.  I was pleased to see that Felix Salmon picked up on my proposal for one-second call markets.  It will be pretty hard to get there (discrete-time trading) from here (continuous-time trading), but I&#8217;m convinced it is worth hashing out the proposal.  </p>
+<p>Besides, maybe working on designs for countering the trading bots will give us good practice for fending off the robots when the singularity hits&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Vishal		</title>
+		<link>/wellmanblog/#comment-284</link>
+
+		<dc:creator><![CDATA[Vishal]]></dc:creator>
+		<pubDate>Tue, 04 Aug 2009 14:14:44 +0000</pubDate>
+		<guid isPermaLink="false">/?p=363#comment-284</guid>
+
+					<description><![CDATA[This is how Nasdaq describes the Flash order process around which much of the concern with HFT seems to be centered: 
+http://www.nasdaqtrader.com/content/ProductsServices/Trading/Flash_factsheet.pdf
+It&#039;s a two-page white paper and, to be honest, only mildly enlightening.]]></description>
+			<content:encoded><![CDATA[<p>This is how Nasdaq describes the Flash order process around which much of the concern with HFT seems to be centered:<br />
+<a href="http://www.nasdaqtrader.com/content/ProductsServices/Trading/Flash_factsheet.pdf" rel="nofollow ugc">http://www.nasdaqtrader.com/content/ProductsServices/Trading/Flash_factsheet.pdf</a><br />
+It&#8217;s a two-page white paper and, to be honest, only mildly enlightening.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: John Langford		</title>
+		<link>/wellmanblog/#comment-277</link>
+
+		<dc:creator><![CDATA[John Langford]]></dc:creator>
+		<pubDate>Mon, 03 Aug 2009 13:09:15 +0000</pubDate>
+		<guid isPermaLink="false">/?p=363#comment-277</guid>
+
+					<description><![CDATA[I&#039;d like to point out &lt;a href=&quot;http://hunch.net/?p=324&quot; rel=&quot;nofollow&quot;&gt;this earlier discussion&lt;/a&gt; on hunch.net, which is relevant.  At it&#039;s essence, the claim is that AI is extremely beneficial for interstellar travel, and interstellar travel seems critical for the longer term survival of civilization.]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;d like to point out <a href="http://hunch.net/?p=324" rel="nofollow">this earlier discussion</a> on hunch.net, which is relevant.  At it&#8217;s essence, the claim is that AI is extremely beneficial for interstellar travel, and interstellar travel seems critical for the longer term survival of civilization.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Munmun		</title>
+		<link>/wellmanblog/#comment-264</link>
+
+		<dc:creator><![CDATA[Munmun]]></dc:creator>
+		<pubDate>Sat, 01 Aug 2009 05:53:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=363#comment-264</guid>
+
+					<description><![CDATA[Interesting. But reaching the &quot;AI Singularity&quot; appears far from now. We can&#039;t even solve simple block problems!]]></description>
+			<content:encoded><![CDATA[<p>Interesting. But reaching the &#8220;AI Singularity&#8221; appears far from now. We can&#8217;t even solve simple block problems!</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

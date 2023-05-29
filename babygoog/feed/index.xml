@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Twelve Years Ago	</title>
+	<atom:link href="/babygoog/feed/" rel="self" type="application/rss+xml" />
+	<link>/babygoog/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Tue, 21 Dec 2010 04:00:39 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: dreeves		</title>
+		<link>/babygoog/#comment-21806</link>
+
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Tue, 21 Dec 2010 04:00:39 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1228#comment-21806</guid>
+
+					<description><![CDATA[Thanks Dave and Basil!  For email snoozing, I used a concoction of perl, pine, and procmail.  I&#039;m finally phasing that system out and working on a replacement.  See /email for more about that -- I amended the article with a collection of modern tools I&#039;ve tried out with gmail.]]></description>
+			<content:encoded><![CDATA[<p>Thanks Dave and Basil!  For email snoozing, I used a concoction of perl, pine, and procmail.  I&#8217;m finally phasing that system out and working on a replacement.  See <a href="/email" rel="nofollow ugc">/email</a> for more about that &#8212; I amended the article with a collection of modern tools I&#8217;ve tried out with gmail.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Basil		</title>
+		<link>/babygoog/#comment-21804</link>
+
+		<dc:creator><![CDATA[Basil]]></dc:creator>
+		<pubDate>Tue, 21 Dec 2010 03:46:06 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1228#comment-21804</guid>
+
+					<description><![CDATA[GREAT EMAIL!  How can you have something sent to yourself at a later date?  Great photo as well for the blog title.  Just like the movie when he gets the telegram from the Doc.]]></description>
+			<content:encoded><![CDATA[<p>GREAT EMAIL!  How can you have something sent to yourself at a later date?  Great photo as well for the blog title.  Just like the movie when he gets the telegram from the Doc.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David Pennock		</title>
+		<link>/babygoog/#comment-20785</link>
+
+		<dc:creator><![CDATA[David Pennock]]></dc:creator>
+		<pubDate>Wed, 15 Dec 2010 15:04:02 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1228#comment-20785</guid>
+
+					<description><![CDATA[This is a gem. Too bad you can&#039;t forward it to your 12-year-ago self with some hindsight included.]]></description>
+			<content:encoded><![CDATA[<p>This is a gem. Too bad you can&#8217;t forward it to your 12-year-ago self with some hindsight included.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How Small the World	</title>
+	<atom:link href="/smallworld/feed/" rel="self" type="application/rss+xml" />
+	<link>/smallworld/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Sun, 09 Oct 2011 04:30:39 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: zbicyclist		</title>
+		<link>/smallworld/#comment-104215</link>
+
+		<dc:creator><![CDATA[zbicyclist]]></dc:creator>
+		<pubDate>Sun, 09 Oct 2011 04:30:39 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1517#comment-104215</guid>
+
+					<description><![CDATA[Not a geneticist, but here goes: From father to child is 1/2. From father to father&#039;s brother is 1/2. From father&#039;s brother to father&#039;s brother&#039;s child is 1/2. So ordinarily cousins would be (1/2)^3 = 1/8, assuming the mothers are completely unrelated.  But here we have a similar path through the mothers, so 1/8 + 1/8 = 1/4. 
+
+Answer: 1/4.]]></description>
+			<content:encoded><![CDATA[<p>Not a geneticist, but here goes: From father to child is 1/2. From father to father&#8217;s brother is 1/2. From father&#8217;s brother to father&#8217;s brother&#8217;s child is 1/2. So ordinarily cousins would be (1/2)^3 = 1/8, assuming the mothers are completely unrelated.  But here we have a similar path through the mothers, so 1/8 + 1/8 = 1/4. </p>
+<p>Answer: 1/4.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Arthur B.		</title>
+		<link>/smallworld/#comment-101699</link>
+
+		<dc:creator><![CDATA[Arthur B.]]></dc:creator>
+		<pubDate>Mon, 03 Oct 2011 13:18:49 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1517#comment-101699</guid>
+
+					<description><![CDATA[Draw the family tree. There are four paths between the two ubercousins of length 4 each. A path of length four represents a 1/2^4 chance of sharing a gene. They are thus 4/16 = 1/4 related.
+
+If their parents were two sets of twins they would be as related as siblings.]]></description>
+			<content:encoded><![CDATA[<p>Draw the family tree. There are four paths between the two ubercousins of length 4 each. A path of length four represents a 1/2^4 chance of sharing a gene. They are thus 4/16 = 1/4 related.</p>
+<p>If their parents were two sets of twins they would be as related as siblings.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lev Reyzin		</title>
+		<link>/smallworld/#comment-100618</link>
+
+		<dc:creator><![CDATA[Lev Reyzin]]></dc:creator>
+		<pubDate>Sun, 02 Oct 2011 15:18:50 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1517#comment-100618</guid>
+
+					<description><![CDATA[Oops I meant ubercousins, not ubersiblings...]]></description>
+			<content:encoded><![CDATA[<p>Oops I meant ubercousins, not ubersiblings&#8230;</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Lev Reyzin		</title>
+		<link>/smallworld/#comment-100615</link>
+
+		<dc:creator><![CDATA[Lev Reyzin]]></dc:creator>
+		<pubDate>Sun, 02 Oct 2011 15:18:01 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1517#comment-100615</guid>
+
+					<description><![CDATA[Ubersiblings share 1/4 of the same genes.  This makes them somewhere between cousins (1/8) and siblings (1/2).
+
+Say ubercousin C12 has parents M1 and F2 and ubercousin C21 has parents M2 and F1.  M1 &#038; F1 are siblings, as are M2 &#038; F2.  C12 and C21 share all 4 grandparents and get 1/4 of their genes from each.  W.l.o.g. take a grandparent, say the father of M1 &#038; F1.  On the portion of genes from him, M1 and F1 overlap on 1/2.  It&#039;s easy to see that C12 &#038; C21 will overlap on 1/4 on their respective portions from him.  So 1/4*1/4*4 = 1/4.  Geneticists should be able to do this...
+
+I think the math doesn&#039;t get too fun without incest.]]></description>
+			<content:encoded><![CDATA[<p>Ubersiblings share 1/4 of the same genes.  This makes them somewhere between cousins (1/8) and siblings (1/2).</p>
+<p>Say ubercousin C12 has parents M1 and F2 and ubercousin C21 has parents M2 and F1.  M1 &amp; F1 are siblings, as are M2 &amp; F2.  C12 and C21 share all 4 grandparents and get 1/4 of their genes from each.  W.l.o.g. take a grandparent, say the father of M1 &amp; F1.  On the portion of genes from him, M1 and F1 overlap on 1/2.  It&#8217;s easy to see that C12 &amp; C21 will overlap on 1/4 on their respective portions from him.  So 1/4*1/4*4 = 1/4.  Geneticists should be able to do this&#8230;</p>
+<p>I think the math doesn&#8217;t get too fun without incest.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Mark Adams		</title>
+		<link>/smallworld/#comment-99701</link>
+
+		<dc:creator><![CDATA[Mark Adams]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2011 17:56:40 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1517#comment-99701</guid>
+
+					<description><![CDATA[This is actually a pretty well-solved problem in the general case, even if there are things like inbreeding going on.
+
+Sewell Wright developed path models through a pedigree to calculate the relatedness between arbitrary individuals. A quicker way for a whole set of individuals involves a recursive tabular method, where the relatedness between two individuals is a function of the relatedness amongst their 4 parents.
+
+See the section on the numerator relationship matrix in http://www-personal.une.edu.au/~jvanderw/Genetic_properties_of_the_animal_model.pdf
+
+Here is some R code that constructs a pedigree matching that described and relies on a function that will quickly calculate this relationship matrix:
+
+https://gist.github.com/1256404]]></description>
+			<content:encoded><![CDATA[<p>This is actually a pretty well-solved problem in the general case, even if there are things like inbreeding going on.</p>
+<p>Sewell Wright developed path models through a pedigree to calculate the relatedness between arbitrary individuals. A quicker way for a whole set of individuals involves a recursive tabular method, where the relatedness between two individuals is a function of the relatedness amongst their 4 parents.</p>
+<p>See the section on the numerator relationship matrix in <a href="http://www-personal.une.edu.au/~jvanderw/Genetic_properties_of_the_animal_model.pdf" rel="nofollow ugc">http://www-personal.une.edu.au/~jvanderw/Genetic_properties_of_the_animal_model.pdf</a></p>
+<p>Here is some R code that constructs a pedigree matching that described and relies on a function that will quickly calculate this relationship matrix:</p>
+<p><a href="https://gist.github.com/1256404" rel="nofollow ugc">https://gist.github.com/1256404</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Alan Dix		</title>
+		<link>/smallworld/#comment-99434</link>
+
+		<dc:creator><![CDATA[Alan Dix]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2011 11:16:26 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1517#comment-99434</guid>
+
+					<description><![CDATA[About the ubercousins ... hoping I have got my sums right :-/
+
+For any child you think of a single gene-pair on an ordinary chromosome(not on X or Y chromosomes), one copy came from father (say F1,F2), one from mother (M1,M2).  Siblings have a 1/2 chance of sharing the identical fathers gene and 1/2 of sharing the mothers gene., so have 1/2 chance of sharing 1 identical gene and 1/4 chance of sharing two identical genes and 1/4 chance of having neither identical genes.  For the non-identical genes, the likelihood that they are the same depends on the relative proportions of genes in the population, but is no better than for unrelated individuals.
+
+Of course for identical twins all genes are identical (with occasional mutations).
+
+Now looking down two generations for cousins and ubercousins.
+
+Any child&#039;s father&#039;s copy of a gene is equally likely to have come from either of the paternal grandparents (call these GF1, GF2, GM2, GM2) and the mother&#039;s copy from the maternal grandparents (GF1&#039;, GF2&#039;, GM1&#039;, GM3&#039;).
+
+For ordinary cousins one or other of these is completely different (say the maternal, sharing a common grandfather), so there is a 1/4 chance of having exactly one identical gene.
+
+For ubercousins, they have 1/4 chance of sharing maternal grandparent gene ans 1/4 of sharing paternal grandparent gene, so overall 1/4 chance of sharing exactly one gene (like cousins), but also 1/16 chance of having both genes identical.
+
+As with siblings the non-identical ones could still be the same, just chances like non-related individuals.
+
+In summary:
+              both identical     one identical   neither identical
+  identical twins    1               0                0
+  siblings          1/4             1/2              1/4
+  ubercousins       1/16            1/4              5/16
+  cousins            0              1/4              3/4
+
+That is ubercousins are precisely more related than cousins and less related than siblings as one would guess.
+
+The picture is slightly different for XY chromosome related genes.
+
+The boy&#039;s Y chromosome comes entirely form the father, which in turn comes directly form the grandfather.  So, as long as there is no incest, the Y chromosome of both boy cousins and ubercousisn, are no more likely to be the same than any unrelated boys.  In contrast boy siblings always have identical Y chromosomes.
+
+Similarly for boy cousins and ubercousins, their X chromosomes come entirely from their respective mothers and hence ultimately maternal grandparents, so (again with no shared grandparents), as unrelated as anyone in the population.
+
+In summary:
+  Genes on Boys&#039; Y or X chromosomes
+                 identical     not identical
+  identical twins    1             0
+  brothers           1             0
+  ubercousins        0             1
+  cousins            0             1
+
+
+
+For girls the situation is a little more complex, as their X chromosomes do come form both mother and father, and while the sums are a little different it turns out these share in the same way as ordinary genes.
+
+As noted in all cases the non-identical genes may be the same randomly depending on proportions of different genes in population.
+
+In addition, mutations as Barry Star discusses will sightly reduce level of sharing identical genes.
+
+Of course many features come not from individual genes, but gene combinations, others are to do with upbringing, so the non-genetic commonality or differences may be greater or less.]]></description>
+			<content:encoded><![CDATA[<p>About the ubercousins &#8230; hoping I have got my sums right :-/</p>
+<p>For any child you think of a single gene-pair on an ordinary chromosome(not on X or Y chromosomes), one copy came from father (say F1,F2), one from mother (M1,M2).  Siblings have a 1/2 chance of sharing the identical fathers gene and 1/2 of sharing the mothers gene., so have 1/2 chance of sharing 1 identical gene and 1/4 chance of sharing two identical genes and 1/4 chance of having neither identical genes.  For the non-identical genes, the likelihood that they are the same depends on the relative proportions of genes in the population, but is no better than for unrelated individuals.</p>
+<p>Of course for identical twins all genes are identical (with occasional mutations).</p>
+<p>Now looking down two generations for cousins and ubercousins.</p>
+<p>Any child&#8217;s father&#8217;s copy of a gene is equally likely to have come from either of the paternal grandparents (call these GF1, GF2, GM2, GM2) and the mother&#8217;s copy from the maternal grandparents (GF1&#8242;, GF2&#8242;, GM1&#8242;, GM3&#8242;).</p>
+<p>For ordinary cousins one or other of these is completely different (say the maternal, sharing a common grandfather), so there is a 1/4 chance of having exactly one identical gene.</p>
+<p>For ubercousins, they have 1/4 chance of sharing maternal grandparent gene ans 1/4 of sharing paternal grandparent gene, so overall 1/4 chance of sharing exactly one gene (like cousins), but also 1/16 chance of having both genes identical.</p>
+<p>As with siblings the non-identical ones could still be the same, just chances like non-related individuals.</p>
+<p>In summary:<br />
+              both identical     one identical   neither identical<br />
+  identical twins    1               0                0<br />
+  siblings          1/4             1/2              1/4<br />
+  ubercousins       1/16            1/4              5/16<br />
+  cousins            0              1/4              3/4</p>
+<p>That is ubercousins are precisely more related than cousins and less related than siblings as one would guess.</p>
+<p>The picture is slightly different for XY chromosome related genes.</p>
+<p>The boy&#8217;s Y chromosome comes entirely form the father, which in turn comes directly form the grandfather.  So, as long as there is no incest, the Y chromosome of both boy cousins and ubercousisn, are no more likely to be the same than any unrelated boys.  In contrast boy siblings always have identical Y chromosomes.</p>
+<p>Similarly for boy cousins and ubercousins, their X chromosomes come entirely from their respective mothers and hence ultimately maternal grandparents, so (again with no shared grandparents), as unrelated as anyone in the population.</p>
+<p>In summary:<br />
+  Genes on Boys&#8217; Y or X chromosomes<br />
+                 identical     not identical<br />
+  identical twins    1             0<br />
+  brothers           1             0<br />
+  ubercousins        0             1<br />
+  cousins            0             1</p>
+<p>For girls the situation is a little more complex, as their X chromosomes do come form both mother and father, and while the sums are a little different it turns out these share in the same way as ordinary genes.</p>
+<p>As noted in all cases the non-identical genes may be the same randomly depending on proportions of different genes in population.</p>
+<p>In addition, mutations as Barry Star discusses will sightly reduce level of sharing identical genes.</p>
+<p>Of course many features come not from individual genes, but gene combinations, others are to do with upbringing, so the non-genetic commonality or differences may be greater or less.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: David		</title>
+		<link>/smallworld/#comment-99303</link>
+
+		<dc:creator><![CDATA[David]]></dc:creator>
+		<pubDate>Sat, 01 Oct 2011 08:51:16 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1517#comment-99303</guid>
+
+					<description><![CDATA[I didn&#039;t have the biological knowledge to answer the question so I built a quick and dirty simulator.  According to my simulations, the ubercousins are about a quarter related based on chromosomal match probability.
+
+In the interest of scientific open disclosure, you can check out my simulator here:
+
+http://pastie.org/2621140]]></description>
+			<content:encoded><![CDATA[<p>I didn&#8217;t have the biological knowledge to answer the question so I built a quick and dirty simulator.  According to my simulations, the ubercousins are about a quarter related based on chromosomal match probability.</p>
+<p>In the interest of scientific open disclosure, you can check out my simulator here:</p>
+<p><a href="http://pastie.org/2621140" rel="nofollow ugc">http://pastie.org/2621140</a></p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

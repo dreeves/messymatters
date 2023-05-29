@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=http://feeds2.feedburner.com/messymatters">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "http://feeds2.feedburner.com/messymatters";
+		</script>
+
+		<p>You are being redirected to <a href="http://feeds2.feedburner.com/messymatters">http://feeds2.feedburner.com/messymatters</a></p>
+	</body>
+</html>

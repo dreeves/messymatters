@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Messy Matters</title>
+	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Bring your own data</description>
+	<lastBuildDate>Thu, 28 Jul 2022 20:06:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>The Out-Loud-To-Your-Friend Constraint for Writing</title>
+		<link>/outloud/</link>
+					<comments>/outloud/#respond</comments>
+		
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Sat, 31 Dec 2016 19:44:33 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[language]]></category>
+		<category><![CDATA[writing]]></category>
+		<guid isPermaLink="false">/?p=1736</guid>
+
+					<description><![CDATA[I like writing under the constraint that every sentence be something you could conceivably say out loud to a friend. With effort it&#8217;s no less expressive than academic-sounding phraseology. &#8216;Course no constraint you&#8217;ll ever chance to see need hinder one&#8217;s expressive-osity. Say, strict pentameter, iambicly. [1] Or writing without that most common non-consonant&#8201;&#8212;&#8201;you know which [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  alt="Poem from Calligrammes by Guillaume Apollinaire"
+  title="I'm resisting the urge to apply any visual constraints to this little essay, lest I go down another rabbit hole of months of obsessively tweaking it."
+  src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Guillaume_Apollinaire_Calligramme.JPG"/></p>
+<p>I like writing under the constraint that every sentence be something you could conceivably say out loud to a friend. 
+With effort it&#8217;s no less expressive than academic-sounding phraseology.</p>
+<p>&#8216;Course no constraint you&#8217;ll ever chance to see
+need hinder one&#8217;s expressive-osity.
+Say, strict pentameter, iambicly. <a id="IAMB1" href="#IAMB">[1]</a>
+Or writing without that most common non-consonant&thinsp;&mdash;&thinsp;you know which glyph I&#8217;m thinking of! <a id="NOE1" href="#NOE">[2]</a>
+Or you could write with no use of a word that takes two or more claps when you say it like a grade school kid who wants to sound out where to put each dash, to break it up in chunks. <a id="MONO1" href="#MONO">[3]</a>
+Or writing using only the ten hundred most used words. <a id="UPGOER51" href="#UPGOER5">[4]</a></p>
+<p>(Another fun one is the opposite constraint:
+Communicating exclusively with terms unintelligible to typical members of an elementary school demographic.
+Also surprisingly practical if you have your own offspring.
+Unlike with spelling&thinsp;&mdash;&thinsp;which doesn&#8217;t help much past kindergarten anyway&thinsp;&mdash;&thinsp;said scions are wholly unaware of the clandestine communiques flying above their craniums.)</p>
+<p>In his tome on language and translation and constraints, 
+<em><a href="https://en.wikipedia.org/wiki/Le_Ton_beau_de_Marot" title="Thanks to David Reiley for reminding me how well this book makes the point">Le Ton Beau de Marot</a></em>,
+Douglas Hofstadter claims that 
+&#8220;the welcoming of constraints is, at bottom, the deepest secret of creativity.&#8221;
+I don&#8217;t know about the deepest secret but constraints do seem to paradoxically amplify creativity.
+Even simple constraints like wordcount limits make my writing better.
+It&#8217;s usually not worth the effort to adhere to a difficult constraint like rhyming.
+But the constraint of &#8220;must be something you could plausibly say out loud to a friend&#8221; is not so hard.
+Still surprisingly hard though, if you&#8217;re in the habit of academic writing.
+In any case, I bet the bulk of the effect is being forced to consider and reconsider every word you write.
+A commitment device for not getting lazy and rambly.</p>
+<p>The point is, constraints are valuable for writing and the out-loud-to-a-friend constraint probably has inherent advantages as well, like making your writing tolerable to actually read.</p>
+<p><br>&nbsp;<br></p>
+<h2>Related Reading and Fun Examples of Constrained Writing</h2>
+<ol>
+<li>Guy Steele on Growing a Language 
+(<a href="https://www.youtube.com/watch?v=_ahvzDzKdB0" title="Guy Steele is one of the designers of the Lisp dialect Scheme (aka Racket), which makes what he's doing in this talk very fitting.">video</a>
+and 
+<a href="https://www.cs.virginia.edu/~evans/cs655/readings/steele.pdf" title="This version fixes at least one bug in the original talk">essay version</a>),
+which might be even more fun if I hadn&#8217;t just primed you to quickly figure out what he&#8217;s doing.</li>
+<li>Some linguistics nerds in the 1960s created 
+<a href="https://en.wikipedia.org/wiki/E-Prime" title="Short for English-Prime, sometimes denoted É or E'">E-Prime</a>,
+a variant of English without forms of the verb &#8216;to be&#8217;.</li>
+<li><a href="https://en.wikipedia.org/wiki/Basic_English" title="I of course wanted to write about Basic English using Basic English but it turns out that “basic” isn't even part of Basic English. So, screw that.">Basic English</a>
+is a simplified subset of English.</li>
+<li>The 
+<a href="http://www.hemingwayapp.com/" title="There's an editor right there on the front page with copy that explains how the Hemingway app works. It's pretty fun (if you're into such things) to edit it to follow the editor's constraints. I also used it for this hovertext. It quite reasonably made me replace “comply with” with “follow”. But then it wanted to nix “reasonably” which seemed unreasonable.">Hemingway App</a>
+does a nice job of encouraging you to follow the out-loud-to-your-friend constraint.
+(Thanks
+<a href="http://www.decisionsciencenews.com/2016/06/07/hemingway-app-forces-write-simply/" title="Decision Science News is the bees' knees">Decision Science News</a>!)
+It highlights complicated sentences, passive voice, adverbs, and stuffy words.</li>
+<li>A 
+<a href="https://en.wikipedia.org/wiki/Lipogram" title="Greek for “leaving out a letter”">lipogram</a>
+is writing that must follow an awkward constraint: that it not contain any words which in turn contain a particular symbol (usually, um, that symbol conspicuously missing from this blurb!) <a id="NOE2" href="#NOE">[2]</a></li>
+<li><a href="http://www.jstor.org/stable/2253954?seq=1#page_scan_tab_contents" title="Technically paywalled but the entirety of it is included in the preview">G&ouml;del&#8217;s Second Incompleteness Theorem Explained in Words of One Syllable</a></li>
+<li><a href="https://xkcd.com/thing-explainer/" title="(Cheating) Tagline: Complicated Stuff In Simple Words">Thing Explainer</a>
+and the 
+<a href="http://blog.xkcd.com/2015/09/22/a-thing-explainer-word-checker/" title="Like the Hemingway App, but only cares about what words you use">Thing Explainer Word Checker</a></li>
+<li><a href="http://www.muppetlabs.com/~breadbox/txt/al.html" title="I'm like, dang, I can not see how I'd ever pull that off.">Albert Einstein&#8217;s Theory of Relativity (In Words of Four Letters or Less)</a></li>
+<li><a href="http://www.newyorker.com/tech/elements/the-space-doctors-big-idea-einstein-general-relativity" title="Explains special and general relativity with only the 1000 most common words in English">The Space Doctor&#8217;s Big Idea</a>,
+again by Randall Munroe of xkcd fame <a id="UPGOER52" href="#UPGOER5">[4]</a></li>
+<li>Paul Graham on 
+<a href="http://paulgraham.com/talk.html" title="Excerpt: In my experience, the harder the subject, the more informally experts speak. Partly, I think, because they have less to prove, and partly because the harder the ideas you're talking about, the less you can afford to let language get in the way.">Writing Like You Talk</a>
+(with proof that I 
+<a href="https://twitter.com/dreev/status/658392438193569792" title="He even favorited (this was back when Twitter had favoriting instead of hearts) my tweet with a link to the draft of this post.">didn&#8217;t copy this idea</a>
+from him!)</li>
+<li><a href="https://repository.ubn.ru.nl/bitstream/handle/2066/15628/6033.pdf" title="For best effect, first read this silently like you would any academic paper, then read it out loud">The Perception of Rhythm in Language</a> by Anne Cutler</li>
+<li><a href="https://llamasandmystegosaurus.blogspot.com/2017/05/alpha.html" title="First comment from Anonymous: Am appropriately amazed, absolutely an amazing achievement.">Alpha, a translation of Genesis using only words starting with A</a></li>
+</ol>
+<p><br>&nbsp;<br></p>
+<h2>Footnotes</h2>
+<p><a id="IAMB" href="#IAMB1">[1]</a>
+This footnote originally apologized for not knowing how to say &#8220;iambic&#8221; in iambic pentameter, thus belying the whole &#8220;no less expressive&#8221; claim.
+But I persevered and proved the point in the end!</p>
+<p><a id="NOE" href="#NOE1">[2]</a>
+Excerpt from the 
+<a href="https://en.wikipedia.org/wiki/Lipogram" title="You probably know what a lipogram is by now, right? I don't want to spoil our fun by actually vocalizing (orthographizing?) it.">lipogrammatic</a>
+novel(!) 
+<a href="https://en.wikipedia.org/wiki/Gadsby_(novel)" title="Wright, famous for publishing it in 1939, was jaw-droppingly good at lipogrammatic writing, arguably without rival, not for lack of bids at surpassing him">Gadsby</a>:</p>
+<blockquote>
+<p>Now, any author, from history&#8217;s dawn, always had that most important aid to writing: an ability to call upon any word in his dictionary in building up his story. 
+  That is, our strict laws as to word construction did not block his path. 
+  But in <em>my</em> story that mighty obstruction <em>will</em> constantly stand in my path; for many an important, common word I cannot adopt, owing to its orthography.</p>
+</blockquote>
+<p>Or see the hovertext on the above links, and #5 in the related reading, for more examples of my awkward attempts.</p>
+<p><a id="MONO" href="#MONO1">[3]</a>
+Writing that sentence now has me even more in awe of #6 in the related reading above.</p>
+<p><a id="UPGOER5" href="#UPGOER51">[4]</a>
+This was inspired by a 
+<a href="https://xkcd.com/1133/" title="If you are reading these words then you may be having a bad problem with spending too much time reading things that are not the work you should be doing.">brilliant xkcd about the Saturn V rocket</a>.
+That in turn inspired the 
+<a href="http://splasho.com/upgoer5/?i=W0WyMJ1cozEypvptoTI0plO5o3HtMz9lL2HtrJ91paAyoTLtqT8tMT8tqTucozqmVUyiqFOlMJSfoUxtq2ShqPO0olOxolOvqKDtMT9hW3DtLJk3LKymVTSwqUIuoTk5VTEiYvOMo3HtMJ50MKVtq2uuqPO5o3HtMTyxVTIuL2ttMTS5VTShMPOcqPOmnT93plO5o3HtLFOlo2SxVUEiVTMioTkiqlO0olOmqTS5VT9hVUElLJAeYvOWMvO5o3HtM28to2MzVUyiqKVtpz9uMPO5o3HtnTS2MFO0olOjLKxtoJ9hMKxuPtcWMvO5o3HapzHtoz90VUA1pzHtnT93VT11L2ttqT8tMz9lL2HtrJ91paAyoTLtqT8tMT8fVUyiqFOwLJ4tL2uuozqyVUyiqKVtoJyhMPOuplO5o3HtM28hVSEbMFOwLKEwnPOcplO0nTS0VUyiqFObLKMyVUEiVUqunKDtLFO3MJIeVTWyMz9lMFOcqPOaMKEmVTIup2yypv4tH28trJ91VTAuovOwnTShM2HtrJ91pvOgnJ5xVTMipvOuVUEbo3IanUDgo3I0VUWyLKAiovOvqKDtoz90VTWyL2S1p2HtrJ91VTc1p3DtMT9hW3DtMzIyoPOfnJgyVTy0VUEiMTS5Yt==" title="CAN YOU EXPLAIN A HARD IDEA USING ONLY THE TEN HUNDRED MOST USED WORDS? IT'S NOT VERY EASY. TYPE IN THE BOX TO TRY IT OUT.">Upgoer Five Text Editor</a>.
+Fun fact: I wrote the first part of the script for Beeminder&#8217;s very literal
+<a href="http://dreev.es/eli5" title="Beeminder lets you force yourself to do things you really want to do but don't always actually do. You enter what you did each day and it shows you a road to follow to stay on track. If you go off your road you have to pay money! If you're not sure how much to force yourself to do, you can change your mind as you go. The catch is that you have to wait a week before it gets easier. So you can change your mind for a thought-out reason but not because you just don't feel like it today....">Explain Like I&#8217;m Five</a>
+using it.
+See also #3, #7, and #9 in the related reading above.</p>
+<p><br>&nbsp;<br></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/outloud/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Smoking Sticks and Carrots</title>
+		<link>/smoking/</link>
+					<comments>/smoking/#comments</comments>
+		
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Fri, 22 May 2015 21:23:56 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[akrasia]]></category>
+		<category><![CDATA[beeminder]]></category>
+		<category><![CDATA[gamification]]></category>
+		<category><![CDATA[psychology]]></category>
+		<category><![CDATA[rationality]]></category>
+		<guid isPermaLink="false">/?p=1714</guid>
+
+					<description><![CDATA[Let’s talk about science! Beehavioral science. A new study published in the New England Journal of Medicine last week has been all over the news. It’s much better than previous studies and statistics I’ve seen on the efficacy of commitment devices. Not because others have been down on commitment devices. On the contrary, I’ve been frustrated in the past by]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" src="http://blog.beeminder.com/wp-content/uploads/2015/05/nejm-and-smaller-friends.png"
+  title="So this bee and this carrot walk into a bar and ask the bartender for a light, and she charges them $150"
+  alt="New England Journal of Medicine, a cigarette, Beeminder, a carrot"
+  class="aligncenter"/></p>
+<blockquote>
+<p><em>This post is crossposted on 
+  <a href="http://blog.beeminder.com/smoking" title="I notice I've only indirectly mentioned Beeminder's esteemed competitor, StickK, in this post. You should also check out StickK!">the Beeminder blog</a>.</em></p>
+</blockquote>
+<p>Let&#8217;s talk about science!
+Beehavioral science.
+A new 
+<a href="http://www.nejm.org/doi/full/10.1056/NEJMoa1414293" title="Randomized Trial of Four Financial-Incentive Programs for Smoking Cessation">study published in the New England Journal of Medicine</a>
+last week has been all over the news. <a id="NEWS1" href="#NEWS">[1]</a>
+It&#8217;s much better than previous studies and statistics I&#8217;ve seen on the efficacy of commitment devices. 
+Not because others have been down on commitment devices.
+On the contrary, I&#8217;ve been frustrated in the past by 
+<a href="http://blog.beeminder.com/competitors" title="Not to suggest they've intentionally been misleading, but they've been unintentionally so. Potentially. The point is that without a randomized controlled trial you can't conclude the things they've implied. But now, to some extent, you can! Just maybe less so. At least for the case of smoking cessation. Ok, so it's all still a bit fuzzy if you want to generalize the conclusions.">Beeminder competitors</a>
+who tout statistics about how 80% or whatever of people who risk money succeed. 
+For starters they usually don&#8217;t even distinguish from the hypothesis of &#8220;people will 
+<a href="http://blog.beeminder.com/cheating" title="Beeminder blog post: Combatting Cheating">lie</a>
+to keep from losing their money!&#8221;
+In other words, &#8220;80% succeed&#8221; may mean &#8220;80% either succeed or cheat and pretend to&#8221;.
+This study is robust to that, with saliva and urine tests to verify smoking cessation.
+But beyond that, other studies I know of haven&#8217;t accounted for the selection effect of only super serious people being willing to risk money. 
+At the extreme, maybe anyone hard core enough to risk money is hard core enough to succeed regardless.</p>
+<p>How does this study account for that?
+First, they use an intent-to-treat methodology.
+That means that they look at the results for everyone randomized into the commitment device treatment, even the ones who refused to participate.</p>
+<p>And here&#8217;s the first interesting result: 
+Only 14% of people assigned to the carrot-and-stick treatment &#8212; risking $150 to win $650 &#8212; were willing to play.
+But those 14% did so well (52% of them succeeded in quitting) that the whole intent-to-treat group still did significantly better than the control group of smokers trying to quit with no financial incentives.</p>
+<p>Then there was the pure reward group. 
+$800 with no strings attached for managing to quit smoking. 
+90% of people in this intent-to-treat group were happy to participate. 
+Apparently 10% of people hate money.</p>
+<blockquote>
+<p>(Aside: Maybe it&#8217;s just 5% that hate free money.
+  Because the pure reward group was actually two groups: 
+  One was really no-strings-attached $800 for quitting smoking and 95% of those offered that accepted it.
+  <img decoding="async" style="float: right; padding: 15px 0 0 15px;"
+    alt="Grumpy cat: The problem with some people... is that they exist"
+    title="Also a good approximation of our reaction to suggestions that we add more social features to Beeminder"
+    src="http://blog.beeminder.com/wp-content/uploads/2015/05/grumpy-cat.jpg"/>
+  The other was a &#8220;collaborative reward&#8221; treatment where you were grouped with 5 other people and your rewards depended on the performance of the group.
+  There was even a chatroom to encourage each other.
+  85% of people in that intent-to-treat group participated &#8212; it must&#8217;ve seemed like too much hassle to the other 15%.
+  Or they didn&#8217;t hate money but they did hate people.
+  In any case, since the individual vs group-oriented treatments had no significant effect on smoking cessation rates, the two variations were combined in most of the analysis.
+  Hence the 90% overall acceptance rate for the pure reward group.
+  And as an aside to this aside, collaborative penalties, like 
+  <a href="http://blog.beeminder.com/gympact" title="Beeminder blog post dissing GymPact">GymPact</a>
+  where the losers pay the winners, didn&#8217;t help either, compared to the individual version.)</p>
+</blockquote>
+<p>Using straight up intent-to-treat analysis, pure rewards do best.
+Here are the key numbers for smoking cessation rates:</p>
+<ul>
+<li>6% quit in the control group with standard treatment, no money</li>
+<li>16% quit in the pure $800 reward group </li>
+<li>10% quit in the commitment contract group risking $150 + $650 reward </li>
+<li>(52% quit in the subset of the commitment contract group (14% of them) who actually participated)</li>
+</ul>
+<p>In other words, pure rewards yield the most smoking cessation, mostly because so many more people are willing to be incentivized that way.
+Speculating further &#8212; &#8220;if only we could get more people to accept the carrot-and-stick approach&#8221; &#8212; sounds super suspicious because we don&#8217;t know if the relatively huge success of the precommitters was simply because only people who were going to succeed anyway were willing to risk their own money.</p>
+<p>But the authors did some fancy statistics and concluded the carrot-and-stick treatment really is better.
+In fact, they estimate that the people choosing the commitment contracts would have to be 12.5 times more likely to quit smoking on their own before you&#8217;d have to reverse the conclusion that carrot-and-stick results in more success than pure carrot.</p>
+<p>I&#8217;m highly biased to believe that (and remember to 
+&#8220;<a href="http://slatestarcodex.com/2014/12/12/beware-the-man-of-one-study/" title="Slate Star Codex post about the sad state of science (and politics)">beware the man of one study</a>&#8221;)
+but even if all the tricky statistics are wrong, we still have the result that, for cases where you don&#8217;t have a third party to fund rewards for you, you can always find a third party to collect your penalties.</p>
+<p><br>&nbsp;<br></p>
+<h2>Footnote</h2>
+<p><a id="NEWS" href="#NEWS1">[1]</a>
+Coverage I can vouch for as being reasonable includes
+<a href="http://marginalrevolution.com/marginalrevolution/2015/05/financial-rewards-for-quitting-smoking.html" title="My comment on that post was the seed of this review">Marginal Revolution</a>,
+<a href="http://www.npr.org/sections/health-shots/2015/05/13/406459255/smokers-more-likely-to-quit-if-their-own-cash-is-on-the-line" title="Also emphasizes the important point that financial incentives work much better when immediate, not as distant insurance premium adjustments">NPR</a>, and
+<a href="http://www.nytimes.com/2015/05/14/health/study-asks-if-carrot-or-stick-can-better-help-smokers-stop.html" title="Has quotes from Sunstein, though he wasn't involved in the study">The New York Times</a>.
+Cass Sunstein (of 
+<a href="http://en.wikipedia.org/wiki/Nudge_%28book%29" title="Book by Thaler and Sunstein. Also an important part of the famed Third Great Beeminder Epiphany.">Nudge</a>
+fame) also has a nice 
+<a href="http://www.nejm.org/doi/full/10.1056/NEJMe1503200" title="He ends with a natural question (especially for Sunstein, and us too): How can we nudge people to use commitment devices more??">review of the results</a>.
+(Hover over links for commentary.)</p>
+<p>But reading mainstream media coverage (or blog coverage) of scientific papers is more often a telephone game.
+Papers have nice abstracts (or TL;DRs as the internet calls them) and introductions and discussion sections that are usually at least as readable as news articles, with the added bonus of not horribly misleading you about the conclusions of the research.
+As a matter of principle, I recommend skipping the above paragraph and going straight to 
+<a href="http://www.nejm.org/doi/full/10.1056/NEJMoa1414293" title="Randomized Trial of Four Financial-Incentive Programs for Smoking Cessation">the paper</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/smoking/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Welcome, Job-Destroying Robots</title>
+		<link>/robots/</link>
+					<comments>/robots/#comments</comments>
+		
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Sat, 02 Aug 2014 10:01:48 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[ai]]></category>
+		<category><![CDATA[economics]]></category>
+		<category><![CDATA[fallacies]]></category>
+		<category><![CDATA[future]]></category>
+		<category><![CDATA[market]]></category>
+		<category><![CDATA[politics]]></category>
+		<category><![CDATA[robots]]></category>
+		<guid isPermaLink="false">/?p=1712</guid>
+
+					<description><![CDATA[Let me first emphasize that I&#8217;m not talking about the deeper question of superintelligence and what happens when robots can do anything a human can do. This is about the (relatively) more immediate question: What happens when robots can perform any unskilled labor much more cheaply than humans? My answer is that we&#8217;ll need a [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  alt="A line of robots doing human jobs"
+  title="These are the 'people' in your neighborhood. In your neighborhood. In your neigh boor hood. Yes. (But when you get to the one labeled 'computer programmer' then of course all hell breaks loose.)"
+  src="/wp-content/uploads/2014/08/bots.jpg"/></p>
+<p>Let me first emphasize that I&#8217;m not talking about the deeper question of superintelligence and what happens when robots can do anything a human can do.
+This is about the (relatively) more immediate question:
+What happens when robots can perform any unskilled labor much more cheaply than humans?</p>
+<p>My answer is that we&#8217;ll need a good social safety net for all the people whose labor doesn&#8217;t earn them enough to live on, but we&#8217;ll necessarily be so rich that that will be easy to pay for.</p>
+<p>And now let me pause to tell you how sick I am of politicians talking about creating jobs.
+It&#8217;s as dumb (ok, not <em>as</em> dumb) as saying that what we need is more coins and bills. 
+We don&#8217;t want more coins or bills or jobs &#8212; we want more awesomeness.
+Instead of coins and bills, we want more of the things we spend coins and bills <em>on</em>. 
+Instead of jobs, we want more of what people create by working at their jobs. 
+Often we can get that by replacing the humans with robots and programs, thus creating value by destroying jobs.
+That&#8217;s a good thing!</p>
+<h4 class="pullquote">&#8220;Labor-saving technology? Great! Job-destroying technology? Even better.&#8221;</h4>
+<p>I&#8217;m mostly annoyed by the rhetoric:
+Labor-saving technology? Great!
+Job-destroying technology? Horrible.
+But those are the same thing!
+We shouldn&#8217;t think in terms of jobs but in terms of efficiency. 
+So, yes, idle workers and idle factories are a 
+<a href="http://modeledbehavior.com/2010/09/07/rome-is-burning/" title="A clueful economist talking about how horrifically inefficient (as in utility-destroying) economic recessions are">massive problem</a>. 
+Employing humans for work that robots could do cheaper and better is also a problem, and it&#8217;s the same problem: inefficiency.</p>
+<p>If our society is so rich &#8212; as is gradually becoming the case &#8212; that it&#8217;s cheaper to use Freaking Robots instead of people then that is an amazingly wonderful and luxurious problem to have.</p>
+<p>But wait, you say, if 
+automation (or outsourcing) destroys jobs then it reduces consumer demand which hurts producers and makes everyone (or non-foreigners) poorer. <a id="IMM1" href="#IMM">[1]</a>
+That&#8217;s wrong in the same way that it&#8217;s wrong to think that
+<a href="http://www.investopedia.com/ask/answers/08/broken-window-fallacy.asp" title="Explanation of the broken window fallacy">breaking windows</a>
+can help the economy.
+But otherwise clueful people persist in taking it seriously.
+For example, Martin Ford&#8217;s
+<a href="http://www.overcomingbias.com/2009/10/take-both-econ-tech-seriously.html" title="Robin Hanson tearing this book to shreds">The Lights in the Tunnel</a>,
+which argues that more efficiency and robotic awesomeness will hurt the economy.</p>
+<p>I&#8217;m not just pointing out that automation helps average consumers because they can have personal robots and whatnot.
+Maybe you can&#8217;t actually have one if you don&#8217;t have a job and can&#8217;t afford it.
+I&#8217;m arguing that the existence of that kind of technology means society in aggregate is much richer and then it&#8217;s just a question of redistributing the wealth.
+Wealth redistribution feels unfair to a lot of people currently but I think they&#8217;ll have to get over it (and it can be done in better ways than currently).
+Because letting people suffer is really not an option.
+Plus, the richer society gets in aggregate the cheaper it is to provide the basics for the poor.
+So objecting to redistribution on principle will, by the time society&#8217;s so rich as to have created personal robots, seem silly and petty.</p>
+<p>Think of it this way.
+Say robotics causes 90% unemployment.
+No problem!
+The 10% who have jobs in that scenario will be so fantastically rich that they can easily afford to pay more than what the 90% is currently getting. <a id="IDL1" href="#IDL">[2]</a>
+Assuming the right redistribution of wealth, building robots that destroy almost all human jobs is necessarily a Pareto improvement over the status quo.</p>
+<h2>Related Reading</h2>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Comparative_advantage" title="In the case of robots that are better than humans at most jobs, Ricardo's Law of Comparative Advantage tells us that humans can always find something to specialize in and can't be made worse off -- in fact must be made better off -- than if the robots didn't exist at all. Unless the robots kill us, of course, but that's a different question.">Ricardo&#8217;s Law of Comparative Advantage</a></li>
+<li>An example of the common confusion about this in the popular media: 
+<a href="http://www.nytimes.com/2009/07/26/science/26robot.html" title="Excerpt: The researchers also discussed possible threats to human jobs, like self-driving cars, software-based personal assistants, and service robots in the home.">Robots and the Future of Unemployment</a></li>
+<li>An article that gets it right: 
+<a href="http://www.cnn.com/2011/OPINION/09/07/rushkoff.jobs.obsolete/index.html" title="Excerpt: Stop thinking about jobs as the main aspect of our lives that we want to save. They may be a means, but they are not the ends.">Are Jobs Obsolete?</a></li>
+<li>Marshall Brain&#8217;s 
+<a href="http://www.marshallbrain.com/robotic-nation.htm" title="Marshall Brain is most famous for founding HowStuffWorks">Robotic Nation</a></li>
+</ul>
+<p><br>&nbsp;<br></p>
+<h2>Footnotes</h2>
+<p><a id="IMM" href="#IMM1">[1]</a>
+This deserves another blog post but let me emphatically say that everything here applies even more so to immigration and outsourced jobs.
+The urge to protect jobs in one&#8217;s community is fundamentally misguided, <em>even if you only care about members of your in-group</em>.
+Outsourcing from and immigration to America makes Americans better off, not even accounting for the benefits to the foreigners getting those jobs.
+(Which I think is ridiculously shameful to not account for but we can set that aside if that&#8217;s what it takes to 
+<a href="http://www.fwd.us/" title="The cynical view that FWD.us is about getting cheap labor for tech companies at the expense of Americans infuriates me! We need more immigrants.">win the political debate</a>.)</p>
+<p><a id="IDL" href="#IDL1">[2]</a>
+What if it&#8217;s true that idle hands are the devil&#8217;s workshop?
+If that&#8217;s a problem (I don&#8217;t know if it is) there are much better solutions than trying to suppress automation (or immigration or outsourcing!).
+For example, people could be hired at public expense to work on infrastructure projects.</p>
+<p><br>&nbsp;<br></p>
+<p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/robots/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Measuring the Impact of the Sharing Economy</title>
+		<link>/airbnb/</link>
+					<comments>/airbnb/#comments</comments>
+		
+		<dc:creator><![CDATA[Georgios Zervas]]></dc:creator>
+		<pubDate>Sat, 05 Apr 2014 18:18:14 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=1708</guid>
+
+					<description><![CDATA[Online marketplaces facilitating peer-to-peer exchange of goods and services have been flourishing. Last year half a million visitors to New York City used Airbnb to find a place to stay. Airbnb is an online marketplace that matches those looking for short-term accommodation with those that can provide it in their homes. So far, consumers have [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  alt="Couch surfing"
+  title="Couch surfing"
+  src="/wp-content/uploads/2014/04/couch_surfing.jpg"/></p>
+<p>Online marketplaces facilitating peer-to-peer exchange of goods and services have been flourishing. 
+Last year half a million visitors to New York City used Airbnb to find a place to stay. 
+Airbnb is an online marketplace that matches those looking for short-term accommodation with those that can provide it in their homes. 
+So far, consumers have booked over 10 million nights through the service. 
+The company, which collects a 10-15% fee for each booking, was most recently valued at $10bn, and it continues to grow fast. 
+By some measures it is even overtaking well-known hotel brands. 
+Airbnb’s CEO recently tweeted about one such accomplishment: 
+“Marriott wants to add 30,000 rooms this year. We will add that in the next 2 weeks.”</p>
+<p>Inspired by the rise of Airbnb, other entrepreneurs have followed suit to build online marketplaces that enable fee-based sharing of goods and services ranging from vehicles, to power tools, to even pets. 
+Collectively these marketplaces have come to be known as the “sharing economy.”</p>
+<p>Despite its mainstream acceptance, measuring the contribution of the sharing economy to overall economy activity has been a challenging task. 
+Its proponents argue that the sharing economy is generating incremental economic gains, creating jobs, and stimulating spending. 
+For example, in popular destinations like NYC where hotel occupancy rates exceed 80%, and room prices reflect this high demand, the sharing economy has provided a viable accommodation alternative for travelers on a budget. 
+These travelers might not have been able to afford a trip to NYC otherwise. 
+Moreover, these Airbnb-enabled trips generate additional income for NYC hosts who rent their places out, and contribute to local spending. 
+A recent Airbnb-commissioned study found that “in one year, Airbnb generated 632 million dollars in economic activity in [New York City].”</p>
+<p>So is everyone a winner in the sharing economy? 
+<a href="http://www.cs.bu.edu/~byers/">John Byers</a>, <a href="http://cs-people.bu.edu/dproserp/">Davide Proserpio</a>, and I found that not everyone is better off. 
+We estimated the impact of Airbnb on the Texas hotel industry, and found that Airbnb is significantly changing travelers’ consumption patterns, who are substituting some hotel stays for Airbnb. 
+Economy hotels, and those not catering to business travelers are so far the most impacted.</p>
+<p>We focused on Texas for two reasons. 
+First, we could get detailed revenue data for Texas hotels. 
+The State of Texas publishes quarterly tax reports for individual hotels going back at least a decade. 
+Second, Airbnb adoption is highly non-uniform across Texas municipalities. 
+For example, while there are thousands of Airbnb properties in Austin, there are only a handful in Ft. Worth. 
+We exploit this variation to isolate the impact of Airbnb from other forces driving hotel revenue.</p>
+<p>Here’s how we go about it.</p>
+<p>As a first step, consider a hypothetical Austin hotel with $1 million in revenue the year prior to Airbnb coming to Austin, and $800 thousand the year after. 
+To measure Airbnb’s impact we could look at differences in hotel revenue before and after Airbnb became popular. 
+This temporal comparison would suggest that the impact of Airbnb on hotel revenue is about 20%. 
+But this analysis is problematic. 
+It could be a pure coincidence that hotel revenue started declining as Airbnb became popular.</p>
+<p>To solve this problem, we can use the revenue of hotels that were not affected by Airbnb as a benchmark. 
+This is where variation in Airbnb popularity comes in handy. 
+We can look for differences in hotel revenue between cities like Ft. Worth where Airbnb isn’t popular and cities like Austin where Airbnb has thrived over the same period of time. 
+Then, if we find that revenue declined similarly for hotels in both cities, we cannot attribute these changes to Airbnb. 
+To continue with our example, suppose a Ft. Worth hotel saw a 12% decline in revenue following Airbnb’s arrival in Austin. 
+Then we need to adjust our estimate of the impact of Airbnb downwards from 20% down to 8%.</p>
+<p>A key assumption of this analysis is that the revenue trends of Ft. Worth hotels are good indicators of what would have happened in Austin in the absence of A­­irbnb. 
+What if this is not the case?
+Ideally, we’d also like to have a control group of hotels from the same city.
+We chose this control group to be hotels that cater to business travelers, regardless of how popular Airbnb is where they are located.
+Our rationale for this choice is that business hotels offer amenities, such as conference facilities and business centers, which are not typical (yet!) of Airbnb properties.
+Therefore their revenue should be less sensitive to competition by Airbnb.</p>
+<h4 class="pullquote">&#8220;Airbnb has negatively impacted the revenue of lower-tier hotels by about 5%&#8221;</h4>
+<p>Now, we can take this sort of analysis &#8212; looking at differences in revenue trends across “treated” and control hotels &#8212; one step further.
+To continue with our example, suppose that a business hotel in Austin saw a 5% decline in revenue the year after Airbnb came to town. 
+By our assumption that Airbnb does not affect business hotels, we cannot attribute this change to Airbnb. 
+Previously, as a result of using Ft. Worth hotels as a control group, we had to revise our hypothetical estimate of Airbnb’s impact downwards from 20% to 8%. 
+Now, because we use business hotels as an additional control group, we have to further scale down this estimate from 8% to 3%. 
+In the end, our estimation methodology only attributes changes in hotel revenue to Airbnb if they are above and beyond changes in the revenue of hotels that should not have been affected.</p>
+<p>To complete our analysis, we incorporated a number of observable variables that affect hotel demand, such as the unemployment rate.
+In the end, we estimated that in cities like Austin where Airbnb supply has doubled year over year, this growth has already negatively impacted the revenue of lower-tier hotels by about 5%.
+So, while the rapid growth of the sharing economy is great news for those with a spare room to rent, and for travelers looking for a place to stay (not to mention those looking for a cab in NYC on a rainy day), some hotel owners and workers aren’t any better off.</p>
+<p>As with many things online, measuring the net value created by the sharing economy will be challenging.
+Our work highlights the need to weigh any positive change the sharing economy can bring about by generating new demand against various costs including the ones we considered here.</p>
+<p>See <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2366898" title="The Rise of the Sharing Economy: Estimating the Impact of Airbnb on the Hotel Industry">our paper</a> for details.</p>
+<p><br>&nbsp;<br></p>
+<p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/airbnb/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Living the Robot-Mediated Life</title>
+		<link>/tv/</link>
+					<comments>/tv/#comments</comments>
+		
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Fri, 21 Mar 2014 04:00:22 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[economics]]></category>
+		<category><![CDATA[mechanism design]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[yootles]]></category>
+		<guid isPermaLink="false">/?p=1703</guid>
+
+					<description><![CDATA[It turns out people are pretty morbidly fascinated by Bethany Soule&#8217;s and my auction-based lifestyle. After Bethany&#8217;s Messy Matters article, &#8220;Love and/or Money,&#8221; it was picked up by NBCnews.com, which sparked a mini media firestorm. We were in New York Magazine, were fodder for morning radio ridicule, and were even interviewed on Fox News. And [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  alt="As seen on TV (with a bee)"
+  title="OMG, everyone, look at meeeeee. In which Danny and Bethany reveal themselves to be shameless attention whores."
+  src="/wp-content/uploads/2014/02/tv_bee.jpg"/></p>
+<p>It turns out people are pretty morbidly fascinated by Bethany Soule&#8217;s and my auction-based lifestyle.
+After Bethany&#8217;s Messy Matters article, 
+&#8220;<a href="/autonomy/" title="Originally the main point of this article was our financial autonomy (from each other -- as in, separate finances despite being married) but the auction-based decision-making stole the show">Love and/or Money</a>,&#8221;
+it was 
+<a href="http://www.nbcnews.com/business/consumer/couple-pays-each-other-put-kids-bed-n13021" title="'Lullabye Hagglers' or 'The Couple That Pays Each Other to Put Kids to Bed'">picked up by NBCnews.com</a>,
+which sparked a mini media firestorm.
+We were in
+<a href="http://nymag.com/thecut/2014/02/paying-your-spouse-to-do-the-dishes.html" title="Key quote: 'there's a whiff of immaturity about this arrangement', though overall it's actually pretty flattering">New York Magazine</a>,
+were 
+<a href="http://benpopkenwrites.com/post/77413984489/i-was-on-the-radio-in-wisconsin-to-chat-about-the" title="This was an interview with Ben Popken, the NBCnews reporter who wrote about us, and he's really way too nice to us, defending us heroically from the radio DJs. I mean, even we realize that we deserve *some* ridicule here!">fodder for morning radio ridicule</a>,
+and were even 
+<a href="http://video.foxnews.com/v/3207381490001/could-bidding-on-chores-help-your-marriage/" title="I probably shouldn't have tried to explain quasilinear utility to the Fox News audience">interviewed on Fox News</a>.
+And we&#8217;re apparently about to go global, with an article in a huge South American magazine. <a id="PRESS1" href="#PRESS">[1]</a></p>
+<p>So, by popular demand, I&#8217;m here to answer more questions about decision auctions and paying your spouse to put the kids to bed!
+Of course, this is part of a general theme with Bethany and me: applying principles of economics to everyday life.
+Which, if you haven&#8217;t noticed, has been a running theme on Messy Matters: <a id="SG1" href="#SG">[2]</a></p>
+<ul>
+<li><a href="/scrooge/" title="'Scroogenomics vs Ulterior Motives (and Other Justifications for Gift Giving)'">How and when to give gifts for maximum social efficiency</a></li>
+<li><a href="/calibration/" title="'Are You Overconfident?'">How to make calibrated predictions</a></li>
+<li><a href="/landlords" title="'The Real-Life Tragedy of Myerson and Satterthwaite’s Impossibility Theorem: A Tale of High Drama, Intrigue, and Duplicity'">How to design a perfectly efficient negotiation mechanism (just kidding, you can&#8217;t)</a></li>
+<li><a href="/buyrent" title="'Throwing Money Away' (Hint: it doesn't matter, at least not nearly as much as people think)">How to decide between buying vs renting</a></li>
+<li><a href="/savings/" title="'(More Than) A Penny Saved is a Penny Wasted, In Which I Trivialize the Entire Industry of Financial Planning'">How to do financial planning</a></li>
+<li><a href="/sunk" title="Includes a fun quiz!">How to avoid not just the sunk cost fallacy, but hypercorrecting for it</a></li>
+<li><a href="/sealedbids/" title="'Extremely Weak Cryptography: Rot13 for Numbers'">How to do sealed bids</a></li>
+<li><a href="/strangers/" title="'Things That Never Happen' (Like strangers kidnapping your children)">How to trust in statistics and not worry about things that &#8220;never&#8221; happen</a></li>
+<li><a href="/akrasia" title="Crossposted as the inaugural Beeminder blog post">How to do what you want (Beeminder infomercial)</a></li>
+<li><a href="/flexbind/" title="'Flexible Self-Control' (Also crossposted on the Beeminder blog, and scroll down to the 'Eight Hundred Dollar Postscript')">How to collect $810 from me if I don&#8217;t publish Messy Matters posts on time</a></li>
+<li><a href="/tagtime/" title="'TagTime: Stochastic Time Tracking for Space Cadets'">How to stochastically track your time</a></li>
+<li><a href="/insurance/" title="'Car Insurance and an Ear Full of Cider' (Key advice is to be risk-neutral about non-lifechanging amounts of money. Corollary: Never buy a warranty for your laptop or collision insurance for your car.)">How to decide when to buy insurance</a></li>
+<li><a href="/nominology/" title="'Nominology' (This one is not really economics-inspired but I keep hearing from people who found it genuinely useful in naming their startups and whatnot so I'm keen to highlight it!)">How to name things</a></li>
+<li><a href="/deadlines/" title="You probably don't care about this unless you are a teacher with actual students, to whom you give grades">How to set deadlines for your students (if you have students)</a></li>
+<li><a href="/expectorant/" title="'Stochastic, Nerdtastic Restaurant Bill Splitting' (Also describes Bethany's and my Android app, Expectorant, that facilitates this and similar nerdery)">How to split a restaurant bill (and other tricks with stochastic payments)</a></li>
+<li><a href="/snooze/" title="'Email Snooze and Gmail Zero'">How to deal with email overload</a></li>
+<li><a href="/uvi/" title="'1000 Days of User-Visible Improvements'">How to succeed in business by only trying a little bit every day</a></li>
+<li><a href="/autonomy" title="'For Love and/or Money: Financial Autonomy in Marriage' (This is the article, by Bethany Soule, that kicked off the media frenzy)">How to conduct decision auctions with your loved ones</a></li>
+<li><a href="/yootles/" title="'Why we turned out to like money better than a custom currency'">How (not) to design a social currency (Yootles postmortem)</a></li>
+</ul>
+<p>In other words, practice
+applied rationality! 
+Overcome biases 
+and be, generally, 
+less wrong.
+Also, 
+quantify yourself! 
+Good decisions require good data.</p>
+<p>But without further ado, questions&#8230;</p>
+<h4>Q1. What do you have auctions about besides chores?</h4>
+<p>It&#8217;s most common that we have auctions about who has to do something that&#8217;s a shared responsibility, or who gets to do something that only one of us can do.
+But recently Bethany forgot her keys when she went to the office and we weren&#8217;t sure if it made sense for me to bring them to her.
+Here&#8217;s how we&#8217;d have handled that if we were normal people:</p>
+<blockquote>
+<p><strong>Bethany</strong>: I forgot my keys, any chance you were going to skate in soon?<br />
+  <strong>Danny</strong>: I wasn&#8217;t going to but I could, because I love you!<br />
+  <strong>Bethany</strong>: That&#8217;s ok, honey, I&#8217;m fine at this coffee shop till my next appointment, when I was going to come home anyway.<br />
+  <strong>Danny</strong>: Well, ok, I&#8217;ll let you fend for yourself. I&#8217;ll clean the bathroom to make it up to you.</p>
+</blockquote>
+<p>And here&#8217;s what we actually did, as taken from the logs of our Beeminder developer chatroom 
+(in which lives a <a href="https://github.com/aaronpk/zenircbot-bid" title="Thanks to Aaron Parecki for building this for us!">chatbot</a> that helps mediate the auctions):</p>
+<pre><code>D: /bid with @bee for skate in with keys
+Bot: Ok, collecting bids from: @bee, @dreev
+  [we each reply privately to the bot]
+Bot: Bidding complete! Here are the bids: @bee: 8, @dreev: 45
+     Bernoulli(.1) says... PAY 10X!!
+</code></pre>
+<p>I then paid Bethany $80 ($8 times 10, which happens with 10% probability) to <em>not</em> skate her her keys.
+Notice how, in essence, it&#8217;s the same as the normal-person version.
+Instead of feeling each other out, we quantified and let a bot compare our preferences.
+And instead of me assuaging my guilt about not helping her by cleaning the bathroom, I just paid her.</p>
+<h4 class="pullquote">&#8220;Instead of feeling each other out, we quantified and let a bot compare our preferences.&#8221;</h4>
+<p>We think of the auction as mathematically equivalent to me <em>halfway</em> skating Bethany her keys.
+I could&#8217;ve just done it because I&#8217;m nice, or she could&#8217;ve just refused the favor because she&#8217;s nice.
+Instead we made it a 50/50 joint decision for which outcome would happen &#8212; half a favor.
+Or you can think of it like this: 
+I&#8217;m committing to either doing her the favor for less money than she values the favor, or to giving her an amount of money equal to how much she values the favor.
+Most importantly, it ensures the favor only happens if it&#8217;s socially efficient &#8212; if it&#8217;s not more skin off my nose than the favor is actually worth to Bethany.
+We do this half-a-favor form of decision auctions quite often and to us it&#8217;s quite sweet and loving.
+(See also, &#8220;Generosity without sacrificing social efficiency&#8221; in
+<a href="/autonomy" title="It features a similar, though sadly hypothetical, example of me half-accompanying Bethany to sing-along showing of 'Once More With Feeling'">Bethany&#8217;s original article</a>.)</p>
+<h4>Q2. Do you use auctions to make decisions about Beeminder?</h4>
+<p>It&#8217;s rare that we have an auction to make product decisions about Beeminder.
+We seem to be living the dream of the 
+<a href="http://dilbert.com/blog/entry/the_managementfree_organization/" title="By Scott Adams, of Dilbert fame">the management-free organization</a>
+where we discuss a question until the right answer is obvious to all.
+But we do have auctions about, say, who will deploy code or babysit the server when it&#8217;s redlining.</p>
+<h4>Q3. What&#8217;s the real story on auctions for sex?</h4>
+<p>It was true when we told the NBCnews reporter that we don&#8217;t.
+But then after that we thought, what the heck.
+It turned out to be super boring, because we&#8217;re both super easy.
+So technically we have now, but there weren&#8217;t conflicting preferences so money hasn&#8217;t changed hands.
+Not that there would be anything wrong with that!</p>
+<h4>Q4. Was this a subtle PR piece for Beeminder? How did you pull off such a press coup?</h4>
+<p>Gosh, you&#8217;re making us feel like marketing geniuses!
+The NBCnews reporter is actually a Beeminder user, which is how he knew about me and Bethany and our craziness, and he was happy to agree to our stipulation that the article link to Beeminder.
+So I guess we have no advice on how to actually orchestrate something like this. 
+Last year we had our 
+<a href="http://blog.beeminder.com/southwest" title="Press roundup, including the Southwest Airlines article">biggest press coup</a>
+just by having our phone number at the bottom of beeminder.com. 
+Southwest Airlines inflight magazine called us after trying and failing to find a number for our competitor, 
+<a href="http://blog.beeminder.com/gympact" title="Beeminder blog post about GymPact">GymPact</a>.
+I guess that&#8217;s the real tip here: Be so crazy that journalists seek you out!</p>
+<h4>Q5. Doesn&#8217;t such mercenary decision making take all the fun and passion out of a relationship?</h4>
+<p>Not if you&#8217;re game theorists!
+I&#8217;d like to answer that it saves time and effort in decision making and creates more time for the relationship.
+But that would be delusional in the same way that programmers delude themselves that they 
+<a href="https://xkcd.com/1319/" title="XKCD's hovertext: 'Automating' comes from the roots 'auto-' meaning 'self-', and 'mating', meaning 'screwing'.">save time by automating</a>
+tasks that they spend a lot of time on.
+I might have to concede that the whole thing is untenable unless you actually enjoy geeking out about the game theory and mechanism design and whatnot.</p>
+<h4>Q6. Is this all meaningless with infinite credit?</h4>
+<p>No, it&#8217;s for real.
+Yes, Bethany is currently negative by about $80k but at our age (lots of future earning ahead of us, etc) that doesn&#8217;t seem like a big deal. 
+We could actually wipe that debt out immediately by an adjustment to Beeminder&#8217;s cap table!
+I guess the danger is if you start to worry that the debt will never actually get repaid. 
+But that doesn&#8217;t seem like a worry right now. 
+We&#8217;ll come up with payment plans and whatnot if it ever does. 
+We do use a 6% interest rate on that balance, which seems steep at current market rates, but not so much so that Bethany wants to transfer Beeminder equity to me to pay it off.</p>
+<h4>Q7. Are you sure there&#8217;s not a way to game the bidding?</h4>
+<p>We actually believe that our system is, in practice though not quite in theory, strategy-proof. 
+It&#8217;s explicitly ok to game the system to our hearts&#8217; delight. 
+It seems to be quite robust to that. 
+Our utilities tend to either be uncannily well-matched, in which case it&#8217;s kind of a coin flip who wins (and is in fact fully theoretically strategy-proof in the case of perfectly matched values), or they&#8217;re wildly different, but we never seem to have enough certainty about how different they&#8217;ll be for it to be fruitful to distort our bids much.</p>
+<p>The strategy of &#8220;just say a number such that you&#8217;re torn about whether you&#8217;d rather win or lose&#8221; seems to be close enough to optimal.</p>
+<p>In theory you can game it if you can confidently predict that the other person&#8217;s utility is a lot more than yours. 
+In that case you want to inflate your bid so you still lose but get paid more. 
+In practice we never seem to be that confident that it seems optimal to inflate much. 
+Also the fact that the other person can punish you for doing that by shading their bid down, causing you to pay a high price for something you didn&#8217;t care much about. <a id="NASH1" href="#NASH">[3]</a></p>
+<p>As far as I can tell that has never happened where the blatantly wrong person won an auction. 
+It would be a huge flaw with the system if it did. 
+My sense is that that <em>does</em> happen for normal people, that the person who cares more yields, either due to failure to convey the magnitudes of the preferences or for fairness reasons.</p>
+<p>But I&#8217;ve clearly lost all touch with the concept of normalcy.</p>
+<h4>Q8. Technical question: Why do you split the surplus so unevenly?</h4>
+<p>Lay-person translation: 
+If one of us is desperate to win and bids $1000, and the other person bids $1, then the desperate person pays the loser $1.
+That means one person gets $999 of surplus utility and the other person gets none (assuming truthful bidding &#8212; see Q7).</p>
+<p>It seems unfair but, after a lot of trial and error, we gradually came to the conclusion that it&#8217;s worth it to not have people feel like their desperation is being capitalized on.
+Another way to put it: 
+when you&#8217;re really desperate to win a particular auction it&#8217;s really nice to be able to just say so honestly, with a crazy high bid. 
+Trying to allocate the surplus equitably means that I have to carefully strategize on understating my desperation. 
+(And worst of all, a mistake means a highly inefficient outcome!)</p>
+<h4>Q9. How do you decide when to have an auction? What if one of you doesn&#8217;t want to?</h4>
+<p>We have a protocol for deciding when to yootle (as we call it): 
+if the possibility of yootling is so much as mentioned then we <em>must</em> yootle. 
+The only fair way to object to yootling is to dispute that it&#8217;s a 50/50 decision. 
+If it is a fundamentally joint decision then how would you object? 
+&#8220;I want to get my way but not pay anything&#8221;? Not so nice. 
+You could say &#8220;I don&#8217;t want to yootle, I&#8217;ll just do it your way&#8221;. 
+But that&#8217;s equivalent to bidding 0, so might as well go through with the yootling. 
+And after 9 years we do have quite efficient ways to conduct these auctions, with fingers or our phones or out loud.</p>
+<h4>Q10. Think of the children! Also, how do you track all this?</h4>
+<p>Here&#8217;s our strategy with the kids:
+No allowance or anything like that &#8212; we just pay the kids for anything and everything 
+(we recently paid our 5-year-old 50 cents to tell us a story about what &#8220;the 1980s&#8221; were) 
+and we intend for them to be on the hook for their own educations, etc (maybe). 
+Maybe at some point when/if they learn to think like economists (quasilinear utility, etc) we&#8217;ll give them one last lump-sum transfer (or not) and declare the whole family to be fully financially autonomous from each other. 
+(Which, to reemphasize, entails no diminishment in family ties, sense of teamwork, emotional bonds, etc &#8212; it&#8217;s mainly just to be able to take full advantage of auction-based decision-making!)</p>
+<p>We obviously haven&#8217;t thought all this through yet. The kids are still just 5 and 6.</p>
+<p>As for tracking debts and interest, we actually wrote our own ledger that&#8217;s kind of like a spreadsheet but also computes interest automatically and does repeating payments and group payments and such.</p>
+<h4>Q11. What about income disparity?</h4>
+<p>Bethany and I philosophically bite the bullet on this, which is basically to say that, yes, the wealthy person gets their way all the time and the poor person gets what&#8217;s to them a lot of money and everyone is happy.</p>
+<p>If that&#8217;s unpalatable or feels unfair then I think the principled solution is for the wealthy person to simply redress the unfairness with a lump sum payment to redistribute the wealth.</p>
+<p>I don&#8217;t think it&#8217;s reasonable &#8212; ignoring all the psychology and social intricacies, 
+<a href="https://xkcd.com/592/" title="XKCD about 'solving the problem of drama'">as I&#8217;m wont to do</a> &#8212; 
+to object both to auctions with disparate wealth and to lump sum redistribution to achieve fairness.</p>
+<p>I suppose it&#8217;s the case that Bethany and I tend to seize excuses to redistribute wealth, but they have to be plausible ones.</p>
+<h4>Q12. Could you still have decision auctions if you had shared finances?</h4>
+<p>The economist Steven Landsburg, in his book <em>The Armchair Economist</em>, proposes a clever way to have meaningful decision auctions with his wife despite having shared finances with her.
+His solution is to find <em>another</em> crazy couple and you send your payments to each other.
+Specifically, the winner (high bidder) pays the loser&#8217;s bid, but pays it to the other couple.
+Now the payments matter even though there&#8217;s no such thing as payments between you and your spouse.
+You lose the fairness of compensating the loser that way though. 
+So it might be tough to swallow using it for super high-stakes decisions. 
+Unless the other couple did too. 
+But then, oy, the incentives get messy!
+Besides, I&#8217;m sure Bethany has convinced you 
+<a href="/autonomy" title="Bethany Soule's guest post that started all this">not to have shared finances</a>
+anyway.</p>
+<p><br>&nbsp;<br></p>
+<h2>Footnotes</h2>
+<p><a id="PRESS" href="#PRESS1">[1]</a>
+We&#8217;re keeping a list of links to all the latest in the ongoing media frenzy in
+<a href="/autonomy#updates" title="Also includes links to Hacker News and LessWrong discussions">an addendum to Bethany Soule&#8217;s original article</a>.</p>
+<p>Basically our response to every reporter who wanted to jump on this was 
+&#8220;if you let us talk about Beeminder we&#8217;ll pretty much debase ourselves in any way you&#8217;d like!&#8221;</p>
+<p><a id="SG" href="#SG1">[2]</a>
+Sharad&#8217;s Messy Matters posts, on the other hand, are mostly about society and public policy and Big Data.
+Things like 
+<a href="/biasedpolls/" title="'Forecasting Elections with Dirty Data'">forecasting elections</a>
+and 
+<a href="/webdemo/" title="'Demographic Diversity on the Web'">diversity on the web</a>.</p>
+<p><a id="NASH" href="#NASH1">[3]</a>
+Fun research question: 
+What&#8217;s the equilibrium of the repeated game with consistently mismatched preferences? 
+My guess is a mixed strategy where you accept some small risk of the person who cares most losing but mostly the person who cares most wins and pays a small fraction of their true utility to the loser.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/tv/feed/</wfw:commentRss>
+			<slash:comments>5</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Sex, Race, and Politics in Online Dating</title>
+		<link>/dating/</link>
+					<comments>/dating/#comments</comments>
+		
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Sat, 01 Feb 2014 03:49:55 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/?p=1697</guid>
+
+					<description><![CDATA[With Valentine&#8217;s Day two weeks away, there&#8217;s still plenty of time to find your soul mate. But daters beware: nearly 50 years after the Supreme Court ruled bans on interracial marriage unconstitutional, race still matters. Among newlyweds, only 9% of whites and 17% of blacks married outside their race. Several recent studies, moreover, have shown [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  alt="Love birds"
+  title="Love birds" 
+  src="/wp-content/uploads/2014/01/love_birds.png" /></p>
+<p>With Valentine&#8217;s Day two weeks away, there&#8217;s still plenty of time to find your soul mate. 
+But daters beware: nearly 50 years after the Supreme Court <a href="http://en.wikipedia.org/wiki/Loving_v._Virginia">ruled bans on interracial marriage unconstitutional</a>, 
+race still matters.
+Among newlyweds, only 9% of whites and 17% of blacks
+<a href="http://en.wikipedia.org/wiki/Interracial_marriage_in_the_United_States">married outside their race</a>.
+Several recent studies, moreover, have shown that people on online dating sites likewise exhibit strong racial preferences.<sup><a id="RELATEDWORK1" href="#RELATEDWORK">[1]</a></sup> 
+In a <a href="http://5harad.com/papers/raceprefs.pdf">new paper</a>, my colleagues &#8212; <a href="http://cs.stanford.edu/people/ashton/">Ashton Anderson</a>, <a href="http://huber.research.yale.edu/">Greg Huber</a>, <a href="http://www.stanford.edu/~neilm/">Neil Malhotra</a>, and <a href="http://research.microsoft.com/en-us/people/duncan/">Duncan Watts</a> &#8212; and I investigate how these racial preferences
+relate to political attitudes. 
+In short, are political conservatives more likely than liberals to prefer partners of their own race?</p>
+<p>To investigate the relationship between political ideology and racial preferences, we examined member profiles of over 250,000 heterosexual users of a popular online dating site. 
+Each individual in our sample answered a variety of questions about themselves, including specifying their race, political ideology, age, education, income, height, and body type.
+Key for our analysis, members also declared which attributes they would prefer to see in a potential mate, as well as the strength of that preference on a three-point scale: 
+&#8220;no preference&#8221;, &#8220;nice to have&#8221;, or &#8220;must have&#8221;. 
+For example, if a white user stated that a white mate would be &#8220;nice to have&#8221;, we logged that as a same-race preference.</p>
+<h4 class="pullquote">
+&#8220;Political conservatives, especially women, are substantially more likely than liberals to solicit a partner of their own race.&#8221;
+</h4>
+<p>The plot below shows same-race preferences, broken down by sex, race, and political ideology. 
+Strikingly, even among political moderates, the majority (52%) of white women 
+declare at least a weak (&#8220;nice to have&#8221;) preference to date someone of their own race.
+By contrast, about one-fifth of moderate white men state a &#8220;nice to have&#8221; same-race preference. 
+I realize that I live in a bubble &#8212; likely exacerbated by the fact that I&#8217;m part of the <a href="http://en.wikipedia.org/wiki/Interracial_marriage_in_the_United_States">one-third of Asians who married outside my race</a> &#8212; but still, 
+I find the number of women willing to explicitly state a same-race preference remarkably high.<sup><a id="KELLY1" href="#KELLY">[2]</a></sup>
+Turning to the question of racial preferences and political ideology, the plot also shows that conservatives, especially women, 
+are substantially more likely than liberals to state a preference for a partner of their own race. Specifically,
+conservative white women are about 30% more likely to express a preference for
+same-race partners than their liberal counterparts (56% vs. 43%). Similar patterns hold for black women and white men, 
+though the effect is not as pronounced. 
+Notably, we find that conservatives are not any more exacting than liberals on non-race attributes.
+Conservatives, that is, are not simply more selective in general, but rather exhibit a specific interest in race.</p>
+<p><img decoding="async" class="aligncenter"
+  alt="Plot of stated same-race preferences"
+  title="Stated same-race preferences, by sex, race, and political ideology." 
+  src="/wp-content/uploads/2014/01/stated_prefs.png" /></p>
+<h4 class="pullquote">
+&#8220;Even those who state they do not have any racial preferences in fact behave as if they do.&#8221;
+</h4>
+<p>One worry with relying on stated preferences is that they may not accurately reflect one&#8217;s true preferences.
+Liberals, for example, may feel guilty about explicitly declaring they prefer a partner of the same race; and men perhaps 
+simply don&#8217;t want to preemptively narrow the pool of candidates. To address this concern, we further examined how 
+people behaved on the site, specifically looking at which member photos users ultimately decided to click on (so that they
+could read that member&#8217;s full profile). Under this behavioral measure, we find that conservatives are still much
+more likely than liberals to click on photos of members who are the same race as them. However, we also find that men and women of all 
+political persuassions, even when they state not to have a race preference, behave as if they do. In particular, 
+across demographic groups, users who claim not to have racial preferences are in fact two to three times as likely to
+click on a member&#8217;s photo if he or she is the same race as them. Finally &#8212; and somewhat surprisingly &#8212; even though men and women
+claim to have very different race preferences, they in fact behave quite similarly, clicking on members of their own race at roughly the same rate.</p>
+<p>So it looks like the folks at <a href="http://en.wikipedia.org/wiki/Avenue_Q">Avenue Q</a> got it at least half right:
+<a href="http://www.youtube.com/watch?v=RovF1zsDoeM">Everybody&#8217;s a little bit racist</a>, but conservatives are a bit more.<sup><a id="RACISM1" href="#RACISM">[3]</a></sup></p>
+<p>For further details, see our forthcoming paper, <em><a href="http://5harad.com/papers/raceprefs.pdf">Political Ideology and Racial Preferences in Online Dating</a></em>.</p>
+<p><br>&nbsp;<br></p>
+<p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
+<h2>Footnotes</h2>
+<p><a id="RELATEDWORK" href="#RELATEDWORK1">[1]</a> See, for example, <a href="http://home.uchicago.edu/~ghitsch/Hitsch-Research/Guenter_Hitsch_files/Mate-Preferences.pdf">What Makes You Click: Mate Preferences in Online Dating</a> by Hitsch, Hortaçsu, and Ariely. <a href="http://qz.com/149342/the-uncomfortable-racial-preferences-revealed-by-online-dating/">Quartz</a> and <a href="http://blog.okcupid.com/index.php/your-race-affects-whether-people-write-you-back/">OkCupid</a> also examined racial preferences in online dating, as reported by <a href="http://www.npr.org/blogs/codeswitch/2013/11/30/247530095/are-you-interested-dating-odds-favor-white-men-asian-women">NPR</a>.</p>
+<p><a id="KELLY" href="#KELLY1">[2]</a> For those who don&#8217;t know, I am indeed married to the blog&#8217;s illustrator, <a href="http://krsavage.com/">Kelly</a>, who happens to be white.</p>
+<p><a id="RACISM" href="#RACISM1">[3]</a> In case it&#8217;s not clear, I&#8217;m joking about the &#8220;racist&#8221; part. People may prefer same-race relationships for reasons as
+diverse as religious beliefs, social or cultural expectations, a sense of shared identity, or race-related physical attributes. Though explicit
+racism is likely also a factor &#8212; as highlighted by the 
+<a href="http://www.nytimes.com/2013/06/01/business/media/cheerios-ad-with-interracial-family-brings-out-internet-hate.html">backlash against Cheerios</a> for airing a commercial featuring an interracial couple &#8212; it is by no means the only one.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/dating/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>1000 Days of User-Visible Improvements</title>
+		<link>/uvi/</link>
+					<comments>/uvi/#comments</comments>
+		
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Wed, 01 Jan 2014 04:57:54 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[akrasia]]></category>
+		<category><![CDATA[beeminder]]></category>
+		<category><![CDATA[commitment devices]]></category>
+		<category><![CDATA[rationality]]></category>
+		<category><![CDATA[startups]]></category>
+		<guid isPermaLink="false">/?p=1692</guid>
+
+					<description><![CDATA[A version of this article appeared on the Beeminder Blog. This is the rest of the story, about how Beeminder bet $1000 on bettering Beeminder every day, then failed and had to actually cough up the $1000 to a lucky user. But only after making 1000 improvements in 1000 days &#8212; something that unambiguously would [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  title="Beeminding Beeminder!"
+  alt="An unfinished / unpolished Beeminder bee, being beeminded."
+  src="/wp-content/uploads/2013/12/new_years_bee.png"/></p>
+<blockquote>
+<p><em>A version of this article appeared on the <a href="http://blog.beeminder.com/uvi">Beeminder Blog</a>.
+  This is the rest of the story, about how Beeminder bet $1000 on bettering Beeminder every day, then failed and had to actually cough up the $1000 to a lucky user.
+  But only after making 1000 improvements in 1000 days &#8212; something that unambiguously would not have happened without said $1000 bet &#8212; so it was totally worth it.</em></p>
+</blockquote>
+<p>When I&#8217;m not writing Messy Matters articles I keep busy being the cofounder/CEO of Beeminder. <a id="TTM1" href="#TTM">[1]</a>
+You may remember Beeminder from such previous Messy Matters articles as 
+&#8220;<a href="/akrasia" title="This article, about akrasia and self-binding (aka commitment devices), was also the inaugural post on the Beeminder blog, laying out Beeminder's behavioral economic approach to motivation">How To Do What You Want</a>&#8221; 
+and
+&#8220;<a href="/flexbind" title="This article chronicles the evolution of Beeminder's approach to akrasia and how to minimize the inherent irrationality of using commitment devices">Flexible Self-Control</a>&#8221;.
+You may also know, from those and other Messy Matters articles, that I take the concept of dogfooding to literally ridiculous extremes. <a id="DOG1" href="#DOG">[2]</a>
+I can&#8217;t seem to work on anything without living and breathing it.</p>
+<p>So of course I beemind the bajeezus out of 
+<a href="http://beeminder.com/" title="Beeminder is goal tracking with teeth and works for any graphable goal. You put in your credit card and agree to get charged if you don't keep all your datapoints on a Yellow Brick Road that we draw on your graph">Beeminder</a>.
+In particular, we have a Beeminder goal to average one User-Visible Improvement (UVI) to Beeminder per day.
+We started it almost three years ago, before we even publicly launched, and put $1000 on the line.
+Last month we hit 1000 UVIs in 1000 days. <a id="KIB1" href="#KIB">[3]</a>
+More on how that turned out shortly.</p>
+<h3>Paul Graham, Joel Spolsky, and Immortality</h3>
+<p>Our inspiration for this was a crazy-sounding claim by Paul Graham in his 2007 essay, 
+<a href="http://www.paulgraham.com/die.html" title="Referring to startups, not people">How Not to Die</a>.
+He points out that if one of his Y Combinator startups is regularly doing new deals and releases and, importantly, sending updates to Graham and colleagues, they&#8217;re probably going to live.</p>
+<p>Then, admitting how naive it sounds, he gets to the crazy part: 
+&#8220;Maybe the linkage works in both directions. Maybe if you can arrange that we keep hearing from you, you won&#8217;t die.&#8221;
+He defends the claim by pointing out that <em>every YC dinner is a kind of deadline</em>.
+&#8220;Staying in regular contact with us will push you to make things happen, because otherwise you&#8217;ll be embarrassed to tell us that you haven&#8217;t done anything new since the last time we talked.&#8221;</p>
+<h4 class="pullquote">Paul Graham: If every startup had such a commitment device the success rate would be 90%.</h4>
+<p>He even quantifies the power of a commitment device like this, using the example of two startup founders who appeared in 
+<a href="http://docs.octopart.com/newsweek_octopart_small.jpg" title="I note that Octopart is indeed still going strong years later">Newsweek</a> 
+with &#8216;the next billionaires&#8217; printed across their chests.
+It would be unthinkably humiliating <a id="HUM1" href="#HUM">[4]</a> for them to fail after that, Graham points out.
+If every startup had such a commitment device the success rate would be 90%, about which Paul Graham emphasizes he&#8217;s not kidding.</p>
+<p>Joel Spolsky 
+<a href="http://www.joelonsoftware.com/articles/fog0000000339.html" title="Fire and Motion">suggests</a> 
+the same probability that an organic growth (as opposed to VC-funded) company that moves forward every day will eventually win, i.e., become a 10 million dollar a year business in 5-10 years.
+We&#8217;re right on <a href="http://beeminder.com/meta/derev" title="Beeminder's daily revenue graph">schedule</a> to do that.</p>
+<h3>Lifehack: Create Your Own Commitment Device</h3>
+<p>If you&#8217;re amenable to a bit of lifehackery, here&#8217;s what you should do to give yourself that same 90% chance of success without Newsweek writing an article about you.
+First, create a public graph <a id="BEE1" href="#BEE">[5]</a> like this:</p>
+<p><img decoding="async" class="aligncenter"
+  title="Up and to the right!"
+  alt="A graph of our public changelog with annotations for notable events"
+  src="http://blog.beeminder.com/wp-content/uploads/2013/11/meta_uvi_annotated.png"/></p>
+<p>Of course it will take over 1000 days for yours to look like that. <a id="MON1" href="#MON">[6]</a>
+The &#8220;eep!&#8221; and &#8220;$1000&#8221; on our graph mean that we&#8217;re skating the edge (as usual) and will 
+<a href="http://blog.beeminder.com/blogdog" title="This is the blog post with the fine print and where you can claim our money by being the first to post a comment outing us as off track on our goal">owe someone</a> 
+$1000 if we don&#8217;t improve Beeminder in some visible way by midnight tonight!</p>
+<p>Once you have a graph like that, let your users know (even if you only have a handful of beta users initially) 
+that you&#8217;re on the hook to announce a User-Visible Improvement (UVI) once a day on average.
+We tweet ours to a special Twitter account &#8212; 
+<a href="http://twitter.com/beemuvi" title="Twitter stream of Beeminder User-Visible Improvements (UVIs)">@beemuvi</a> 
+&#8212; but any public changelog will do.</p>
+<p>Ours have ranged from trivial, e.g.,</p>
+<blockquote>
+<p>&#8220;Added some padding so the Feedback button doesn&#8217;t overlap the text if you make your browser too skinny. HT Judy Soule.&#8221;</p>
+</blockquote>
+<p>to epic, like recently:</p>
+<blockquote>
+<p>&#8220;<a href="https://play.google.com/store/apps/details?id=com.beeminder.beeminder&amp;hl=en">Android App v2.0!</a> Vastly faster &amp; includes a built in timer app for beeminding how much time you spend on things&#8230;&#8221;</p>
+</blockquote>
+<p>You can start with a very unambitious definition of &#8220;improvement&#8221;.
+When we originally 
+<a href="http://blog.beeminder.com/rails" title="Note that that was from 6 months before our public launch">announced</a> 
+our commitment to do this we listed all of the following as things that count:</p>
+<ul>
+<li>New blog posts</li>
+<li>Fixing typos</li>
+<li>Tweaking the layout or the logo or whatever</li>
+<li>Improvements to how the bot responds to emails</li>
+<li>Tweaks to the algorithm for generating the yellow brick road</li>
+<li>Tweets from our main twitter account (<a href="http://twitter.com/bmndr" title="@bmndr is Beeminder's main Twitter account and we use @beemuvi to tweet our User-Visible Improvements">@bmndr</a>)</li>
+<li>Improvements to the log-in procedure or payment processing</li>
+<li>Any new feature or tweak to any feature</li>
+<li>New tips-of-the-day in the email responses from the bot</li>
+</ul>
+<p><img decoding="async" src="/wp-content/uploads/2013/12/uvi-e1388550145827.png" alt="a tiny bee building a big bee" title="this was too sweet an image not to share" style="float:right; padding:0 0 0 15px;" />
+Basically, anything that makes Beeminder better, even in the most tiny, trivial way.
+Over the last 1044 days now, we&#8217;ve gradually gotten more ambitious.
+Fixing typos and adding tips of the day and whatnot don&#8217;t count anymore.
+Bug fixes and CSS tweaks still do.
+And we have a separate graph for blog posts, which you can see in the sidebar (of both the Beeminder blog and Messy Matters), so the original version of this article didn&#8217;t count as a UVI.</p>
+<p>The real criterion is simply anything we&#8217;re not ashamed to publicly announce as our UVI of the day.
+We have (just) enough pride that we&#8217;d rather cough up the $1000 than tweet anything that clearly violates the spirit of the commitment.</p>
+<h3>Signaling Value</h3>
+<p>This has been immensely important for us as a commitment device to stay focused on forward progress, but we&#8217;re extreme in our need for lifehacky tricks like that to keep ourselves on track &#8212; which is why we made Beeminder in the first place, i.e., itch-scratching.
+We&#8217;re entirely serious when we say that Beeminder would not exist if it weren&#8217;t for beeminding Beeminder this way, particularly our UVI goal forcing inexorable forward progress even when we felt demoralized.</p>
+<p>If you think you don&#8217;t need to do this to survive, then, first of all, reread Paul Graham&#8217;s <a href="http://www.paulgraham.com/die.html">How Not to Die</a>.
+Note the part about how demoralizing startups can be.
+&#8220;The low points in a startup are just unbelievably low,&#8221; Graham says. 
+&#8220;I bet even Google had moments where things seemed hopeless.&#8221;</p>
+<p>But even if you don&#8217;t need to play this kind of trick on yourself, there&#8217;s huge value in signaling your commitment to steady progress and improvement.
+Prospective users place a surprising amount of weight on things like &#8220;how long ago was the latest blog post&#8221; and other such heuristics for whether you&#8217;re still in active development. 
+Probably because it&#8217;s so common for startups to peter out despite the front page still being all &#8220;everything&#8217;s great! sign up now!&#8221;
+Watching your public changelog will mean more to your users than you can imagine, and will be persuasive to new users, not to mention making them more tolerant of your foibles.
+They know you&#8217;re getting better every day! <a id="TLB1" href="#TLB">[7]</a></p>
+<p>Even aside from the commitment device (about which more shortly) and the signaling value, our changelog is super handy for looking up what happened when, like when we compose monthly update emails and whatnot.
+Or even for debugging sometimes. 
+In theory we have the git history but that&#8217;s too cumbersome and noisy.</p>
+<h3>Close Calls</h3>
+<p>On our way to 1000 UVIs there were two occasions where we were ready to cough up the $1000, but didn&#8217;t.
+Aside from UVIs, 
+we have in fact
+<a href="http://blog.beeminder.com/blogdog" title="This is the blog post with the fine print and where you can claim our money by being the first to post a comment outing us as off track on our goal">coughed up</a> 
+hundreds of dollars to our users on other meta graphs &#8212; most recently $270 for not getting a blog post out on time, and $90 each for our &#8220;40 hours/week on Beeminder&#8221; goals.
+And I continue to pay up on the <a href="/meta">Messy Matters typo bounty</a>.
+But that&#8217;s all been well under $1000.</p>
+<p>The first close call on our UVI goal was two years ago when we first visited Portland to interview for the 
+<a href="http://blog.beeminder.com/psfdd/" title="Post about our Demo Day presentation -- pretty dated now!">Portland Seed Fund</a>.
+The time zone change threw us off and, although we had deployed an improvement earlier in the day, we forgot to publicly tweet it by official midnight.
+At that point we had few enough salivating users watching like hawks that no one called us out in the 20 minutes or so before we remembered and got the tweet out.
+We would definitely have paid if someone had. <a id="STRICT1" href="#STRICT">[8]</a></p>
+<p>More recently, we deployed our daily UVI and even publicly tweeted it, but forgot to update the actual graph (which we still do manually, but we recommend you set up an 
+<a href="https://ifttt.com/recipes/86058" title="If you've been living under a rock and don't know then let me tell you: IFTTT = If This Then That. It's super useful for automating things on the internet, with no hacking required. This is an example recipe for sending a +1 to a Beeminder graph whenever a new RSS item appears at some feed URL.">IFTTT recipe</a> 
+to auto-update yours!).
+We actually convened a little tribunal to rule on whether we should cough up the $1000 in that case.
+The verdict from our users was no, we&#8217;re subject to the standard grace period for getting data manually entered.
+Phew!</p>
+<h3>Judgment Day</h3>
+<p>In the original version of this article, celebrating the milestone of 1000 UVIs, we said &#8220;at this point, if we do cough up this $1000 it will have been worth it about 100 times over.&#8221;
+Well apparently we jinxed ourselves because guess what happened two weeks later?
+Yes, you guessed correctly.
+But of course, at 98 cents per UVI, it really was a steal!
+Not that we purposefully derailed, or even got especially lackadaisical about it after the original version of this article gushing about how great our UVI commitment is.</p>
+<p>The reason for the derailment was just the confluence of multiple beemergencies, as we call them. 
+Most notably <a href="http://blog.beeminder.com/beedroid">another blog post</a> (both our <a href="http://beeminder.com/meta/blog">Beeminder blogging commitment</a> and our Messy Matters blogging commitment &#8212; see the sidebar &#8212; are themselves up to $800 at stake).
+We had some candidate UVIs written down and I was meaning to discuss them with Bethany (aka Queen Bee, aka our CTO) before we tweeted one.
+But we got wholly distracted by the emergency blog post, coming right down to wire and hitting publish at 23:59:30.
+We even spent another hour improving the post, forgetting all about the UVI beemergency until I saw the fateful blog comment come in, outing us as off track.</p>
+<p>Heightening the sting of this, we had actually deployed one of the UVIs and merely failed to tweet it in time.
+It was tempting to call that close enough.
+But after the previous close call (where we <em>did</em> tweet it in time and just forgot to update the graph in time) we had decided on &#8220;tweeted by midnight&#8221; as the defining criterion for fulfilling the commitment.
+So there was simply no weasel room, and we paid up.</p>
+<p>We also said, when we wrote this article, &#8220;we&#8217;d immediately re-up and keep ourselves on the hook,&#8221; which is what we&#8217;ve done.
+Another $1000 is on the line with nary a day&#8217;s respite!
+Which, we should emphasize, is all far harsher than is the norm for Beeminder, but for this flagship Beeminder goal we like the extreme stringency.</p>
+<p>In any case, we&#8217;ve now paid the $1000 on this, to 
+<a href="http://blog.runbikeco.de/" title="To be clear: not someone we know or have any connection to, just a Beeminder user">Henrik Wist</a>, 
+who was the first one to spot it, per our 
+<a href="http://blog.beeminder.com/blogdog" title="In short: if you spot us off the road on one of the listed meta goals at the midnight deadline then post a comment claiming the pledge.">fine print</a>.</p>
+<p>Even better is what Henrik did with the $1000.
+But I&#8217;ll let Henrik <a href="http://blog.beeminder.com/bikes" title="Spoiler: He donated all the money to charity! And note the part about not paying off some debt -- it's clearly not that $1000 is pocket change to him...">tell that story</a>.</p>
+<h3>Epilog</h3>
+<p>So here I am, getting this article out the door on New Year&#8217;s Eve, lest one of you claim the <a href="/flexbind/" title="Note the '$800 Postscript' and the fine print for claiming my money">$800 that&#8217;s riding</a> on timely Messy Matters posts.
+Maybe I should have a New Year&#8217;s resolution not to come down to the wire like this on blog posts.
+But of course that&#8217;s pure <a href="http://blog.beeminder.com/dip">delusion</a>.
+What I&#8217;ll do instead is keep following my yellow brick roads.</p>
+<p>And what I will resolve to do to avoid spoiling next New Year&#8217;s Eve is, as one of the next 365 User-Visible Improvements to Beeminder, add a feature to customize the midnight deadline.
+Then I can scramble to get my beemergencies dispatched by some reasonable time during the day and party the rest of the night.
+Happy New Year!</p>
+<p><br>&nbsp;<br></p>
+<h2>Related Reading and Links</h2>
+<ul>
+<li>Paul Graham&#8217;s <a href="http://www.paulgraham.com/die.html">How Not to Die</a></li>
+<li>Joel Spolsky&#8217;s <a href="http://www.joelonsoftware.com/articles/fog0000000339.html">Fire and Motion</a>, <a href="http://www.joelonsoftware.com/articles/fog0000000056.html">Strategy Letter I: Ben and Jerry&#8217;s vs. Amazon</a>, and his more recent <a href="http://www.avc.com/a_vc/2012/10/video-of-the-week-joel-spolsky-at-startup-school.html">Startup School talk</a></li>
+<li>Article from the CTO of Parse.ly, <a href="http://thenextweb.com/entrepreneur/2012/10/03/why-startups-die/">Why Startups Die</a> (&#8220;to survive, you must <em>continue moving forward</em>&#8221;)</li>
+<li>Scott Adams (of Dilbert fame) on why <a href="http://online.wsj.com/news/articles/SB10001424052702304626104579121813075903866" title="It's about failing your way to success and how successful people don't just set goals, they set up systems for achieving ever-increasing awesomeness">goals are for losers</a></li>
+<li>Shout out to our friends at <a href="http://serps.com/" title="SERPs is an SEO dashboard">SERPs</a> who are <a href="http://beeminder.com/scottkrager/serpsuvis">beeminding their UVIs</a></li>
+<li><a href="https://news.ycombinator.com/item?id=6782122">Hacker News discussion</a></li>
+</ul>
+<p><br>&nbsp;<br></p>
+<h2>Footnotes</h2>
+<p><font size="-1">
+<a id="TTM" href="#TTM1">[1]</a>
+Fun fact: I&#8217;ve spent <a href="http://beeminder.com/d/mm">605 hours</a> working on Messy Matters and <a href="http://beeminder.com/d/meta">7382 hours</a> working on Beeminder.
+I know this because of <a href="/tagtime">TagTime</a>, on which I&#8217;ve spent <a href="http://beeminder.com/d/tt">486 hours</a>.</p>
+<p><a id="DOG" href="#DOG1">[2]</a>
+Lest you think I&#8217;m exaggerating about taking 
+<a href="http://blog.fogcreek.com/dogfooding-until-it-hurts/" title="">dogfooding</a> 
+to perhaps laughable extremes, check out the Messy Matters guest post 
+(&#8220;<a href="/autonomy" title="Half the point of this article is to make the case for not merging finances with your spouse, but the main reason for that, from our point of view, is to make possible these crazy decision auctions">For Love and/or Money</a>&#8221;) 
+by my spouse and Beeminder cofounder, Bethany Soule.
+I was doing research on principles of fair 
+<a href="/tag/mechanism-design/" title="Collection of Messy Matters articles about mechanism design, including my first article from 2009">mechanism design</a> 
+and wanted to incorporate said mechanisms into my daily life.
+Bethany and I literally still conduct auctions between the two of us for putting our kids to bed and whatnot.</p>
+<p><a id="KIB" href="#KIB1">[3]</a> 
+What Beeminder looked like 1000 UVIs ago, if you promise not to laugh:</p>
+<p><a href="http://blog.beeminder.com/wp-content/uploads/2013/11/kibotzer.png">
+<img decoding="async" class="aligncenter" width="50%"
+  title="Adorable! (If you're us.)"
+  alt="Screenshot of Beeminder.com (then Kibotzer.com) from 1000 days ago"
+  src="http://blog.beeminder.com/wp-content/uploads/2013/11/kibotzer.png"/></a></p>
+<p><a id="HUM" href="#HUM1">[4]</a>
+We&#8217;re not actually a fan of this style of commitment device, though we do have a <a href="http://blog.beeminder.com/competitors" title="Specifically: Aherk">competitor</a> that takes that approach.
+Hollywood teaches us to make grand commitments; real life teaches us that little-and-often wins.
+We find that the motivation of a single event will wear off, that goals change, and that you need <a href="http://blog.beeminder.com/flexbind" title="Flexible Self-Control -- one of our Beeminder manifestos">just the right amount of inflexibility</a>.</p>
+<p><a id="BEE" href="#BEE1">[5]</a>
+The graph itself isn&#8217;t the most important part in this case &#8212; I&#8217;d like to convince you first of all to create a public changelog and commit to changing it, publicly.
+That alone is a commitment device if you have users watching, though surprisingly easy to get behind on, deluding yourself that you&#8217;ll catch back up soon, until it&#8217;s hopeless.
+If you want to <em>really</em> get yourself on the hook and follow our example, <a href="https://www.beeminder.com/users/sign_up" title="You can sign in with the usual suspects, including Github">sign up for Beeminder</a>
+and create a new goal &#8212; a &#8220;Do More&#8221; goal &#8212; committing to one user-visible improvement per day (7 per week, or maybe start with 5 per week, or even just 3 per week to start out &#8212; you can always dial it up later).</p>
+<p><a id="MON" href="#MON1">[6]</a>
+Two clarifications: We don&#8217;t yet have annotations like that. Those were added in post-production. But we&#8217;ll surely have them within 1000 days/UVIs from now!
+And, two, you don&#8217;t have to put $1000 at stake like that off the bat. 
+In fact, you don&#8217;t put any money at stake at first, nor do you ever have to as long as you keep all your datapoints on your Yellow Brick Road.</p>
+<p><a id="TLB" href="#TLB1">[7]</a>
+<a href="http://en.wikipedia.org/wiki/Trevor_Blackwell">Trevor Blackwell</a> comments: &#8220;making the public commitment to your users addresses the #1 (rational) fear of using a startup&#8217;s web app: that it will someday be abandoned and there&#8217;ll be cobwebs everywhere.&#8221;</p>
+<p><a id="STRICT" href="#STRICT1">[8]</a>
+We hold ourselves to a stricter standard for our own meta Beeminder contracts.
+For our users, you can always just tell us that a derailment was due to a technicality and we&#8217;ll believe you and not charge you.
+For ourselves we have some stringent fine print.
+But we should also point out that Beeminder contracts are much less scary than they sound.
+Certainly less so than our esteemed competitor, 
+<a href="http://stickk.com/" title="StickK = put a contract out on yourself, as opposed to Beeminder which is like StickK for data nerds -- Commitment Contracts plus Quantified Self">StickK.com</a>.
+Part of the beauty of Beeminder is that you can reassess your commitment or end it altogether at any time, with a one week delay.
+So you can adjust your goal, but you can&#8217;t change it out of laziness, unless you&#8217;re particularly forward-thinking about your laziness!</p>
+<p></font></p>
+<p><br>&nbsp;<br></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/uvi/feed/</wfw:commentRss>
+			<slash:comments>12</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Popping the Filter Bubble</title>
+		<link>/bubble/</link>
+					<comments>/bubble/#comments</comments>
+		
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Sun, 01 Dec 2013 04:53:39 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[politics]]></category>
+		<category><![CDATA[social networks]]></category>
+		<guid isPermaLink="false">/?p=1687</guid>
+
+					<description><![CDATA[In his provocative TED talk and bestselling book, the progressive internet activist Eli Pariser tells the story of how one day he noticed that the Facebook posts from his politically conservative friends began disappearing from his newsfeed. Pariser traces this phenomenon back to Facebook&#8217;s recommendation algorithms, which looked at the links he clicked, effectively learned [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  alt="Elephants and donkeys in their own bubbles"
+  title="Living in a bubble" 
+  src="/wp-content/uploads/2013/11/bubbles.png" /></p>
+<p>In his provocative <a href="http://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles.html">TED talk</a> and 
+bestselling <a href="http://www.amazon.com/The-Filter-Bubble-Personalized-Changing/dp/0143121235">book</a>, 
+the progressive internet activist <a href="http://en.wikipedia.org/wiki/Eli_Pariser">Eli Pariser</a> tells the story of how one day he noticed that
+the Facebook posts from his politically conservative friends began disappearing from his newsfeed.
+Pariser traces this phenomenon back to Facebook&#8217;s recommendation algorithms, 
+which looked at the links he clicked, effectively learned his left-leaning preferences, and
+accordingly tailored the content presented to him. 
+He goes on to argue that such invisible and insidious personalization creates <em>filter bubbles</em> that narrow our worldview,
+increase ideological segregation, and threaten the foundations of democracy. 
+Pariser is not the only one sounding the alarm.
+<a href="http://en.wikipedia.org/wiki/Cass_Sunstein">Cass Sunstein</a>, 
+the prominent Harvard Law School professor, also <a href="http://press.princeton.edu/titles/7014.html">laments</a>
+the rise of personalization, warning that with customized Facebook feeds, Netflix recommendations, and web search results,
+society is in danger of fragmenting.</p>
+<p>On its surface, the filter bubble theory is compelling. Not only are the arguments by Pariser, Sunstein, and others intuitive and persuasive, a variety 
+of laboratory studies also support the contention.<sup><a id="LABEVIDENCE1" href="#LABEVIDENCE">[1]</a></sup> 
+However, perhaps surprisingly, political polarization in the general U.S. population has been relatively stable for the last several decades,<sup><a id="POLARIZATION1" href="#POLARIZATION">[2]</a></sup> 
+and a casual perusal of popular news sites does not reveal a substantial proportion of niche or extreme political content.
+We are therefore left with a puzzle: How do we reconcile the considerable evidence that suggests current online conditions 
+should promote ideological segregation with the apparent lack of significant fragmentation?</p>
+<p><a href="http://sethrf.com/">Seth Flaxman</a>, <a href="http://www.justinmrao.com/">Justin Rao</a>, and I recently studied this apparent paradox by examining the online 
+news reading habits of 1.2 million (anonymized) individuals, for whom we had a nearly complete record of the webpages 
+they visited during a three-month period earlier this year.
+To measure ideological segregation, we first estimated the <em>conservative share</em> of the most popular news sites, defined to be
+the fraction of each website&#8217;s audience that voted for the Republican candidate in the last presidential election.
+In line with previous rankings, we find that the list ranges from <em>BBC</em> and <em>The New York Times</em> on the left, to <em>Fox News</em> and <em>Newsmax</em> on the right.
+We then measure ideological segregation by computing the average difference in the conservative shares of news outlets visited by two randomly selected individuals. 
+Larger values of this measure indicate that the population is more segregated.</p>
+<h4 class="pullquote">
+&#8220;Though our results are directionally consistent with filter bubble fears, the relative dearth of 
+news stories shared on social media mitigates the overall effect.&#8221;
+</h4>
+<p>The plot below shows estimates of online segregation, computed separately for descriptive news and opinion articles, and also for various consumption channels:
+aggregators (e.g., Google News), direct browsing (i.e., an individual directly navigating to the news site), social media (e.g., Facebook and Twitter), and 
+web search.<sup><a id="NEWS1" href="#NEWS">[3]</a></sup>
+Consistent with filter bubble fears, 
+we find that individuals indeed exhibit higher segregation when reading news articles shared on social media or returned by search engines, 
+a pattern driven by opinion pieces.
+However, as indicated by the sizes of the points, these polarizing 
+opinion articles from social media and web search constitute only 2% of total news consumption,
+with individuals getting the vast majority of their online news by directly visiting their favorite sites.
+As a consequence, the overall level of segregation is relatively moderate (0.11), 
+approximately corresponding to the ideological distance between <em>USA Today</em> and <em>The Washington Post</em>.
+Thus, though our results are directionally consistent with worries that personalization
+spurs ideological segregation, the relative dearth of 
+news stories shared on social media or returned by search engines mitigates the overall filter bubble effect.<sup><a id="PERSONALIZATION1" href="#PERSONALIZATION">[4]</a></sup></p>
+<p><img decoding="async" class="aligncenter"
+  alt="Plot of segregation"
+  title="Segregation for various channels through which news articles are read, for both descriptive news (solid line) and opinion (dotted line). Point sizes indicate the relative fraction of traffic attributed to each source, normalized separately within the news and opinion lines." 
+  src="/wp-content/uploads/2013/11/segregation.png" /></p>
+<p>To be clear, just because this recent wave of personalization has not fractured society, that does not mean that political discourse is thriving online. 
+In particular, we find that most individuals only rarely read articles from the opposite side of their preferred partisan perspective. This echo chamber, however, 
+is not a consequence of algorithmic or implicit customization, but rather results from individuals actively 
+seeking out ideologically similar news sources.</p>
+<p>As to why online social networks are not a dominant means for distributing news, 
+perhaps it&#8217;s because people prefer to use Facebook to share pictures of babies and puppies rather than 
+to engage in serious political debate. Or perhaps it&#8217;s because Justin Bieber takes better <a href="https://twitter.com/glennbeck/status/359162828915081219">selfies than Glenn Beck</a>.
+Regardless, the net effect is that while the technological ingredients for ideological fragmentation are in place &#8212; and indeed impact consumption 
+&#8212; the detrimental consequences of the filter bubble appear to have thus far been largely avoided.
+So at least for now <a href="https://twitter.com/BJMendelson/status/405782615531085825">we can&#8217;t blame the end of the world on Facebook</a>.</p>
+<p>For further details, see our forthcoming paper, <em><a href="http://5harad.com/papers/bubbles.pdf">Ideological Segregation and the Effects of Social Media on News Consumption</a></em>.</p>
+<p><br>&nbsp;<br></p>
+<p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
+<h2>Footnotes</h2>
+<p><a id="LABEVIDENCE" href="#LABEVIDENCE1">[1]</a> See our <a href="http://5harad.com/papers/bubbles.pdf">paper</a> for a review of the literature.</p>
+<p><a id="POLARIZATION" href="#POLARIZATION1">[2]</a> By contrast, <a href="/polarized/">political parties have become more partisan</a>.</p>
+<p><a id="NEWS" href="#NEWS1">[3]</a> We restrict our analysis to articles that would typically appear in the front-section of a traditional newspaper, and in particular, we explicitly 
+filter out sports, entertainment, weather and other topics for which ideological segregation is less meaningful.</p>
+<p><a id="PERSONALIZATION" href="#PERSONALIZATION1">[4]</a> Personalization on social media results from a combination of algorithmic filtering, the relative similarity of social contacts, and explicit decisions to follow like-minded individuals.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/bubble/feed/</wfw:commentRss>
+			<slash:comments>4</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Yootles Postmortem</title>
+		<link>/yootles/</link>
+					<comments>/yootles/#comments</comments>
+		
+		<dc:creator><![CDATA[dreeves]]></dc:creator>
+		<pubDate>Fri, 01 Nov 2013 03:52:24 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[economics]]></category>
+		<category><![CDATA[mechanism design]]></category>
+		<category><![CDATA[prediction]]></category>
+		<category><![CDATA[psychology]]></category>
+		<category><![CDATA[yahoo]]></category>
+		<category><![CDATA[yootles]]></category>
+		<guid isPermaLink="false">/?p=1684</guid>
+
+					<description><![CDATA[I introduced the social currency (or scrip) Yootles in 2006 with the (needless to say, quixotic) goal of changing the social norms about money. We had two specific reasons for an alternative currency: We wanted to run prediction markets and needed a way around anti-gambling laws in the US Many people find the idea of [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  title="Spooooky yoooootles..."
+  alt="Gravestone with 'Yootles RIP May 1, 2006 - August 15, 2009"
+  src="/wp-content/uploads/2013/10/rip_yootles.png"/></p>
+<p>I introduced the social currency (or <a href="http://en.wikipedia.org/wiki/Scrip">scrip</a>) Yootles in 2006 with the (needless to say, quixotic) goal of changing the social norms about money.
+We had two specific reasons for an alternative currency:</p>
+<ol>
+<li>We wanted to run prediction markets and needed a way around anti-gambling laws in the US</li>
+<li>Many people find the idea of using money to solve group decision problems simply <a href="http://hbswk.hbs.edu/item/5615.html" title="Repugnant Markets and How They Get That Way -- interview with Al Roth">repugnant</a></li>
+</ol>
+<p>Aside from those considerations, money is superior in almost every way to more restricted, localized currency or any formal favor-exchange system.
+The more liquidity the better.
+There&#8217;s just one way the disadvantage of illiquidity can be construed as an advantage:
+a complementary currency in a particular community can strengthen community ties by making it more costly to transact outside the community. <a id="ITH1" href="#ITH">[1]</a>
+But that wasn&#8217;t one of my goals.</p>
+<p><a href="http://yootles.com/">Yootles</a>, then, were trying to be money without technically being money.</p>
+<h2>Market Norms vs Social Norms</h2>
+<p>People 
+<a href="http://www.sciencemag.org/cgi/content/abstract/314/5802/1154">treat each other differently</a>
+when 
+<a href="http://www.newscientist.com/article/mg20127001.200-why-money-messes-with-your-mind.html?full=true&amp;print=true">money is involved</a>.
+The supposed conflict between market norms and social norms is illustrated in the now classic example of the 
+<a href="http://rady.ucsd.edu/faculty/directory/gneezy/docs/fine.pdf">Israeli daycare center</a> 
+that instituted a nominal fee for late pickups.
+The fee not only backfired and yielded much greater parental tardiness &#8212; that alone is not surprising since the fee was just too low &#8212; but it couldn&#8217;t be undone by reverting to no fee.
+This led to the claim, popularized by
+<a href="http://danariely.com/the-books/excerpted-from-chapter-4-%E2%80%93-the-cost-of-social-norms/">Dan Ariely</a>,
+that market norms crowd out social norms.</p>
+<p>I disagree with that characterization.
+Here&#8217;s a better one, first proposed, as far as I know, by 
+<a href="http://www.stat.columbia.edu/~jakulin/">Aleks Jakulin</a>.
+When there&#8217;s no price there&#8217;s complicated barter going on where we try to feel each other out and factor in everything we can think of to make sure the optimal (socially efficient) thing happens.
+When there is a price we assume that the price captures all those desiderata.
+That&#8217;s the whole beauty of prices.
+So in the Israeli daycare example it&#8217;s not that you couldn&#8217;t switch back to social norms, 
+it&#8217;s that temporarily putting a low price on being late was tantamount to declaring that being late was not much skin off the daycare provider&#8217;s nose.
+It was that revelation that was not undoable (except by raising the price, of course).</p>
+<h2>The Yootles Agenda</h2>
+<p>I&#8217;m actually baffled by the claimed conflict between market norms and social norms.
+Doesn&#8217;t the ability to make utility transfers just increase the opportunities to help one another and cooperate, and to do so fairly?
+To an economist these things are obvious.
+The one thing you lose is indebtedness, which can help to strengthen weak ties.
+Like if I help you, we then have to wait for or seek a &#8220;next time&#8221; for you to reciprocate.
+This is related to the disadvantage qua advantage of lower liquidity with community currencies.
+But as with illiquidity, I view indebtedness as mostly negative, especially if the social ties in question are either already strong &#8212; the extreme being a married couple &#8212; or nonexistent, as with strangers.</p>
+<h4 class="pullquote">&#8220;I naively thought that with the right interfaces and infrastructure, normal people could be coaxed into thinking like economists.&#8221;</h4>
+<p>So not only don&#8217;t I think that social norms and market norms conflict, I wanted to combine the best of both.
+I naively thought that with the right interfaces and infrastructure, normal people could be coaxed into thinking like economists.
+Social currency, technology-intermediated decision mechanisms and accounting, even <a href="http://hanson.gmu.edu/decisionmarkets.pdf">Hansonian decision markets</a>
+in social settings.</p>
+<h2>Yootles Are Dead, Long Live Yootles</h2>
+<p>Much of what I was trying to do with Yootles &#8212; not least the creation of a new currency &#8212; now seems hopelessly naive.
+Perhaps I&#8217;m just too weird for my own intuitions about potential alternative social institutions to be realistic.
+But Yootles, minus the currency itself, lives on in the Soule-Reeves microeconomy.
+<a href="http://bethaknee.com/">Bethany Soule</a> and I literally pay each other (in dollars) for all manner of parenting activities and to resolve conflicting preferences in household decisions both big and small. 
+We&#8217;ve got what I think is a pretty clever infrastructure &#8212; i.e., verbal and computational protocols &#8212; for making actual accounting almost painless.
+If you want to learn what Yootles turned into, I&#8217;ll let 
+<a href="/autonomy" title="For Love And/Or Money: Financial Autonomy in Marriage">Bethany tell you all about it</a>.</p>
+<p><br>&nbsp;<br></p>
+<h2>Footnotes</h2>
+<p><a id="ITH" href="#ITH1">[1]</a>
+That&#8217;s an explicit goal of <a href="http://en.wikipedia.org/wiki/Ithaca_Hours">Ithaca Hours</a>, for example.
+Proponents of such local currencies cite many other benefits, such as valuing people&#8217;s time equally, but I think they&#8217;re confused about the the underlying economics.</p>
+<p><br>&nbsp;<br></p>
+<p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/yootles/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Forecasting Elections with Dirty Data</title>
+		<link>/biasedpolls/</link>
+					<comments>/biasedpolls/#comments</comments>
+		
+		<dc:creator><![CDATA[Sharad Goel]]></dc:creator>
+		<pubDate>Tue, 01 Oct 2013 03:54:21 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[elections]]></category>
+		<category><![CDATA[forecasting]]></category>
+		<category><![CDATA[xbox]]></category>
+		<guid isPermaLink="false">/?p=1678</guid>
+
+					<description><![CDATA[During the 1936 U.S. presidential campaign, the popular magazine Literary Digest conducted a mail-in election poll that attracted over two million responses, a huge sample even by today&#8217;s standards. Unfortunately for them, size isn&#8217;t the only thing that matters. Literary Digest notoriously and erroneously predicted a landslide victory for Republican candidate Alf Landon. In reality, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class="aligncenter"
+  alt="Anthropomorphized statistics rebalancing a scale with masses of men on one side and a lone female on the other"
+  title="Balancing the scales with statistics" 
+  src="/wp-content/uploads/2013/09/balance.png" /></p>
+<p>During the 1936 U.S. presidential campaign, the popular magazine <em>Literary Digest</em> conducted a mail-in election poll that attracted over two million responses, a huge sample even by today&#8217;s standards. 
+Unfortunately for them, size isn&#8217;t the only thing that matters. 
+<em>Literary Digest</em> notoriously and erroneously predicted a landslide victory for Republican candidate Alf Landon. 
+In reality, the incumbent Franklin D. Roosevelt 
+<a href="http://en.wikipedia.org/wiki/United_States_presidential_election,_1936">decisively won the election</a>, with a whopping 98.5% of the electoral vote, carrying every state except for Maine and Vermont.
+So what went wrong? 
+As has since been pointed out, the magazine&#8217;s forecast was based on a highly non-representative sample of the electorate &#8212; mostly car and telephone owners,  as well as the magazine&#8217;s own subscribers &#8212; which underrepresented Roosevelt&#8217;s core constituencies. 
+By contrast, pioneering pollsters, including George Gallup, Archibald Crossley, and Elmo Roper, used considerably smaller but representative samples to predict the election outcome with reasonable accuracy. 
+This triumph of brains over brawn effectively marked the end of convenience sampling, and ushered in the age of modern election polling.</p>
+<p>A lot has happened since 1936 and the subsequent golden years for representative polling.
+Response rates for so-called <em>random digit dial</em> telephone surveys &#8212; the work horse of representative sampling &#8212; have 
+<a href="http://www.marketingcharts.com/wp/direct/telephone-survey-response-rates-dropping-accuracy-remains-high-22107/">plummeted into the single digits</a>, 
+ostensibly because the novelty of talking to pollsters and telemarketers has worn off, and the technical means to filter out unwanted calls have proliferated. 
+As a result, it&#8217;s increasingly difficult and expensive to reach a representative sample of likely voters. 
+At the same time, online, opt-in surveys have made it feasible to poll large numbers of people at relatively low cost.
+The caveat, of course, is that such online surveys attract a highly non-representative crowd, reminiscent of the <em>Literary Digest</em> debacle.</p>
+<p>To better understand the benefits and limitations of non-representative polling, 
+<a href="http://weiwang.name/">Wei Wang</a>, 
+<a href="http://researchdmr.com/">David Rothschild</a>, 
+<a href="http://www.stat.columbia.edu/~gelman/">Andrew Gelman</a> 
+and I recently <a href="http://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf">tried our hand</a> at forecasting elections with a highly unconventional set of poll responses.<sup><a id="FORECASTING1" href="#FORECASTING">[1]</a></sup> 
+During the 45 days leading up to the 2012 U.S. presidential election, David ran an opt-in, daily online poll on the Xbox gaming platform, asking people which presidential candidate they supported (Obama or Romney), as well as basic demographic information about themselves.
+The poll garnered over 750,000 responses, but the respondents were far from representative of the electorate. 
+In particular, only 7% of responses were from women. 
+Eager not to repeat statistics history, we used one of 
+<a href="http://andrewgelman.com/2009/05/24/handy_statistic/">Andrew&#8217;s tools of choice</a>, 
+Multilevel Regression and Poststratification, or 
+<a href="http://www.stat.columbia.edu/~gelman/research/published/misterp.pdf">Mr. P</a> for short, to correct for the extreme demographic skew of our sample.
+The idea behind Mr. P is to first partition the population into thousands of demographic cells.
+For example, one such cell might correspond to 18-29 year-old, white Republican women living in California. 
+We then use the sample to estimate candidate support within each cell. 
+Since many of the cells are sparse &#8212; or even empty &#8212; we use <em><a href="http://www.stat.columbia.edu/~gelman/arm/">multilevel regression</a></em>, which improves estimates by effectively borrowing strength from demographically similar cells. 
+Finally, in the poststratification step, the cell-level estimates are aggregated by weighting each cell by its (estimated) proportion in the electorate.<sup><a id="VOTERS1" href="#VOTERS">[2]</a></sup></p>
+<h4 class="pullquote">&#8220;With proper statistical adjustment, non-representative polls yield accurate election forecasts, on par with predictions based on traditional representative sampling.&#8221;</h4>
+<p>The two graphs below show a sampling of our results. 
+The first one plots estimates of Obama support over the last 45 days of the campaign for the 12 states with the most electoral votes. 
+The red line shows the Mr. P adjusted Xbox estimates (with a 95% confidence band), 
+the blue line shows estimates from <a href="http://elections.huffingtonpost.com/pollster/2012-general-election-romney-vs-obama">Pollster</a>
+(one of the leading sources for election forecasts, based on traditional polling), 
+the dotted horizontal line indicates the ultimate election outcomes, and the three dotted vertical lines correspond to the presidential debates. 
+Though it&#8217;s difficult, if not impossible, to definitively assess accuracy in the weeks or months before election day, the Xbox estimates are broadly consistent with Pollster.
+Moreover, on the day before the election, across the 51 electoral college races, the Xbox estimates are on average less than 2 percentage points off from the eventual outcomes. 
+Thus, it seems that with proper statistical adjustment, non-representative polls yield accurate election forecasts, on par with predictions based on traditional representative sampling.</p>
+<p><a href="/wp-content/uploads/2013/09/mrp_snapshots_state.png"><img decoding="async" class="aligncenter"
+  alt="Plots showing that the statistically adjusted Xbox estimates are broadly consistent with estimates from traditional polls"
+  title="The statistically adjusted Xbox estimates are broadly consistent with estimates from traditional polls." 
+  src="/wp-content/uploads/2013/09/mrp_snapshots_state.png" /></a></p>
+<p>It&#8217;s nice and perhaps surprising that we can use highly skewed data to estimate state-level outcomes. 
+But what about other subpopulations?
+Can we estimate the views of older women, for example, on a platform that caters to young men?
+The figure below addresses this question, plotting estimates of Obama support for all two-dimensional demographic subgroups 
+(e.g., 18-29 year-old Hispanics, and liberal college graduates) obtained from Xbox the day before the election, and from the exit polls, which proxy for the ground truth.
+The Xbox estimates are remarkably similar to those from the exit polls. 
+In particular, for women who are 65 and older &#8212; a group whose preferences one might a priori believe are hard to estimate from the Xbox data &#8212; the difference between Xbox and the exit polls is a mere one percentage point.</p>
+<p><img decoding="async" class="aligncenter"
+  alt="Graph comparing estimates of voter intent for various two-dimensional demographic groups, as inferred via Xbox data and the exit polls."
+  title="Estimates of voter intent for various two-dimensional demographic groups, as inferred via Xbox data and the exit polls."
+  width="400px"
+  src="/wp-content/uploads/2013/09/demo_groups_two_way_interaction.png"/></p>
+<p>Non-representative polls offer the potential for fast, cheap, and accurate estimates, and with ever declining response rates for traditional polls, we may soon have no other choice.
+75 years after the <em>Literary Digest</em> failure, non-representative polling &#8212; with appropriate statistical adjustments &#8212; is due for a second act.</p>
+<p>For further details, see our forthcoming paper, <em><a href="http://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf">Forecasting Elections with Non-Representative Polls</a></em>.</p>
+<p><br>&nbsp;<br></p>
+<p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
+<h2>Footnotes</h2>
+<p><a id="FORECASTING" href="#FORECASTING1">[1]</a> Since we analyzed the data after the 2012 election was over, we did not technically make forecasts. But I swear we didn&#8217;t cheat!</p>
+<p><a id="VOTERS" href="#VOTERS1">[2]</a> Estimating the composition of likely voters is itself a difficult task. 
+For transparency, simplicity, and replicability, we assume the composition of the 2012 electorate mirrors that of the 2008 electorate, as estimated via exit polls.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/biasedpolls/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
