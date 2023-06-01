@@ -1,0 +1,2221 @@
+routes:
+  - type: redirect
+    source: /a
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-p
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-pl
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-plu
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-plus
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-plus-
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-plus-u
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /ai-plus-ui
+    destination: /ai-plus-ui
+  - type: redirect
+    source: /a
+    destination: /airbnb
+  - type: redirect
+    source: /ai
+    destination: /airbnb
+  - type: redirect
+    source: /air
+    destination: /airbnb
+  - type: redirect
+    source: /airb
+    destination: /airbnb
+  - type: redirect
+    source: /airbn
+    destination: /airbnb
+  - type: redirect
+    source: /airbnb
+    destination: /airbnb
+  - type: redirect
+    source: /a
+    destination: /akrasia
+  - type: redirect
+    source: /ak
+    destination: /akrasia
+  - type: redirect
+    source: /akr
+    destination: /akrasia
+  - type: redirect
+    source: /akra
+    destination: /akrasia
+  - type: redirect
+    source: /akras
+    destination: /akrasia
+  - type: redirect
+    source: /akrasi
+    destination: /akrasia
+  - type: redirect
+    source: /akrasia
+    destination: /akrasia
+  - type: redirect
+    source: /a
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /an
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /ana
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anat
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anato
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatom
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-o
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-t
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-th
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-l
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-lo
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-lon
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-long
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-long-
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-long-t
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-long-ta
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-long-tai
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /anatomy-of-the-long-tail
+    destination: /anatomy-of-the-long-tail
+  - type: redirect
+    source: /a
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /an
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /ano
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anon
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anony
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonym
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymo
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymou
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-s
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-so
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sou
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sour
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sourc
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-source
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-a
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-t
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-th
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-n
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-ne
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-y
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-yo
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-yor
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-york
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-york-
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-york-t
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-york-ti
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-york-tim
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-york-time
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /anonymous-sources-at-the-new-york-times
+    destination: /anonymous-sources-at-the-new-york-times
+  - type: redirect
+    source: /a
+    destination: /autonomy
+  - type: redirect
+    source: /au
+    destination: /autonomy
+  - type: redirect
+    source: /aut
+    destination: /autonomy
+  - type: redirect
+    source: /auto
+    destination: /autonomy
+  - type: redirect
+    source: /auton
+    destination: /autonomy
+  - type: redirect
+    source: /autono
+    destination: /autonomy
+  - type: redirect
+    source: /autonom
+    destination: /autonomy
+  - type: redirect
+    source: /autonomy
+    destination: /autonomy
+  - type: redirect
+    source: /b
+    destination: /babygoog
+  - type: redirect
+    source: /ba
+    destination: /babygoog
+  - type: redirect
+    source: /bab
+    destination: /babygoog
+  - type: redirect
+    source: /baby
+    destination: /babygoog
+  - type: redirect
+    source: /babyg
+    destination: /babygoog
+  - type: redirect
+    source: /babygo
+    destination: /babygoog
+  - type: redirect
+    source: /babygoo
+    destination: /babygoog
+  - type: redirect
+    source: /babygoog
+    destination: /babygoog
+  - type: redirect
+    source: /b
+    destination: /biasedpolls
+  - type: redirect
+    source: /bi
+    destination: /biasedpolls
+  - type: redirect
+    source: /bia
+    destination: /biasedpolls
+  - type: redirect
+    source: /bias
+    destination: /biasedpolls
+  - type: redirect
+    source: /biase
+    destination: /biasedpolls
+  - type: redirect
+    source: /biased
+    destination: /biasedpolls
+  - type: redirect
+    source: /biasedp
+    destination: /biasedpolls
+  - type: redirect
+    source: /biasedpo
+    destination: /biasedpolls
+  - type: redirect
+    source: /biasedpol
+    destination: /biasedpolls
+  - type: redirect
+    source: /biasedpoll
+    destination: /biasedpolls
+  - type: redirect
+    source: /biasedpolls
+    destination: /biasedpolls
+  - type: redirect
+    source: /b
+    destination: /birdshop
+  - type: redirect
+    source: /bi
+    destination: /birdshop
+  - type: redirect
+    source: /bir
+    destination: /birdshop
+  - type: redirect
+    source: /bird
+    destination: /birdshop
+  - type: redirect
+    source: /birds
+    destination: /birdshop
+  - type: redirect
+    source: /birdsh
+    destination: /birdshop
+  - type: redirect
+    source: /birdsho
+    destination: /birdshop
+  - type: redirect
+    source: /birdshop
+    destination: /birdshop
+  - type: redirect
+    source: /b
+    destination: /bubble
+  - type: redirect
+    source: /bu
+    destination: /bubble
+  - type: redirect
+    source: /bub
+    destination: /bubble
+  - type: redirect
+    source: /bubb
+    destination: /bubble
+  - type: redirect
+    source: /bubbl
+    destination: /bubble
+  - type: redirect
+    source: /bubble
+    destination: /bubble
+  - type: redirect
+    source: /b
+    destination: /buyrent
+  - type: redirect
+    source: /bu
+    destination: /buyrent
+  - type: redirect
+    source: /buy
+    destination: /buyrent
+  - type: redirect
+    source: /buyr
+    destination: /buyrent
+  - type: redirect
+    source: /buyre
+    destination: /buyrent
+  - type: redirect
+    source: /buyren
+    destination: /buyrent
+  - type: redirect
+    source: /buyrent
+    destination: /buyrent
+  - type: redirect
+    source: /c
+    destination: /calib-quiz
+  - type: redirect
+    source: /ca
+    destination: /calib-quiz
+  - type: redirect
+    source: /cal
+    destination: /calib-quiz
+  - type: redirect
+    source: /cali
+    destination: /calib-quiz
+  - type: redirect
+    source: /calib
+    destination: /calib-quiz
+  - type: redirect
+    source: /calib-
+    destination: /calib-quiz
+  - type: redirect
+    source: /calib-q
+    destination: /calib-quiz
+  - type: redirect
+    source: /calib-qu
+    destination: /calib-quiz
+  - type: redirect
+    source: /calib-qui
+    destination: /calib-quiz
+  - type: redirect
+    source: /calib-quiz
+    destination: /calib-quiz
+  - type: redirect
+    source: /c
+    destination: /calibration
+  - type: redirect
+    source: /ca
+    destination: /calibration
+  - type: redirect
+    source: /cal
+    destination: /calibration
+  - type: redirect
+    source: /cali
+    destination: /calibration
+  - type: redirect
+    source: /calib
+    destination: /calibration
+  - type: redirect
+    source: /calibr
+    destination: /calibration
+  - type: redirect
+    source: /calibra
+    destination: /calibration
+  - type: redirect
+    source: /calibrat
+    destination: /calibration
+  - type: redirect
+    source: /calibrati
+    destination: /calibration
+  - type: redirect
+    source: /calibratio
+    destination: /calibration
+  - type: redirect
+    source: /calibration
+    destination: /calibration
+  - type: redirect
+    source: /c
+    destination: /calibration-results
+  - type: redirect
+    source: /ca
+    destination: /calibration-results
+  - type: redirect
+    source: /cal
+    destination: /calibration-results
+  - type: redirect
+    source: /cali
+    destination: /calibration-results
+  - type: redirect
+    source: /calib
+    destination: /calibration-results
+  - type: redirect
+    source: /calibr
+    destination: /calibration-results
+  - type: redirect
+    source: /calibra
+    destination: /calibration-results
+  - type: redirect
+    source: /calibrat
+    destination: /calibration-results
+  - type: redirect
+    source: /calibrati
+    destination: /calibration-results
+  - type: redirect
+    source: /calibratio
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-r
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-re
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-res
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-resu
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-resul
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-result
+    destination: /calibration-results
+  - type: redirect
+    source: /calibration-results
+    destination: /calibration-results
+  - type: redirect
+    source: /c
+    destination: /category
+  - type: redirect
+    source: /ca
+    destination: /category
+  - type: redirect
+    source: /cat
+    destination: /category
+  - type: redirect
+    source: /cate
+    destination: /category
+  - type: redirect
+    source: /categ
+    destination: /category
+  - type: redirect
+    source: /catego
+    destination: /category
+  - type: redirect
+    source: /categor
+    destination: /category
+  - type: redirect
+    source: /category
+    destination: /category
+  - type: redirect
+    source: /c
+    destination: /centmail
+  - type: redirect
+    source: /ce
+    destination: /centmail
+  - type: redirect
+    source: /cen
+    destination: /centmail
+  - type: redirect
+    source: /cent
+    destination: /centmail
+  - type: redirect
+    source: /centm
+    destination: /centmail
+  - type: redirect
+    source: /centma
+    destination: /centmail
+  - type: redirect
+    source: /centmai
+    destination: /centmail
+  - type: redirect
+    source: /centmail
+    destination: /centmail
+  - type: redirect
+    source: /c
+    destination: /citysearch
+  - type: redirect
+    source: /ci
+    destination: /citysearch
+  - type: redirect
+    source: /cit
+    destination: /citysearch
+  - type: redirect
+    source: /city
+    destination: /citysearch
+  - type: redirect
+    source: /citys
+    destination: /citysearch
+  - type: redirect
+    source: /cityse
+    destination: /citysearch
+  - type: redirect
+    source: /citysea
+    destination: /citysearch
+  - type: redirect
+    source: /citysear
+    destination: /citysearch
+  - type: redirect
+    source: /citysearc
+    destination: /citysearch
+  - type: redirect
+    source: /citysearch
+    destination: /citysearch
+  - type: redirect
+    source: /d
+    destination: /dating
+  - type: redirect
+    source: /da
+    destination: /dating
+  - type: redirect
+    source: /dat
+    destination: /dating
+  - type: redirect
+    source: /dati
+    destination: /dating
+  - type: redirect
+    source: /datin
+    destination: /dating
+  - type: redirect
+    source: /dating
+    destination: /dating
+  - type: redirect
+    source: /d
+    destination: /deadlines
+  - type: redirect
+    source: /de
+    destination: /deadlines
+  - type: redirect
+    source: /dea
+    destination: /deadlines
+  - type: redirect
+    source: /dead
+    destination: /deadlines
+  - type: redirect
+    source: /deadl
+    destination: /deadlines
+  - type: redirect
+    source: /deadli
+    destination: /deadlines
+  - type: redirect
+    source: /deadlin
+    destination: /deadlines
+  - type: redirect
+    source: /deadline
+    destination: /deadlines
+  - type: redirect
+    source: /deadlines
+    destination: /deadlines
+  - type: redirect
+    source: /d
+    destination: /dst
+  - type: redirect
+    source: /ds
+    destination: /dst
+  - type: redirect
+    source: /dst
+    destination: /dst
+  - type: redirect
+    source: /e
+    destination: /email
+  - type: redirect
+    source: /em
+    destination: /email
+  - type: redirect
+    source: /ema
+    destination: /email
+  - type: redirect
+    source: /emai
+    destination: /email
+  - type: redirect
+    source: /email
+    destination: /email
+  - type: redirect
+    source: /e
+    destination: /expectorant
+  - type: redirect
+    source: /ex
+    destination: /expectorant
+  - type: redirect
+    source: /exp
+    destination: /expectorant
+  - type: redirect
+    source: /expe
+    destination: /expectorant
+  - type: redirect
+    source: /expec
+    destination: /expectorant
+  - type: redirect
+    source: /expect
+    destination: /expectorant
+  - type: redirect
+    source: /expecto
+    destination: /expectorant
+  - type: redirect
+    source: /expector
+    destination: /expectorant
+  - type: redirect
+    source: /expectora
+    destination: /expectorant
+  - type: redirect
+    source: /expectoran
+    destination: /expectorant
+  - type: redirect
+    source: /expectorant
+    destination: /expectorant
+  - type: redirect
+    source: /f
+    destination: /feed
+  - type: redirect
+    source: /fe
+    destination: /feed
+  - type: redirect
+    source: /fee
+    destination: /feed
+  - type: redirect
+    source: /feed
+    destination: /feed
+  - type: redirect
+    source: /f
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /fi
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /fin
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /find
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /findi
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /findin
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-t
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-th
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-m
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-ma
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-mar
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-mark
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-marke
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market-
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market-b
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market-bo
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market-bot
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market-bott
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market-botto
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /finding-the-market-bottom
+    destination: /finding-the-market-bottom
+  - type: redirect
+    source: /f
+    destination: /flexbind
+  - type: redirect
+    source: /fl
+    destination: /flexbind
+  - type: redirect
+    source: /fle
+    destination: /flexbind
+  - type: redirect
+    source: /flex
+    destination: /flexbind
+  - type: redirect
+    source: /flexb
+    destination: /flexbind
+  - type: redirect
+    source: /flexbi
+    destination: /flexbind
+  - type: redirect
+    source: /flexbin
+    destination: /flexbind
+  - type: redirect
+    source: /flexbind
+    destination: /flexbind
+  - type: redirect
+    source: /f
+    destination: /friendsense
+  - type: redirect
+    source: /fr
+    destination: /friendsense
+  - type: redirect
+    source: /fri
+    destination: /friendsense
+  - type: redirect
+    source: /frie
+    destination: /friendsense
+  - type: redirect
+    source: /frien
+    destination: /friendsense
+  - type: redirect
+    source: /friend
+    destination: /friendsense
+  - type: redirect
+    source: /friends
+    destination: /friendsense
+  - type: redirect
+    source: /friendse
+    destination: /friendsense
+  - type: redirect
+    source: /friendsen
+    destination: /friendsense
+  - type: redirect
+    source: /friendsens
+    destination: /friendsense
+  - type: redirect
+    source: /friendsense
+    destination: /friendsense
+  - type: redirect
+    source: /g
+    destination: /gas
+  - type: redirect
+    source: /ga
+    destination: /gas
+  - type: redirect
+    source: /gas
+    destination: /gas
+  - type: redirect
+    source: /g
+    destination: /glass
+  - type: redirect
+    source: /gl
+    destination: /glass
+  - type: redirect
+    source: /gla
+    destination: /glass
+  - type: redirect
+    source: /glas
+    destination: /glass
+  - type: redirect
+    source: /glass
+    destination: /glass
+  - type: redirect
+    source: /h
+    destination: /horse
+  - type: redirect
+    source: /ho
+    destination: /horse
+  - type: redirect
+    source: /hor
+    destination: /horse
+  - type: redirect
+    source: /hors
+    destination: /horse
+  - type: redirect
+    source: /horse
+    destination: /horse
+  - type: redirect
+    source: /i
+    destination: /insurance
+  - type: redirect
+    source: /in
+    destination: /insurance
+  - type: redirect
+    source: /ins
+    destination: /insurance
+  - type: redirect
+    source: /insu
+    destination: /insurance
+  - type: redirect
+    source: /insur
+    destination: /insurance
+  - type: redirect
+    source: /insura
+    destination: /insurance
+  - type: redirect
+    source: /insuran
+    destination: /insurance
+  - type: redirect
+    source: /insuranc
+    destination: /insurance
+  - type: redirect
+    source: /insurance
+    destination: /insurance
+  - type: redirect
+    source: /l
+    destination: /landlords
+  - type: redirect
+    source: /la
+    destination: /landlords
+  - type: redirect
+    source: /lan
+    destination: /landlords
+  - type: redirect
+    source: /land
+    destination: /landlords
+  - type: redirect
+    source: /landl
+    destination: /landlords
+  - type: redirect
+    source: /landlo
+    destination: /landlords
+  - type: redirect
+    source: /landlor
+    destination: /landlords
+  - type: redirect
+    source: /landlord
+    destination: /landlords
+  - type: redirect
+    source: /landlords
+    destination: /landlords
+  - type: redirect
+    source: /l
+    destination: /lies
+  - type: redirect
+    source: /li
+    destination: /lies
+  - type: redirect
+    source: /lie
+    destination: /lies
+  - type: redirect
+    source: /lies
+    destination: /lies
+  - type: redirect
+    source: /m
+    destination: /meta
+  - type: redirect
+    source: /me
+    destination: /meta
+  - type: redirect
+    source: /met
+    destination: /meta
+  - type: redirect
+    source: /meta
+    destination: /meta
+  - type: redirect
+    source: /m
+    destination: /metapoll
+  - type: redirect
+    source: /me
+    destination: /metapoll
+  - type: redirect
+    source: /met
+    destination: /metapoll
+  - type: redirect
+    source: /meta
+    destination: /metapoll
+  - type: redirect
+    source: /metap
+    destination: /metapoll
+  - type: redirect
+    source: /metapo
+    destination: /metapoll
+  - type: redirect
+    source: /metapol
+    destination: /metapoll
+  - type: redirect
+    source: /metapoll
+    destination: /metapoll
+  - type: redirect
+    source: /m
+    destination: /metopera
+  - type: redirect
+    source: /me
+    destination: /metopera
+  - type: redirect
+    source: /met
+    destination: /metopera
+  - type: redirect
+    source: /meto
+    destination: /metopera
+  - type: redirect
+    source: /metop
+    destination: /metopera
+  - type: redirect
+    source: /metope
+    destination: /metopera
+  - type: redirect
+    source: /metoper
+    destination: /metopera
+  - type: redirect
+    source: /metopera
+    destination: /metopera
+  - type: redirect
+    source: /m
+    destination: /misleading-means
+  - type: redirect
+    source: /mi
+    destination: /misleading-means
+  - type: redirect
+    source: /mis
+    destination: /misleading-means
+  - type: redirect
+    source: /misl
+    destination: /misleading-means
+  - type: redirect
+    source: /misle
+    destination: /misleading-means
+  - type: redirect
+    source: /mislea
+    destination: /misleading-means
+  - type: redirect
+    source: /mislead
+    destination: /misleading-means
+  - type: redirect
+    source: /misleadi
+    destination: /misleading-means
+  - type: redirect
+    source: /misleadin
+    destination: /misleading-means
+  - type: redirect
+    source: /misleading
+    destination: /misleading-means
+  - type: redirect
+    source: /misleading-
+    destination: /misleading-means
+  - type: redirect
+    source: /misleading-m
+    destination: /misleading-means
+  - type: redirect
+    source: /misleading-me
+    destination: /misleading-means
+  - type: redirect
+    source: /misleading-mea
+    destination: /misleading-means
+  - type: redirect
+    source: /misleading-mean
+    destination: /misleading-means
+  - type: redirect
+    source: /misleading-means
+    destination: /misleading-means
+  - type: redirect
+    source: /m
+    destination: /mktbottom
+  - type: redirect
+    source: /mk
+    destination: /mktbottom
+  - type: redirect
+    source: /mkt
+    destination: /mktbottom
+  - type: redirect
+    source: /mktb
+    destination: /mktbottom
+  - type: redirect
+    source: /mktbo
+    destination: /mktbottom
+  - type: redirect
+    source: /mktbot
+    destination: /mktbottom
+  - type: redirect
+    source: /mktbott
+    destination: /mktbottom
+  - type: redirect
+    source: /mktbotto
+    destination: /mktbottom
+  - type: redirect
+    source: /mktbottom
+    destination: /mktbottom
+  - type: redirect
+    source: /m
+    destination: /moneyball
+  - type: redirect
+    source: /mo
+    destination: /moneyball
+  - type: redirect
+    source: /mon
+    destination: /moneyball
+  - type: redirect
+    source: /mone
+    destination: /moneyball
+  - type: redirect
+    source: /money
+    destination: /moneyball
+  - type: redirect
+    source: /moneyb
+    destination: /moneyball
+  - type: redirect
+    source: /moneyba
+    destination: /moneyball
+  - type: redirect
+    source: /moneybal
+    destination: /moneyball
+  - type: redirect
+    source: /moneyball
+    destination: /moneyball
+  - type: redirect
+    source: /n
+    destination: /nominology
+  - type: redirect
+    source: /no
+    destination: /nominology
+  - type: redirect
+    source: /nom
+    destination: /nominology
+  - type: redirect
+    source: /nomi
+    destination: /nominology
+  - type: redirect
+    source: /nomin
+    destination: /nominology
+  - type: redirect
+    source: /nomino
+    destination: /nominology
+  - type: redirect
+    source: /nominol
+    destination: /nominology
+  - type: redirect
+    source: /nominolo
+    destination: /nominology
+  - type: redirect
+    source: /nominolog
+    destination: /nominology
+  - type: redirect
+    source: /nominology
+    destination: /nominology
+  - type: redirect
+    source: /o
+    destination: /olympics
+  - type: redirect
+    source: /ol
+    destination: /olympics
+  - type: redirect
+    source: /oly
+    destination: /olympics
+  - type: redirect
+    source: /olym
+    destination: /olympics
+  - type: redirect
+    source: /olymp
+    destination: /olympics
+  - type: redirect
+    source: /olympi
+    destination: /olympics
+  - type: redirect
+    source: /olympic
+    destination: /olympics
+  - type: redirect
+    source: /olympics
+    destination: /olympics
+  - type: redirect
+    source: /o
+    destination: /outloud
+  - type: redirect
+    source: /ou
+    destination: /outloud
+  - type: redirect
+    source: /out
+    destination: /outloud
+  - type: redirect
+    source: /outl
+    destination: /outloud
+  - type: redirect
+    source: /outlo
+    destination: /outloud
+  - type: redirect
+    source: /outlou
+    destination: /outloud
+  - type: redirect
+    source: /outloud
+    destination: /outloud
+  - type: redirect
+    source: /p
+    destination: /page
+  - type: redirect
+    source: /pa
+    destination: /page
+  - type: redirect
+    source: /pag
+    destination: /page
+  - type: redirect
+    source: /page
+    destination: /page
+  - type: redirect
+    source: /p
+    destination: /pgnames
+  - type: redirect
+    source: /pg
+    destination: /pgnames
+  - type: redirect
+    source: /pgn
+    destination: /pgnames
+  - type: redirect
+    source: /pgna
+    destination: /pgnames
+  - type: redirect
+    source: /pgnam
+    destination: /pgnames
+  - type: redirect
+    source: /pgname
+    destination: /pgnames
+  - type: redirect
+    source: /pgnames
+    destination: /pgnames
+  - type: redirect
+    source: /p
+    destination: /polarized
+  - type: redirect
+    source: /po
+    destination: /polarized
+  - type: redirect
+    source: /pol
+    destination: /polarized
+  - type: redirect
+    source: /pola
+    destination: /polarized
+  - type: redirect
+    source: /polar
+    destination: /polarized
+  - type: redirect
+    source: /polari
+    destination: /polarized
+  - type: redirect
+    source: /polariz
+    destination: /polarized
+  - type: redirect
+    source: /polarize
+    destination: /polarized
+  - type: redirect
+    source: /polarized
+    destination: /polarized
+  - type: redirect
+    source: /p
+    destination: /powerlaws
+  - type: redirect
+    source: /po
+    destination: /powerlaws
+  - type: redirect
+    source: /pow
+    destination: /powerlaws
+  - type: redirect
+    source: /powe
+    destination: /powerlaws
+  - type: redirect
+    source: /power
+    destination: /powerlaws
+  - type: redirect
+    source: /powerl
+    destination: /powerlaws
+  - type: redirect
+    source: /powerla
+    destination: /powerlaws
+  - type: redirect
+    source: /powerlaw
+    destination: /powerlaws
+  - type: redirect
+    source: /powerlaws
+    destination: /powerlaws
+  - type: redirect
+    source: /p
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /pr
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /pre
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /pred
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /predi
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /predic
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /predict
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /predicti
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /predictio
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-w
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-wi
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-wit
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-with
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-witho
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-withou
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-m
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-ma
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-mar
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-mark
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-marke
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-market
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /prediction-without-markets
+    destination: /prediction-without-markets
+  - type: redirect
+    source: /p
+    destination: /predmarkets
+  - type: redirect
+    source: /pr
+    destination: /predmarkets
+  - type: redirect
+    source: /pre
+    destination: /predmarkets
+  - type: redirect
+    source: /pred
+    destination: /predmarkets
+  - type: redirect
+    source: /predm
+    destination: /predmarkets
+  - type: redirect
+    source: /predma
+    destination: /predmarkets
+  - type: redirect
+    source: /predmar
+    destination: /predmarkets
+  - type: redirect
+    source: /predmark
+    destination: /predmarkets
+  - type: redirect
+    source: /predmarke
+    destination: /predmarkets
+  - type: redirect
+    source: /predmarket
+    destination: /predmarkets
+  - type: redirect
+    source: /predmarkets
+    destination: /predmarkets
+  - type: redirect
+    source: /r
+    destination: /rape
+  - type: redirect
+    source: /ra
+    destination: /rape
+  - type: redirect
+    source: /rap
+    destination: /rape
+  - type: redirect
+    source: /rape
+    destination: /rape
+  - type: redirect
+    source: /r
+    destination: /robots
+  - type: redirect
+    source: /ro
+    destination: /robots
+  - type: redirect
+    source: /rob
+    destination: /robots
+  - type: redirect
+    source: /robo
+    destination: /robots
+  - type: redirect
+    source: /robot
+    destination: /robots
+  - type: redirect
+    source: /robots
+    destination: /robots
+  - type: redirect
+    source: /s
+    destination: /savings
+  - type: redirect
+    source: /sa
+    destination: /savings
+  - type: redirect
+    source: /sav
+    destination: /savings
+  - type: redirect
+    source: /savi
+    destination: /savings
+  - type: redirect
+    source: /savin
+    destination: /savings
+  - type: redirect
+    source: /saving
+    destination: /savings
+  - type: redirect
+    source: /savings
+    destination: /savings
+  - type: redirect
+    source: /s
+    destination: /scarequotes
+  - type: redirect
+    source: /sc
+    destination: /scarequotes
+  - type: redirect
+    source: /sca
+    destination: /scarequotes
+  - type: redirect
+    source: /scar
+    destination: /scarequotes
+  - type: redirect
+    source: /scare
+    destination: /scarequotes
+  - type: redirect
+    source: /scareq
+    destination: /scarequotes
+  - type: redirect
+    source: /scarequ
+    destination: /scarequotes
+  - type: redirect
+    source: /scarequo
+    destination: /scarequotes
+  - type: redirect
+    source: /scarequot
+    destination: /scarequotes
+  - type: redirect
+    source: /scarequote
+    destination: /scarequotes
+  - type: redirect
+    source: /scarequotes
+    destination: /scarequotes
+  - type: redirect
+    source: /s
+    destination: /scrooge
+  - type: redirect
+    source: /sc
+    destination: /scrooge
+  - type: redirect
+    source: /scr
+    destination: /scrooge
+  - type: redirect
+    source: /scro
+    destination: /scrooge
+  - type: redirect
+    source: /scroo
+    destination: /scrooge
+  - type: redirect
+    source: /scroog
+    destination: /scrooge
+  - type: redirect
+    source: /scrooge
+    destination: /scrooge
+  - type: redirect
+    source: /s
+    destination: /sealedbids
+  - type: redirect
+    source: /se
+    destination: /sealedbids
+  - type: redirect
+    source: /sea
+    destination: /sealedbids
+  - type: redirect
+    source: /seal
+    destination: /sealedbids
+  - type: redirect
+    source: /seale
+    destination: /sealedbids
+  - type: redirect
+    source: /sealed
+    destination: /sealedbids
+  - type: redirect
+    source: /sealedb
+    destination: /sealedbids
+  - type: redirect
+    source: /sealedbi
+    destination: /sealedbids
+  - type: redirect
+    source: /sealedbid
+    destination: /sealedbids
+  - type: redirect
+    source: /sealedbids
+    destination: /sealedbids
+  - type: redirect
+    source: /s
+    destination: /searchcandy
+  - type: redirect
+    source: /se
+    destination: /searchcandy
+  - type: redirect
+    source: /sea
+    destination: /searchcandy
+  - type: redirect
+    source: /sear
+    destination: /searchcandy
+  - type: redirect
+    source: /searc
+    destination: /searchcandy
+  - type: redirect
+    source: /search
+    destination: /searchcandy
+  - type: redirect
+    source: /searchc
+    destination: /searchcandy
+  - type: redirect
+    source: /searchca
+    destination: /searchcandy
+  - type: redirect
+    source: /searchcan
+    destination: /searchcandy
+  - type: redirect
+    source: /searchcand
+    destination: /searchcandy
+  - type: redirect
+    source: /searchcandy
+    destination: /searchcandy
+  - type: redirect
+    source: /s
+    destination: /sharad
+  - type: redirect
+    source: /sh
+    destination: /sharad
+  - type: redirect
+    source: /sha
+    destination: /sharad
+  - type: redirect
+    source: /shar
+    destination: /sharad
+  - type: redirect
+    source: /shara
+    destination: /sharad
+  - type: redirect
+    source: /sharad
+    destination: /sharad
+  - type: redirect
+    source: /s
+    destination: /silence
+  - type: redirect
+    source: /si
+    destination: /silence
+  - type: redirect
+    source: /sil
+    destination: /silence
+  - type: redirect
+    source: /sile
+    destination: /silence
+  - type: redirect
+    source: /silen
+    destination: /silence
+  - type: redirect
+    source: /silenc
+    destination: /silence
+  - type: redirect
+    source: /silence
+    destination: /silence
+  - type: redirect
+    source: /s
+    destination: /smallworld
+  - type: redirect
+    source: /sm
+    destination: /smallworld
+  - type: redirect
+    source: /sma
+    destination: /smallworld
+  - type: redirect
+    source: /smal
+    destination: /smallworld
+  - type: redirect
+    source: /small
+    destination: /smallworld
+  - type: redirect
+    source: /smallw
+    destination: /smallworld
+  - type: redirect
+    source: /smallwo
+    destination: /smallworld
+  - type: redirect
+    source: /smallwor
+    destination: /smallworld
+  - type: redirect
+    source: /smallworl
+    destination: /smallworld
+  - type: redirect
+    source: /smallworld
+    destination: /smallworld
+  - type: redirect
+    source: /s
+    destination: /smoking
+  - type: redirect
+    source: /sm
+    destination: /smoking
+  - type: redirect
+    source: /smo
+    destination: /smoking
+  - type: redirect
+    source: /smok
+    destination: /smoking
+  - type: redirect
+    source: /smoki
+    destination: /smoking
+  - type: redirect
+    source: /smokin
+    destination: /smoking
+  - type: redirect
+    source: /smoking
+    destination: /smoking
+  - type: redirect
+    source: /s
+    destination: /snooze
+  - type: redirect
+    source: /sn
+    destination: /snooze
+  - type: redirect
+    source: /sno
+    destination: /snooze
+  - type: redirect
+    source: /snoo
+    destination: /snooze
+  - type: redirect
+    source: /snooz
+    destination: /snooze
+  - type: redirect
+    source: /snooze
+    destination: /snooze
+  - type: redirect
+    source: /s
+    destination: /strangers
+  - type: redirect
+    source: /st
+    destination: /strangers
+  - type: redirect
+    source: /str
+    destination: /strangers
+  - type: redirect
+    source: /stra
+    destination: /strangers
+  - type: redirect
+    source: /stran
+    destination: /strangers
+  - type: redirect
+    source: /strang
+    destination: /strangers
+  - type: redirect
+    source: /strange
+    destination: /strangers
+  - type: redirect
+    source: /stranger
+    destination: /strangers
+  - type: redirect
+    source: /strangers
+    destination: /strangers
+  - type: redirect
+    source: /s
+    destination: /sunk
+  - type: redirect
+    source: /su
+    destination: /sunk
+  - type: redirect
+    source: /sun
+    destination: /sunk
+  - type: redirect
+    source: /sunk
+    destination: /sunk
+  - type: redirect
+    source: /t
+    destination: /tag
+  - type: redirect
+    source: /ta
+    destination: /tag
+  - type: redirect
+    source: /tag
+    destination: /tag
+  - type: redirect
+    source: /t
+    destination: /tagtime
+  - type: redirect
+    source: /ta
+    destination: /tagtime
+  - type: redirect
+    source: /tag
+    destination: /tagtime
+  - type: redirect
+    source: /tagt
+    destination: /tagtime
+  - type: redirect
+    source: /tagti
+    destination: /tagtime
+  - type: redirect
+    source: /tagtim
+    destination: /tagtime
+  - type: redirect
+    source: /tagtime
+    destination: /tagtime
+  - type: redirect
+    source: /t
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /th
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-f
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-fu
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-fut
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-futu
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-futur
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-i
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-y
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-ye
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-yes
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-yest
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-yeste
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-yester
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-yesterd
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-yesterda
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /the-future-is-yesterday
+    destination: /the-future-is-yesterday
+  - type: redirect
+    source: /t
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /th
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-n
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-ne
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-d
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-di
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-dig
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digi
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digit
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digita
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital-
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital-d
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital-di
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital-div
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital-divi
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital-divid
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /the-new-digital-divide
+    destination: /the-new-digital-divide
+  - type: redirect
+    source: /t
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /th
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-o
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-or
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-ora
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-orac
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracl
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-o
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-b
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-br
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-bra
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-brac
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-brack
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-bracke
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-bracket
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /the-oracle-of-brackets
+    destination: /the-oracle-of-brackets
+  - type: redirect
+    source: /t
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /th
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-p
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-pe
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-per
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perf
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfe
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfec
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-b
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-br
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-bra
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-brac
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-brack
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-bracke
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /the-perfect-bracket
+    destination: /the-perfect-bracket
+  - type: redirect
+    source: /t
+    destination: /tv
+  - type: redirect
+    source: /tv
+    destination: /tv
+  - type: redirect
+    source: /t
+    destination: /twentyeleven
+  - type: redirect
+    source: /tw
+    destination: /twentyeleven
+  - type: redirect
+    source: /twe
+    destination: /twentyeleven
+  - type: redirect
+    source: /twen
+    destination: /twentyeleven
+  - type: redirect
+    source: /twent
+    destination: /twentyeleven
+  - type: redirect
+    source: /twenty
+    destination: /twentyeleven
+  - type: redirect
+    source: /twentye
+    destination: /twentyeleven
+  - type: redirect
+    source: /twentyel
+    destination: /twentyeleven
+  - type: redirect
+    source: /twentyele
+    destination: /twentyeleven
+  - type: redirect
+    source: /twentyelev
+    destination: /twentyeleven
+  - type: redirect
+    source: /twentyeleve
+    destination: /twentyeleven
+  - type: redirect
+    source: /twentyeleven
+    destination: /twentyeleven
+  - type: redirect
+    source: /u
+    destination: /uvi
+  - type: redirect
+    source: /uv
+    destination: /uvi
+  - type: redirect
+    source: /uvi
+    destination: /uvi
+  - type: redirect
+    source: /v
+    destination: /viral
+  - type: redirect
+    source: /vi
+    destination: /viral
+  - type: redirect
+    source: /vir
+    destination: /viral
+  - type: redirect
+    source: /vira
+    destination: /viral
+  - type: redirect
+    source: /viral
+    destination: /viral
+  - type: redirect
+    source: /v
+    destination: /virality
+  - type: redirect
+    source: /vi
+    destination: /virality
+  - type: redirect
+    source: /vir
+    destination: /virality
+  - type: redirect
+    source: /vira
+    destination: /virality
+  - type: redirect
+    source: /viral
+    destination: /virality
+  - type: redirect
+    source: /virali
+    destination: /virality
+  - type: redirect
+    source: /viralit
+    destination: /virality
+  - type: redirect
+    source: /virality
+    destination: /virality
+  - type: redirect
+    source: /w
+    destination: /watson
+  - type: redirect
+    source: /wa
+    destination: /watson
+  - type: redirect
+    source: /wat
+    destination: /watson
+  - type: redirect
+    source: /wats
+    destination: /watson
+  - type: redirect
+    source: /watso
+    destination: /watson
+  - type: redirect
+    source: /watson
+    destination: /watson
+  - type: redirect
+    source: /w
+    destination: /webdemo
+  - type: redirect
+    source: /we
+    destination: /webdemo
+  - type: redirect
+    source: /web
+    destination: /webdemo
+  - type: redirect
+    source: /webd
+    destination: /webdemo
+  - type: redirect
+    source: /webde
+    destination: /webdemo
+  - type: redirect
+    source: /webdem
+    destination: /webdemo
+  - type: redirect
+    source: /webdemo
+    destination: /webdemo
+  - type: redirect
+    source: /w
+    destination: /wellmanblog
+  - type: redirect
+    source: /we
+    destination: /wellmanblog
+  - type: redirect
+    source: /wel
+    destination: /wellmanblog
+  - type: redirect
+    source: /well
+    destination: /wellmanblog
+  - type: redirect
+    source: /wellm
+    destination: /wellmanblog
+  - type: redirect
+    source: /wellma
+    destination: /wellmanblog
+  - type: redirect
+    source: /wellman
+    destination: /wellmanblog
+  - type: redirect
+    source: /wellmanb
+    destination: /wellmanblog
+  - type: redirect
+    source: /wellmanbl
+    destination: /wellmanblog
+  - type: redirect
+    source: /wellmanblo
+    destination: /wellmanblog
+  - type: redirect
+    source: /wellmanblog
+    destination: /wellmanblog
+  - type: redirect
+    source: /w
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /wh
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /wha
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-c
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-ca
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-s
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-se
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-sea
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-sear
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-searc
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-p
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-pr
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-pre
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-pred
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-predi
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-predic
+    destination: /what-can-search-predict
+  - type: redirect
+    source: /what-can-search-predict
+    destination: /what-can-search-predict
