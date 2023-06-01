@@ -81,8 +81,15 @@ img.emoji {
 	    <div style="text-align:right;float:right;margin-top:20px" id="header-search">
     	<form method="get" id="searchform" action="http://messymatters.com/">
 <div>
-<input type="text" class="search_input" value="Search &amp; Hit Enter" name="s" id="s" onfocus="if (this.value == 'Search &amp; Hit Enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search &amp; Hit Enter';}">
-<input type="hidden" id="searchsubmit" value="Search">
+<!-- <input type="text" class="search_input" value="Search &amp; Hit Enter" name="s" id="s" onfocus="if (this.value == 'Search &amp; Hit Enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search &amp; Hit Enter';}">
+<input type="hidden" id="searchsubmit" value="Search"> -->
+
+<form action="https://duckduckgo.com">
+  <!-- <label for="search">Search</label> -->
+  <input name="q" id="search" placeholder="Search & Hit Enter" />
+  <input type="hidden" name="sites" value="messymatters.com" />
+</form>
+
 </div>
 </form>
       <br>
