@@ -2,6 +2,7 @@ services:
   - type: web
     name: messymatters
     env: static
+    staticPublishPath: ./
     routes:
       - type: redirect
         source: /a
