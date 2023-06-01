@@ -1,860 +1,2298 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+  <head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<head profile="http://gmpg.org/xfn/11">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="
 
-	<meta name="robots" content="index,follow">    
-        <meta name="description" content="
+During the 1936 U.S. presidential campaign, the popular magazine Literary Digest conducted a mail-in election poll that attracted over two million respon..."
+    />
+    <meta name="keywords" content="elections,forecasting,xbox," />
+    <title>Forecasting Elections with Dirty Data | Messy Matters</title>
 
-During the 1936 U.S. presidential campaign, the popular magazine Literary Digest conducted a mail-in election poll that attracted over two million respon...">
-    <meta name="keywords" content="elections,forecasting,xbox,">        
-    <title>  Forecasting Elections with Dirty Data | Messy Matters</title>
+    <link
+      rel="stylesheet"
+      href="/wp-content/themes/messymatters/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Messy Matters RSS Feed"
+      href="/feed/"
+    />
+    <link rel="pingback" href="/xmlrpc.php" />
+    <!--[if IE]>
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="http://messymatters.com/wp-content/themes/messymatters/iestyles.css"
+      />
+    <![endif]-->
+    <!--[if lte IE 6]>
+      <script
+        defer
+        type="text/javascript"
+        src="http://messymatters.com/wp-content/themes/messymatters/images/pngfix.js"
+      ></script>
+    <![endif]-->
 
-    <link rel="stylesheet" href="/wp-content/themes/messymatters/style.css" type="text/css" media="screen">
-    <link rel="alternate" type="application/rss+xml" title="Messy Matters RSS Feed" href="/feed/">
-	<link rel="pingback" href="/xmlrpc.php">
-<!--[if IE]>
-<link rel="stylesheet" type="text/css" href="http://messymatters.com/wp-content/themes/messymatters/iestyles.css" />
-<![endif]-->
-<!--[if lte IE 6]>
-<script defer type="text/javascript" src="http://messymatters.com/wp-content/themes/messymatters/images/pngfix.js"></script>
-<![endif]-->
+    <meta name="robots" content="max-image-preview:large" />
 
-	<meta name="robots" content="max-image-preview:large">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {
 
-<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {
+      inlineMath: [['\\(','\\)']],
 
-inlineMath: [['\\(','\\)']],
+      processEscapes: true
 
-processEscapes: true
-
-}});</script>
-<link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
-<link rel="alternate" type="application/rss+xml" title="Messy Matters &raquo; Forecasting Elections with Dirty Data Comments Feed" href="/biasedpolls/feed/">
-<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
-<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
-<!-- No UA code set -->
-<!-- / Google Analytics by MonsterInsights -->
-<script type="text/javascript">
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
-/*! This file is auto-generated */
-!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
-</script>
-<style type="text/css">img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 0.07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}</style>
-	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1" type="text/css" media="all">
-<link rel="stylesheet" id="classic-theme-styles-css" href="/wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
-<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}
-.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/1678">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml">
-<link rel="canonical" href="/biasedpolls/">
-<link rel="shortlink" href="/?p=1678">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A///biasedpolls/">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A///biasedpolls/#038;format=xml">
-<style type="text/css"></style>
-<script type="text/javascript">/* <![CDATA[ */ var _wpaudio = {url: 'http://messymatters.com/wp-content/plugins/wpaudio-mp3-player', enc: {}, convert_mp3_links: false, style: {text_font:'Sans-serif',text_size:'12px',text_weight:'normal',text_letter_spacing:'normal',text_color:'inherit',link_color:'#C00',link_hover_color:'#02f',bar_base_bg:'#eee',bar_load_bg:'#ccc',bar_position_bg:'#46f',sub_color:'#aaa'}}; /* ]]> */</script><style type="text/css">body { width: 800px; }
-	#sidebar { width: 180px; }
-	#sidebar .side-widget { width: 160px; }
-	#secondsidebar { width: 180px; }
-	#secondsidebar .side-widget { width: 160px; }
-	#leftcontent, #twocol, #threecol, #threecol2, .commentlist { width: 573px; }
-	#leftcontent img { max-width: 573px; }
-	#title { float: left; }
-	#description { clear: left; float: left; }
-	#headerad { float: right; margin: 18px 5px 0 0; }</style>
-</head>
-
-<body>
-<!-- begin header -->
-<div id="header">
-	    <div style="text-align:right;float:right;margin-top:20px" id="header-search">
-    	<form method="get" id="searchform" action="http://messymatters.com/">
-<div>
-<input type="text" class="search_input" value="Search &amp; Hit Enter" name="s" id="s" onfocus="if (this.value == 'Search &amp; Hit Enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search &amp; Hit Enter';}">
-<input type="hidden" id="searchsubmit" value="Search">
-</div>
-</form>
-      <br>
-<!-- fussery by dreeves and goel-->
-<a href="/?feed=rss2"><img src="/wp-content/themes/messymatters/images/rss-big.png" alt="rss" height="25"></a> 
-<a href="http://twitter.com/msymtrs"><img src="/wp-content/themes/messymatters/images/twitter-big.png" alt="rss" height="25"></a>
-<a href="http://feeds2.feedburner.com/messymatters"><img src="http://feeds2.feedburner.com/~fc/messymatters?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt=""></a>
-
-    </div>
-    	    <div id="title">
-    	<a href="/">Messy Matters</a>
-    </div>
-       	<div id="description">
-    	Bring your own data    </div>
-
-</div>
-<!-- end header -->
-
-
-<div id="mainwrapper">
-	<div id="leftcontent">
-			<div class="post" id="post-1678">
-		<div class="navigation">
-			<div class="alignleft" style="width:47%">&laquo; <a href="/glass/" rel="prev">Google Glass(es)</a>
-</div>
-			<div class="alignright" style="width:47%">
-<a href="/yootles/" rel="next">Yootles Postmortem</a> &raquo;</div>
-		</div>
-    <br style="clear:both">
-			<h1>Forecasting Elections with Dirty Data</h1>
-			<div class="meta">
-				<div class="date">Monday, September 30, 2013</div>				By Sharad Goel			</div>
-			<div class="entry">
-								 <p><img decoding="async" class="aligncenter" alt="Anthropomorphized statistics rebalancing a scale with masses of men on one side and a lone female on the other" title="Balancing the scales with statistics" src="/wp-content/uploads/2013/09/balance.png"></p>
-<p>During the 1936 U.S. presidential campaign, the popular magazine <em>Literary Digest</em> conducted a mail-in election poll that attracted over two million responses, a huge sample even by today&#8217;s standards. 
-Unfortunately for them, size isn&#8217;t the only thing that matters. 
-<em>Literary Digest</em> notoriously and erroneously predicted a landslide victory for Republican candidate Alf Landon. 
-In reality, the incumbent Franklin D. Roosevelt 
-<a href="http://en.wikipedia.org/wiki/United_States_presidential_election,_1936">decisively won the election</a>, with a whopping 98.5% of the electoral vote, carrying every state except for Maine and Vermont.
-So what went wrong? 
-As has since been pointed out, the magazine&#8217;s forecast was based on a highly non-representative sample of the electorate &#8212; mostly car and telephone owners,  as well as the magazine&#8217;s own subscribers &#8212; which underrepresented Roosevelt&#8217;s core constituencies. 
-By contrast, pioneering pollsters, including George Gallup, Archibald Crossley, and Elmo Roper, used considerably smaller but representative samples to predict the election outcome with reasonable accuracy. 
-This triumph of brains over brawn effectively marked the end of convenience sampling, and ushered in the age of modern election polling.</p>
-<p>A lot has happened since 1936 and the subsequent golden years for representative polling.
-Response rates for so-called <em>random digit dial</em> telephone surveys &#8212; the work horse of representative sampling &#8212; have 
-<a href="http://www.marketingcharts.com/wp/direct/telephone-survey-response-rates-dropping-accuracy-remains-high-22107/">plummeted into the single digits</a>, 
-ostensibly because the novelty of talking to pollsters and telemarketers has worn off, and the technical means to filter out unwanted calls have proliferated. 
-As a result, it&#8217;s increasingly difficult and expensive to reach a representative sample of likely voters. 
-At the same time, online, opt-in surveys have made it feasible to poll large numbers of people at relatively low cost.
-The caveat, of course, is that such online surveys attract a highly non-representative crowd, reminiscent of the <em>Literary Digest</em> debacle.</p>
-<p>To better understand the benefits and limitations of non-representative polling, 
-<a href="http://weiwang.name/">Wei Wang</a>, 
-<a href="http://researchdmr.com/">David Rothschild</a>, 
-<a href="http://www.stat.columbia.edu/~gelman/">Andrew Gelman</a> 
-and I recently <a href="http://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf">tried our hand</a> at forecasting elections with a highly unconventional set of poll responses.<sup><a id="FORECASTING1" href="#FORECASTING">[1]</a></sup> 
-During the 45 days leading up to the 2012 U.S. presidential election, David ran an opt-in, daily online poll on the Xbox gaming platform, asking people which presidential candidate they supported (Obama or Romney), as well as basic demographic information about themselves.
-The poll garnered over 750,000 responses, but the respondents were far from representative of the electorate. 
-In particular, only 7% of responses were from women. 
-Eager not to repeat statistics history, we used one of 
-<a href="http://andrewgelman.com/2009/05/24/handy_statistic/">Andrew&#8217;s tools of choice</a>, 
-Multilevel Regression and Poststratification, or 
-<a href="http://www.stat.columbia.edu/~gelman/research/published/misterp.pdf">Mr. P</a> for short, to correct for the extreme demographic skew of our sample.
-The idea behind Mr. P is to first partition the population into thousands of demographic cells.
-For example, one such cell might correspond to 18-29 year-old, white Republican women living in California. 
-We then use the sample to estimate candidate support within each cell. 
-Since many of the cells are sparse &#8212; or even empty &#8212; we use <em><a href="http://www.stat.columbia.edu/~gelman/arm/">multilevel regression</a></em>, which improves estimates by effectively borrowing strength from demographically similar cells. 
-Finally, in the poststratification step, the cell-level estimates are aggregated by weighting each cell by its (estimated) proportion in the electorate.<sup><a id="VOTERS1" href="#VOTERS">[2]</a></sup></p>
-<h4 class="pullquote">&#8220;With proper statistical adjustment, non-representative polls yield accurate election forecasts, on par with predictions based on traditional representative sampling.&#8221;</h4>
-<p>The two graphs below show a sampling of our results. 
-The first one plots estimates of Obama support over the last 45 days of the campaign for the 12 states with the most electoral votes. 
-The red line shows the Mr. P adjusted Xbox estimates (with a 95% confidence band), 
-the blue line shows estimates from <a href="http://elections.huffingtonpost.com/pollster/2012-general-election-romney-vs-obama">Pollster</a>
-(one of the leading sources for election forecasts, based on traditional polling), 
-the dotted horizontal line indicates the ultimate election outcomes, and the three dotted vertical lines correspond to the presidential debates. 
-Though it&#8217;s difficult, if not impossible, to definitively assess accuracy in the weeks or months before election day, the Xbox estimates are broadly consistent with Pollster.
-Moreover, on the day before the election, across the 51 electoral college races, the Xbox estimates are on average less than 2 percentage points off from the eventual outcomes. 
-Thus, it seems that with proper statistical adjustment, non-representative polls yield accurate election forecasts, on par with predictions based on traditional representative sampling.</p>
-<p><a href="/wp-content/uploads/2013/09/mrp_snapshots_state.png"><img decoding="async" class="aligncenter" alt="Plots showing that the statistically adjusted Xbox estimates are broadly consistent with estimates from traditional polls" title="The statistically adjusted Xbox estimates are broadly consistent with estimates from traditional polls." src="/wp-content/uploads/2013/09/mrp_snapshots_state.png"></a></p>
-<p>It&#8217;s nice and perhaps surprising that we can use highly skewed data to estimate state-level outcomes. 
-But what about other subpopulations?
-Can we estimate the views of older women, for example, on a platform that caters to young men?
-The figure below addresses this question, plotting estimates of Obama support for all two-dimensional demographic subgroups 
-(e.g., 18-29 year-old Hispanics, and liberal college graduates) obtained from Xbox the day before the election, and from the exit polls, which proxy for the ground truth.
-The Xbox estimates are remarkably similar to those from the exit polls. 
-In particular, for women who are 65 and older &#8212; a group whose preferences one might a priori believe are hard to estimate from the Xbox data &#8212; the difference between Xbox and the exit polls is a mere one percentage point.</p>
-<p><img decoding="async" class="aligncenter" alt="Graph comparing estimates of voter intent for various two-dimensional demographic groups, as inferred via Xbox data and the exit polls." title="Estimates of voter intent for various two-dimensional demographic groups, as inferred via Xbox data and the exit polls." width="400px" src="/wp-content/uploads/2013/09/demo_groups_two_way_interaction.png"></p>
-<p>Non-representative polls offer the potential for fast, cheap, and accurate estimates, and with ever declining response rates for traditional polls, we may soon have no other choice.
-75 years after the <em>Literary Digest</em> failure, non-representative polling &#8212; with appropriate statistical adjustments &#8212; is due for a second act.</p>
-<p>For further details, see our forthcoming paper, <em><a href="http://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf">Forecasting Elections with Non-Representative Polls</a></em>.</p>
-<p><br>&nbsp;<br></p>
-<p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
-<h2>Footnotes</h2>
-<p><a id="FORECASTING" href="#FORECASTING1">[1]</a> Since we analyzed the data after the 2012 election was over, we did not technically make forecasts. But I swear we didn&#8217;t cheat!</p>
-<p><a id="VOTERS" href="#VOTERS1">[2]</a> Estimating the composition of likely voters is itself a difficult task. 
-For transparency, simplicity, and replicability, we assume the composition of the 2012 electorate mirrors that of the 2008 electorate, as estimated via exit polls.</p>
-				<p class="tags"><small>Tags: <a href="/tag/elections/" rel="tag">elections</a>, <a href="/tag/forecasting/" rel="tag">forecasting</a>, <a href="/tag/xbox/" rel="tag">xbox</a></small></p>				<p class="postmetadata alt">
-					<small>
-						Posted 2013 Sep 30.
-						<a href="/biasedpolls/feed/">RSS feed for comments on this post.</a>
-													Please <a href="#respond">leave a response</a>, or <a href="/biasedpolls/trackback/" rel="trackback">trackback</a> from your own site. 
-
-						
-					</small>
-				</p>
-			</div>
-		</div>
-	
-<div id="disqus_thread"></div>
-		</div>
-    <!-- begin sidebar -->
-		<div id="sidebar">
-				<div class="side-widget">
-<h2>About</h2>			<div class="textwidget">
-<a href="http://dreev.es/">Daniel Reeves</a> is a co-founder of <a href="http://beeminder.com/">Beeminder</a> and <a href="http://5harad.com/">Sharad Goel</a> is a Senior Researcher at <a href="http://research.microsoft.com/">Microsoft Research - New York City</a>. They are both former members of the Microeconomics and Social Systems (MESS) Group at Yahoo! Research. <a href="http://krsavage.com/">Kelly Savage</a> illustrates the blog.</div>
-		</div>
-<div class="side-widget">
-<h2>Archives</h2>
-<ul id="widget-collapsarch-6-top" class="collapsing archives list">
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2016/">2016  <span class="yearCount">(1)</span>
-</a>
-    <div style="display:none" id="collapsArch-2016:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2016/12/" title="December">December  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2016-12:6">
-        </div>
-      </li> <!-- close expanded month --> 
-  </ul>
-     </div>
-  </li> <!-- end year -->
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2015/">2015  <span class="yearCount">(1)</span>
-</a>
-    <div style="display:none" id="collapsArch-2015:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2015/05/" title="May">May  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2015-5:6">
-        </div>
-      </li> <!-- close expanded month --> 
-  </ul>
-     </div>
-  </li> <!-- end year -->
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2014/">2014  <span class="yearCount">(4)</span>
-</a>
-    <div style="display:none" id="collapsArch-2014:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2014/08/" title="August">August  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2014-8:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2014/04/" title="April">April  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2014-4:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2014/03/" title="March">March  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2014-3:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2014/01/" title="January">January  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2014-1:6">
-        </div>
-      </li> <!-- close expanded month --> 
-  </ul>
-     </div>
-  </li> <!-- end year -->
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/">2013  <span class="yearCount">(8)</span>
-</a>
-    <div style="display:none" id="collapsArch-2013:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/12/" title="December">December  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-12:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/11/" title="November">November  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-11:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/10/" title="October">October  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-10:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/09/" title="September">September  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-9:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/08/" title="August">August  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-8:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/06/" title="June">June  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-6:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/04/" title="April">April  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-4:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2013/01/" title="January">January  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2013-1:6">
-        </div>
-      </li> <!-- close expanded month --> 
-  </ul>
-     </div>
-  </li> <!-- end year -->
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/">2012  <span class="yearCount">(9)</span>
-</a>
-    <div style="display:none" id="collapsArch-2012:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/11/" title="November">November  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-11:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/10/" title="October">October  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-10:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/09/" title="September">September  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-9:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/08/" title="August">August  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-8:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/07/" title="July">July  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-7:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/05/" title="May">May  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-5:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/04/" title="April">April  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-4:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/03/" title="March">March  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-3:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2012/01/" title="January">January  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2012-1:6">
-        </div>
-      </li> <!-- close expanded month --> 
-  </ul>
-     </div>
-  </li> <!-- end year -->
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/">2011  <span class="yearCount">(14)</span>
-</a>
-    <div style="display:none" id="collapsArch-2011:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/12/" title="December">December  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-12:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/11/" title="November">November  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-11:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/10/" title="October">October  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-10:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/09/" title="September">September  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-9:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/08/" title="August">August  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-8:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/07/" title="July">July  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-7:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/06/" title="June">June  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-6:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/05/" title="May">May  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-5:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/04/" title="April">April  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-4:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/03/" title="March">March  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-3:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/02/" title="February">February  <span class="monthCount">(2)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-2:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2011/01/" title="January">January  <span class="monthCount">(2)</span>
-</a>
-        <div style="display:none" id="collapsArch-2011-1:6">
-        </div>
-      </li> <!-- close expanded month --> 
-  </ul>
-     </div>
-  </li> <!-- end year -->
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/">2010  <span class="yearCount">(13)</span>
-</a>
-    <div style="display:none" id="collapsArch-2010:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/12/" title="December">December  <span class="monthCount">(2)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-12:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/11/" title="November">November  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-11:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/10/" title="October">October  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-10:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/09/" title="September">September  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-9:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/08/" title="August">August  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-8:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/07/" title="July">July  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-7:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/06/" title="June">June  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-6:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/05/" title="May">May  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-5:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/04/" title="April">April  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-4:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/03/" title="March">March  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-3:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/02/" title="February">February  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-2:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2010/01/" title="January">January  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2010-1:6">
-        </div>
-      </li> <!-- close expanded month --> 
-  </ul>
-     </div>
-  </li> <!-- end year -->
-  <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/">2009  <span class="yearCount">(16)</span>
-</a>
-    <div style="display:none" id="collapsArch-2009:6">
-    <ul>
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/12/" title="December">December  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-12:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/11/" title="November">November  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-11:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/10/" title="October">October  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-10:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/09/" title="September">September  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-9:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/08/" title="August">August  <span class="monthCount">(2)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-8:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/07/" title="July">July  <span class="monthCount">(2)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-7:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/06/" title="June">June  <span class="monthCount">(2)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-6:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/05/" title="May">May  <span class="monthCount">(1)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-5:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/04/" title="April">April  <span class="monthCount">(2)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-4:6">
-       </div>
-      </li> <!-- close expanded month --> 
-      <li class="collapsing archives expand">
-<span title="click to expand" class="collapsing archives expand"><span class="sym">&#x25BA;</span></span><a href="/2009/03/" title="March">March  <span class="monthCount">(3)</span>
-</a>
-        <div style="display:none" id="collapsArch-2009-3:6">
-        </div>
-    </li> <!-- close month -->
-  </ul>
-</div>
-</li> <!-- end of collapsing archives --><li style="display:none"><script type="text/javascript">
-// <![CDATA[
-/* These variables are part of the Collapsing Archives Plugin
-   * version: 2.0.5
-   * revision: $Id: collapsArch.php 1715352 2017-08-18 14:30:00Z robfelty $
-   * Copyright 2008 Robert Felty (robfelty.com)
-           */
-try { collapsItems['catTest'] = 'test'; } catch (err) { collapsItems = new Object(); }
-collapsItems['collapsArch-2016-12:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/outloud/\' title=\'The Out-Loud-To-Your-Friend Constraint for Writing\'>The Out-Loud-To-Your-Friend Constraint for Writing<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2015-5:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/smoking/\' title=\'Smoking Sticks and Carrots\'>Smoking Sticks and Carrots<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2014-8:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/robots/\' title=\'Welcome, Job-Destroying Robots\'>Welcome, Job-Destroying Robots<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2014-4:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/airbnb/\' title=\'Measuring the Impact of the Sharing Economy\'>Measuring the Impact of the Sharing Economy<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2014-3:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/tv/\' title=\'Living the Robot-Mediated Life\'>Living the Robot-Mediated Life<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2014-1:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/dating/\' title=\'Sex, Race, and Politics in Online Dating\'>Sex, Race, and Politics in Online Dating<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-12:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/uvi/\' title=\'1000 Days of User-Visible Improvements\'>1000 Days of User-Visible Improvements<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-11:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/bubble/\' title=\'Popping the Filter Bubble\'>Popping the Filter Bubble<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-10:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/yootles/\' title=\'Yootles Postmortem\'>Yootles Postmortem<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-9:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/biasedpolls/\' title=\'Forecasting Elections with Dirty Data\'>Forecasting Elections with Dirty Data<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-8:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/glass/\' title=\'Google Glass(es)\'>Google Glass(es)<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-6:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/virality/\' title=\'This is Viral\'>This is Viral<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-4:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/autonomy/\' title=\'For Love and/or Money: Financial Autonomy in Marriage\'>For Love and/or Money: Financial Autonomy in Marriage<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2013-1:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/rape/\' title=\'Lies, Damned Lies, Rape, and Statistics\'>Lies, Damned Lies, Rape, and Statistics<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-11:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/gas/\' title=\'The Irrationality of Rationing\'>The Irrationality of Rationing<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-10:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/snooze/\' title=\'Email Snooze and Gmail Zero\'>Email Snooze and Gmail Zero<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-9:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/olympics/\' title=\'Olympic Records\'>Olympic Records<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-8:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/the-new-digital-divide/\' title=\'The New Digital Divide\'>The New Digital Divide<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-7:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/expectorant/\' title=\'Stochastic, Nerdtastic Restaurant Bill Splitting\'>Stochastic, Nerdtastic Restaurant Bill Splitting<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-5:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/moneyball/\' title=\'How Close is Close\'>How Close is Close<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-4:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/deadlines/\' title=\'How to Set Deadlines for Your Students\'>How to Set Deadlines for Your Students<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-3:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/flexbind/\' title=\'Flexible Self-Control\'>Flexible Self-Control<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2012-1:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/polarized/\' title=\'The Polarization of Political Parties\'>The Polarization of Political Parties<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-12:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/twentyeleven/\' title=\'2011 Plus or Minus a Decade\'>2011 Plus or Minus a Decade<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-11:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/lies/\' title=\'Politicians Never \"Lie\"\'>Politicians Never \"Lie\"<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-10:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/nominology/\' title=\'Nominology\'>Nominology<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-9:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/smallworld/\' title=\'How Small the World\'>How Small the World<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-8:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/savings/\' title=\'(More Than) A Penny Saved is a Penny Wasted, In Which I Trivialize the Entire Industry of Financial Planning\'>(More Than) A Penny Saved is a Penny Wasted, In Which I Trivialize the Entire Industry of Financial Planning<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-7:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/viral/\' title=\'This Post Won\'t Go Viral\'>This Post Won\'t Go Viral<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-6:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/insurance/\' title=\'Car Insurance and an Ear Full of Cider\'>Car Insurance and an Ear Full of Cider<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-5:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/ai-plus-ui/\' title=\'When Close Isn\'t Good Enough\'>When Close Isn\'t Good Enough<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-4:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/tagtime/\' title=\'TagTime: Stochastic Time Tracking for Space Cadets\'>TagTime: Stochastic Time Tracking for Space Cadets<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-3:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/powerlaws/\' title=\'Ode to Power Laws\'>Ode to Power Laws<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-2:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/watson/\' title=\'Humanity Lost on Jeopardy!\'>Humanity Lost on Jeopardy!<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/silence/\' title=\'Sounds of Silence\'>Sounds of Silence<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2011-1:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/meta/\' title=\'Meta Matters\'>Meta Matters<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/citysearch/\' title=\'Search in the City\'>Search in the City<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-12:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/babygoog/\' title=\'Twelve Years Ago\'>Twelve Years Ago<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/webdemo/\' title=\'Demographic Diversity on the Web\'>Demographic Diversity on the Web<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-11:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/akrasia/\' title=\'How To Do What You Want: Akrasia and Self-Binding\'>How To Do What You Want: Akrasia and Self-Binding<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-10:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/metopera/\' title=\'Out With the New, In With the Old\'>Out With the New, In With the Old<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-9:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/birdshop/\' title=\'Birds of a Feather Shop Together\'>Birds of a Feather Shop Together<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-8:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/strangers/\' title=\'Things That Never Happen\'>Things That Never Happen<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-7:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/email/\' title=\'Inbox Zeroer\'>Inbox Zeroer<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-6:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/friendsense/\' title=\'What Your Friends Don\'t Know About You\'>What Your Friends Don\'t Know About You<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-5:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/sealedbids/\' title=\'Extremely Weak Cryptography: Rot13 for Numbers\'>Extremely Weak Cryptography: Rot13 for Numbers<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-4:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/misleading-means/\' title=\'Misleading Means: On Drugs and Discrimination\'>Misleading Means: On Drugs and Discrimination<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-3:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/calibration-results/\' title=\'Yes, You Are (Maybe) Overconfident\'>Yes, You Are (Maybe) Overconfident<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-2:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/calibration/\' title=\'Are You Overconfident?\'>Are You Overconfident?<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2010-1:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/prediction-without-markets/\' title=\'Prediction Without Markets\'>Prediction Without Markets<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-12:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/scrooge/\' title=\'Scroogenomics vs Ulterior Motives (and Other Justifications for Gift Giving)\'>Scroogenomics vs Ulterior Motives (and Other Justifications for Gift Giving)<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-11:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/what-can-search-predict/\' title=\'What Can Search Predict?\'>What Can Search Predict?<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-10:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/dst/\' title=\'Precious, Precious Daylight\'>Precious, Precious Daylight<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-9:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/scarequotes/\' title=\'Grammatical Interlude: The Two Acceptable Uses of Quotation Marks\'>Grammatical Interlude: The Two Acceptable Uses of Quotation Marks<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-8:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/anatomy-of-the-long-tail/\' title=\'Anatomy of the Long Tail\'>Anatomy of the Long Tail<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/centmail/\' title=\'CentMail: Do Good, Fight Spam\'>CentMail: Do Good, Fight Spam<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-7:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/wellmanblog/\' title=\'High-Frequency Trading and the Robot-Led Holocaust\'>High-Frequency Trading and the Robot-Led Holocaust<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/horse/\' title=\'Beating a Sunk Horse\'>Beating a Sunk Horse<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-6:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/sunk/\' title=\'Hyper-Correcting for the Sunk-Cost Fallacy\'>Hyper-Correcting for the Sunk-Cost Fallacy<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/buyrent/\' title=\'Throwing Money Away (Buying vs Renting)\'>Throwing Money Away (Buying vs Renting)<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-5:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/landlords/\' title=\'The Real-Life Tragedy of Myerson and Satterthwaite\'s Impossibility Theorem: A Tale of High Drama, Intrigue, and Duplicity\'>The Real-Life Tragedy of Myerson and Satterthwaite\'s Impossibility Theorem: A Tale of High Drama, Intrigue, and Duplicity<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-4:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/finding-the-market-bottom/\' title=\'Finding the Market Bottom\'>Finding the Market Bottom<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/anonymous-sources-at-the-new-york-times/\' title=\'Anonymous Sources at The New York Times\'>Anonymous Sources at The New York Times<\/a><\/li><\/ul>';
-collapsItems['collapsArch-2009-3:6'] = '<ul>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/the-perfect-bracket/\' title=\'The Perfect Bracket\'>The Perfect Bracket<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/the-oracle-of-brackets/\' title=\'The Oracle of Brackets\'>The Oracle of Brackets<\/a><\/li>          <li class=\'collapsing archives item\'><a href=\'http://messymatters.com/the-future-is-yesterday/\' title=\'The Future is Yesterday\'>The Future is Yesterday<\/a><\/li><\/ul>';
-/*  Collapse Functions, version 2.0
- *
- *--------------------------------------------------------------------------*/
-String.prototype.trim = function() {
-  return this.replace(/^\s+|\s+$/g,"");
-}
-
-function createCookie(name,value,days) {
-  if (days) {
-    var date = new Date();
-    date.setTime(date.getTime()+(days*24*60*60*1000));
-    var expires = "; expires="+date.toGMTString();
-  } else {
-    var expires = "";
-  }
-  document.cookie = name+"="+value+expires+"; path=/";
-}
-
-function readCookie(name) {
-  var nameEQ = name + "=";
-  var ca = document.cookie.split(';');
-  for(var i=0;i < ca.length;i++) {
-    var c = ca[i];
-    while (c.charAt(0)==' ') {
-      c = c.substring(1,c.length);
-    }
-    if (c.indexOf(nameEQ) == 0) {
-      return c.substring(nameEQ.length,c.length);
-    }
-  }
-  return null;
-}
-
-function eraseCookie(name) {
-  createCookie(name,"",-1);
-}
-
-function addExpandCollapse(id, expandSym, collapseSym, accordion) {
-  jQuery('#' + id + ' span.expand').on('click.collapsingArchives', function() {
-    if (accordion==1) {
-      var theDiv = jQuery(this).parent().parent().find('span.collapse').parent().children('div');
-      jQuery(theDiv).hide('normal');
-      jQuery(this).parent().parent().find('span.collapse').removeClass('collapse').addClass('expand');
-      createCookie(theDiv.attr('id'), 0, 7);
-      jQuery(this).parent().parent().find('span.sym').html(expandSym);
-      //jQuery('#' + id + ' .expand .sym').html(expandSym);
-    }
-    expandArch(this, expandSym, collapseSym);
-    return false;
-  });
-  jQuery('#' + id + ' span.collapse').on('click.collapsingArchives', function() {
-    collapseArch(this, expandSym, collapseSym);
-    return false;
-  });
-}
-
-function expandArch(symbol, expandSym, collapseSym) {
-    var theDiv = jQuery(symbol).parent().children('div');
-    try {
-      if (collapsItems[jQuery(theDiv).attr('id')]!='') {
-        jQuery(theDiv).html(collapsItems[jQuery(theDiv).attr('id')]).show('normal');
-      } else {
-        jQuery(theDiv).show('normal');
+      }});
+    </script>
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Messy Matters &raquo; Forecasting Elections with Dirty Data Comments Feed"
+      href="/biasedpolls/feed/"
+    />
+    <!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+    <!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
+    <!-- No UA code set -->
+    <!-- / Google Analytics by MonsterInsights -->
+    <script type="text/javascript">
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji: "\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (e, a, t) {
+        var n,
+          r,
+          o,
+          i = a.createElement("canvas"),
+          p = i.getContext && i.getContext("2d");
+        function s(e, t) {
+          var a = String.fromCharCode,
+            e =
+              (p.clearRect(0, 0, i.width, i.height),
+              p.fillText(a.apply(this, e), 0, 0),
+              i.toDataURL());
+          return (
+            p.clearRect(0, 0, i.width, i.height),
+            p.fillText(a.apply(this, t), 0, 0),
+            e === i.toDataURL()
+          );
+        }
+        function c(e) {
+          var t = a.createElement("script");
+          (t.src = e),
+            (t.defer = t.type = "text/javascript"),
+            a.getElementsByTagName("head")[0].appendChild(t);
+        }
+        for (
+          o = Array("flag", "emoji"),
+            t.supports = { everything: !0, everythingExceptFlag: !0 },
+            r = 0;
+          r < o.length;
+          r++
+        )
+          (t.supports[o[r]] = (function (e) {
+            if (p && p.fillText)
+              switch (
+                ((p.textBaseline = "top"), (p.font = "600 32px Arial"), e)
+              ) {
+                case "flag":
+                  return s(
+                    [127987, 65039, 8205, 9895, 65039],
+                    [127987, 65039, 8203, 9895, 65039]
+                  )
+                    ? !1
+                    : !s(
+                        [55356, 56826, 55356, 56819],
+                        [55356, 56826, 8203, 55356, 56819]
+                      ) &&
+                        !s(
+                          [
+                            55356, 57332, 56128, 56423, 56128, 56418, 56128,
+                            56421, 56128, 56430, 56128, 56423, 56128, 56447,
+                          ],
+                          [
+                            55356, 57332, 8203, 56128, 56423, 8203, 56128,
+                            56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203,
+                            56128, 56423, 8203, 56128, 56447,
+                          ]
+                        );
+                case "emoji":
+                  return !s(
+                    [129777, 127995, 8205, 129778, 127999],
+                    [129777, 127995, 8203, 129778, 127999]
+                  );
+              }
+            return !1;
+          })(o[r])),
+            (t.supports.everything = t.supports.everything && t.supports[o[r]]),
+            "flag" !== o[r] &&
+              (t.supports.everythingExceptFlag =
+                t.supports.everythingExceptFlag && t.supports[o[r]]);
+        (t.supports.everythingExceptFlag =
+          t.supports.everythingExceptFlag && !t.supports.flag),
+          (t.DOMReady = !1),
+          (t.readyCallback = function () {
+            t.DOMReady = !0;
+          }),
+          t.supports.everything ||
+            ((n = function () {
+              t.readyCallback();
+            }),
+            a.addEventListener
+              ? (a.addEventListener("DOMContentLoaded", n, !1),
+                e.addEventListener("load", n, !1))
+              : (e.attachEvent("onload", n),
+                a.attachEvent("onreadystatechange", function () {
+                  "complete" === a.readyState && t.readyCallback();
+                })),
+            (e = t.source || {}).concatemoji
+              ? c(e.concatemoji)
+              : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)));
+      })(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
       }
-    } catch (err) {
-      jQuery(theDiv).show('normal');
-    }
-    jQuery(symbol).removeClass('expand').addClass('collapse');
-    jQuery(symbol).children('.sym').html(collapseSym);
-    jQuery(symbol).off('click.collapsingArchives').on('click.collapsingArchives', function() {
-      collapseArch(symbol, expandSym, collapseSym);
-      return false;
-    });
-  createCookie(theDiv.attr('id'), 1, 7);
-}
-function collapseArch(symbol, expandSym, collapseSym) {
-    var theDiv = jQuery(symbol).parent().children('div');
-    jQuery(theDiv).hide('normal');
-    jQuery(symbol).removeClass('collapse').addClass('expand');
-    jQuery(symbol).children('.sym').html(expandSym);
-    jQuery(symbol).off('click.collapsingArchives').on('click.collapsingArchives', function() {
-      expandArch(symbol, expandSym, collapseSym);
-      return false;
-    });
-  createCookie(theDiv.attr('id'), 0, 7);
-}
-addExpandCollapse('widget-collapsarch-6-top','&#x25BA;', '&#x25BC;', 0)// ]]>
-</script></li>
-</ul>
-</div>
-<div class="side-widget">			<div class="textwidget">
-<h2>
-<a href="/flexbind">Messy</a> <a href="http://beeminder.com/">Minding</a>
-</h2>
-<a href="http://beeminder.com/d/msymtrs">
-<img alt="dogfood graph" src="http://beeminder.com/d/msymtrs-thumb.png" width="160">
-</a>
-</div>
-		</div>
-<div class="side-widget">
-<h2>Tags</h2>
-<div class="tagcloud">
-<a href="/tag/ai/" class="tag-cloud-link tag-link-123 tag-link-position-1" style="font-size: 14.8571428571pt;" aria-label="ai (5 items)">ai</a>
-<a href="/tag/akrasia/" class="tag-cloud-link tag-link-132 tag-link-position-2" style="font-size: 14.8571428571pt;" aria-label="akrasia (5 items)">akrasia</a>
-<a href="/tag/arrows-theorem/" class="tag-cloud-link tag-link-14 tag-link-position-3" style="font-size: 8pt;" aria-label="arrow&#039;s theorem (1 item)">arrow&#039;s theorem</a>
-<a href="/tag/basketball/" class="tag-cloud-link tag-link-11 tag-link-position-4" style="font-size: 12.2857142857pt;" aria-label="basketball (3 items)">basketball</a>
-<a href="/tag/beeminder/" class="tag-cloud-link tag-link-89 tag-link-position-5" style="font-size: 18pt;" aria-label="beeminder (9 items)">beeminder</a>
-<a href="/tag/calibration/" class="tag-cloud-link tag-link-64 tag-link-position-6" style="font-size: 10.5714285714pt;" aria-label="calibration (2 items)">calibration</a>
-<a href="/tag/commitment-devices/" class="tag-cloud-link tag-link-93 tag-link-position-7" style="font-size: 13.7142857143pt;" aria-label="commitment devices (4 items)">commitment devices</a>
-<a href="/tag/crime/" class="tag-cloud-link tag-link-81 tag-link-position-8" style="font-size: 12.2857142857pt;" aria-label="crime (3 items)">crime</a>
-<a href="/tag/data/" class="tag-cloud-link tag-link-88 tag-link-position-9" style="font-size: 12.2857142857pt;" aria-label="data (3 items)">data</a>
-<a href="/tag/decision-theory/" class="tag-cloud-link tag-link-66 tag-link-position-10" style="font-size: 12.2857142857pt;" aria-label="decision theory (3 items)">decision theory</a>
-<a href="/tag/economics/" class="tag-cloud-link tag-link-27 tag-link-position-11" style="font-size: 22pt;" aria-label="economics (18 items)">economics</a>
-<a href="/tag/email/" class="tag-cloud-link tag-link-43 tag-link-position-12" style="font-size: 12.2857142857pt;" aria-label="email (3 items)">email</a>
-<a href="/tag/fallacies/" class="tag-cloud-link tag-link-34 tag-link-position-13" style="font-size: 19.5714285714pt;" aria-label="fallacies (12 items)">fallacies</a>
-<a href="/tag/flu/" class="tag-cloud-link tag-link-3 tag-link-position-14" style="font-size: 8pt;" aria-label="flu (1 item)">flu</a>
-<a href="/tag/google/" class="tag-cloud-link tag-link-6 tag-link-position-15" style="font-size: 14.8571428571pt;" aria-label="google (5 items)">google</a>
-<a href="/tag/guest-posts/" class="tag-cloud-link tag-link-160 tag-link-position-16" style="font-size: 10.5714285714pt;" aria-label="guest posts (2 items)">guest posts</a>
-<a href="/tag/homophily/" class="tag-cloud-link tag-link-73 tag-link-position-17" style="font-size: 10.5714285714pt;" aria-label="homophily (2 items)">homophily</a>
-<a href="/tag/insurance/" class="tag-cloud-link tag-link-21 tag-link-position-18" style="font-size: 10.5714285714pt;" aria-label="insurance (2 items)">insurance</a>
-<a href="/tag/investment/" class="tag-cloud-link tag-link-33 tag-link-position-19" style="font-size: 12.2857142857pt;" aria-label="investment (3 items)">investment</a>
-<a href="/tag/march-madness/" class="tag-cloud-link tag-link-12 tag-link-position-20" style="font-size: 10.5714285714pt;" aria-label="march madness (2 items)">march madness</a>
-<a href="/tag/market/" class="tag-cloud-link tag-link-7 tag-link-position-21" style="font-size: 10.5714285714pt;" aria-label="market (2 items)">market</a>
-<a href="/tag/mechanism-design/" class="tag-cloud-link tag-link-26 tag-link-position-22" style="font-size: 15.8571428571pt;" aria-label="mechanism design (6 items)">mechanism design</a>
-<a href="/tag/music/" class="tag-cloud-link tag-link-87 tag-link-position-23" style="font-size: 12.2857142857pt;" aria-label="music (3 items)">music</a>
-<a href="/tag/news/" class="tag-cloud-link tag-link-122 tag-link-position-24" style="font-size: 10.5714285714pt;" aria-label="news (2 items)">news</a>
-<a href="/tag/new-york-city/" class="tag-cloud-link tag-link-145 tag-link-position-25" style="font-size: 10.5714285714pt;" aria-label="new york city (2 items)">new york city</a>
-<a href="/tag/new-york-times/" class="tag-cloud-link tag-link-23 tag-link-position-26" style="font-size: 12.2857142857pt;" aria-label="new york times (3 items)">new york times</a>
-<a href="/tag/overconfidence/" class="tag-cloud-link tag-link-65 tag-link-position-27" style="font-size: 10.5714285714pt;" aria-label="overconfidence (2 items)">overconfidence</a>
-<a href="/tag/politics/" class="tag-cloud-link tag-link-75 tag-link-position-28" style="font-size: 15.8571428571pt;" aria-label="politics (6 items)">politics</a>
-<a href="/tag/prediction/" class="tag-cloud-link tag-link-4 tag-link-position-29" style="font-size: 20.5714285714pt;" aria-label="prediction (14 items)">prediction</a>
-<a href="/tag/psychology/" class="tag-cloud-link tag-link-67 tag-link-position-30" style="font-size: 13.7142857143pt;" aria-label="psychology (4 items)">psychology</a>
-<a href="/tag/rationality/" class="tag-cloud-link tag-link-35 tag-link-position-31" style="font-size: 19.1428571429pt;" aria-label="rationality (11 items)">rationality</a>
-<a href="/tag/real-estate/" class="tag-cloud-link tag-link-31 tag-link-position-32" style="font-size: 10.5714285714pt;" aria-label="real estate (2 items)">real estate</a>
-<a href="/tag/rent/" class="tag-cloud-link tag-link-30 tag-link-position-33" style="font-size: 10.5714285714pt;" aria-label="rent (2 items)">rent</a>
-<a href="/tag/robots/" class="tag-cloud-link tag-link-39 tag-link-position-34" style="font-size: 14.8571428571pt;" aria-label="robots (5 items)">robots</a>
-<a href="/tag/social-networks/" class="tag-cloud-link tag-link-74 tag-link-position-35" style="font-size: 12.2857142857pt;" aria-label="social networks (3 items)">social networks</a>
-<a href="/tag/sports/" class="tag-cloud-link tag-link-22 tag-link-position-36" style="font-size: 12.2857142857pt;" aria-label="sports (3 items)">sports</a>
-<a href="/tag/startups/" class="tag-cloud-link tag-link-141 tag-link-position-37" style="font-size: 10.5714285714pt;" aria-label="startups (2 items)">startups</a>
-<a href="/tag/sunk-costs/" class="tag-cloud-link tag-link-36 tag-link-position-38" style="font-size: 10.5714285714pt;" aria-label="sunk costs (2 items)">sunk costs</a>
-<a href="/tag/vix/" class="tag-cloud-link tag-link-9 tag-link-position-39" style="font-size: 8pt;" aria-label="vix (1 item)">vix</a>
-<a href="/tag/volatility/" class="tag-cloud-link tag-link-8 tag-link-position-40" style="font-size: 8pt;" aria-label="volatility (1 item)">volatility</a>
-<a href="/tag/wagers/" class="tag-cloud-link tag-link-90 tag-link-position-41" style="font-size: 12.2857142857pt;" aria-label="wagers (3 items)">wagers</a>
-<a href="/tag/web-search/" class="tag-cloud-link tag-link-56 tag-link-position-42" style="font-size: 10.5714285714pt;" aria-label="web search (2 items)">web search</a>
-<a href="/tag/wisdom-of-crowds/" class="tag-cloud-link tag-link-13 tag-link-position-43" style="font-size: 12.2857142857pt;" aria-label="wisdom of crowds (3 items)">wisdom of crowds</a>
-<a href="/tag/yahoo/" class="tag-cloud-link tag-link-5 tag-link-position-44" style="font-size: 14.8571428571pt;" aria-label="yahoo (5 items)">yahoo</a>
-<a href="/tag/yootles/" class="tag-cloud-link tag-link-17 tag-link-position-45" style="font-size: 13.7142857143pt;" aria-label="yootles (4 items)">yootles</a>
-</div>
-</div>		</div>
-<!-- end sidebar -->
-</div>
-<!-- begin footer -->
-<div id="footer">
-<!--
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="classic-theme-styles-css"
+      href="/wp-includes/css/classic-themes.min.css?ver=1"
+      type="text/css"
+      media="all"
+    />
+    <style id="global-styles-inline-css" type="text/css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--duotone--dark-grayscale: url("#wp-duotone-dark-grayscale");
+        --wp--preset--duotone--grayscale: url("#wp-duotone-grayscale");
+        --wp--preset--duotone--purple-yellow: url("#wp-duotone-purple-yellow");
+        --wp--preset--duotone--blue-red: url("#wp-duotone-blue-red");
+        --wp--preset--duotone--midnight: url("#wp-duotone-midnight");
+        --wp--preset--duotone--magenta-yellow: url("#wp-duotone-magenta-yellow");
+        --wp--preset--duotone--purple-green: url("#wp-duotone-purple-green");
+        --wp--preset--duotone--blue-orange: url("#wp-duotone-blue-orange");
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery.min.js?ver=3.6.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+      id="jquery-migrate-js"
+    ></script>
+    <link rel="https://api.w.org/" href="/wp-json/" />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="/wp-json/wp/v2/posts/1678"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="/xmlrpc.php?rsd"
+    />
+    <link
+      rel="wlwmanifest"
+      type="application/wlwmanifest+xml"
+      href="/wp-includes/wlwmanifest.xml"
+    />
+    <link rel="canonical" href="/biasedpolls/" />
+    <link rel="shortlink" href="/?p=1678" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="/wp-json/oembed/1.0/embed?url=http%3A///biasedpolls/"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="/wp-json/oembed/1.0/embed?url=http%3A///biasedpolls/#038;format=xml"
+    />
+    <style type="text/css"></style>
+    <script type="text/javascript">
+      /* <![CDATA[ */ var _wpaudio = {
+        url: "http://messymatters.com/wp-content/plugins/wpaudio-mp3-player",
+        enc: {},
+        convert_mp3_links: false,
+        style: {
+          text_font: "Sans-serif",
+          text_size: "12px",
+          text_weight: "normal",
+          text_letter_spacing: "normal",
+          text_color: "inherit",
+          link_color: "#C00",
+          link_hover_color: "#02f",
+          bar_base_bg: "#eee",
+          bar_load_bg: "#ccc",
+          bar_position_bg: "#46f",
+          sub_color: "#aaa",
+        },
+      }; /* ]]> */
+    </script>
+    <style type="text/css">
+      body {
+        width: 800px;
+      }
+      #sidebar {
+        width: 180px;
+      }
+      #sidebar .side-widget {
+        width: 160px;
+      }
+      #secondsidebar {
+        width: 180px;
+      }
+      #secondsidebar .side-widget {
+        width: 160px;
+      }
+      #leftcontent,
+      #twocol,
+      #threecol,
+      #threecol2,
+      .commentlist {
+        width: 573px;
+      }
+      #leftcontent img {
+        max-width: 573px;
+      }
+      #title {
+        float: left;
+      }
+      #description {
+        clear: left;
+        float: left;
+      }
+      #headerad {
+        float: right;
+        margin: 18px 5px 0 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- begin header -->
+    <div id="header">
+      <div
+        style="text-align: right; float: right; margin-top: 20px"
+        id="header-search"
+      >
+        <form method="get" id="searchform" action="https://duckduckgo.com">
+          <div>
+            <input name="q" id="search" placeholder="Search & Hit Enter" />
+            <input type="hidden" name="sites" value="messymatters.com" />
+          </div>
+        </form>
+        <br />
+        <!-- fussery by dreeves and goel-->
+        <a href="/?feed=rss2"
+          ><img
+            src="/wp-content/themes/messymatters/images/rss-big.png"
+            alt="rss"
+            height="25"
+        /></a>
+        <a href="http://twitter.com/msymtrs"
+          ><img
+            src="/wp-content/themes/messymatters/images/twitter-big.png"
+            alt="rss"
+            height="25"
+        /></a>
+        <a href="http://feeds2.feedburner.com/messymatters"
+          ><img
+            src="http://feeds2.feedburner.com/~fc/messymatters?bg=99CCFF&amp;fg=444444&amp;anim=0"
+            height="26"
+            width="88"
+            style="border: 0"
+            alt=""
+        /></a>
+      </div>
+      <div id="title">
+        <a href="/">Messy Matters</a>
+      </div>
+      <div id="description">Bring your own data</div>
+    </div>
+    <!-- end header -->
+
+    <div id="mainwrapper">
+      <div id="leftcontent">
+        <div class="post" id="post-1678">
+          <div class="navigation">
+            <div class="alignleft" style="width: 47%">
+              &laquo; <a href="/glass/" rel="prev">Google Glass(es)</a>
+            </div>
+            <div class="alignright" style="width: 47%">
+              <a href="/yootles/" rel="next">Yootles Postmortem</a> &raquo;
+            </div>
+          </div>
+          <br style="clear: both" />
+          <h1>Forecasting Elections with Dirty Data</h1>
+          <div class="meta">
+            <div class="date">Monday, September 30, 2013</div>
+            By Sharad Goel
+          </div>
+          <div class="entry">
+            <p>
+              <img
+                decoding="async"
+                class="aligncenter"
+                alt="Anthropomorphized statistics rebalancing a scale with masses of men on one side and a lone female on the other"
+                title="Balancing the scales with statistics"
+                src="/wp-content/uploads/2013/09/balance.png"
+              />
+            </p>
+            <p>
+              During the 1936 U.S. presidential campaign, the popular magazine
+              <em>Literary Digest</em> conducted a mail-in election poll that
+              attracted over two million responses, a huge sample even by
+              today&#8217;s standards. Unfortunately for them, size isn&#8217;t
+              the only thing that matters. <em>Literary Digest</em> notoriously
+              and erroneously predicted a landslide victory for Republican
+              candidate Alf Landon. In reality, the incumbent Franklin D.
+              Roosevelt
+              <a
+                href="http://en.wikipedia.org/wiki/United_States_presidential_election,_1936"
+                >decisively won the election</a
+              >, with a whopping 98.5% of the electoral vote, carrying every
+              state except for Maine and Vermont. So what went wrong? As has
+              since been pointed out, the magazine&#8217;s forecast was based on
+              a highly non-representative sample of the electorate &#8212;
+              mostly car and telephone owners, as well as the magazine&#8217;s
+              own subscribers &#8212; which underrepresented Roosevelt&#8217;s
+              core constituencies. By contrast, pioneering pollsters, including
+              George Gallup, Archibald Crossley, and Elmo Roper, used
+              considerably smaller but representative samples to predict the
+              election outcome with reasonable accuracy. This triumph of brains
+              over brawn effectively marked the end of convenience sampling, and
+              ushered in the age of modern election polling.
+            </p>
+            <p>
+              A lot has happened since 1936 and the subsequent golden years for
+              representative polling. Response rates for so-called
+              <em>random digit dial</em> telephone surveys &#8212; the work
+              horse of representative sampling &#8212; have
+              <a
+                href="http://www.marketingcharts.com/wp/direct/telephone-survey-response-rates-dropping-accuracy-remains-high-22107/"
+                >plummeted into the single digits</a
+              >, ostensibly because the novelty of talking to pollsters and
+              telemarketers has worn off, and the technical means to filter out
+              unwanted calls have proliferated. As a result, it&#8217;s
+              increasingly difficult and expensive to reach a representative
+              sample of likely voters. At the same time, online, opt-in surveys
+              have made it feasible to poll large numbers of people at
+              relatively low cost. The caveat, of course, is that such online
+              surveys attract a highly non-representative crowd, reminiscent of
+              the <em>Literary Digest</em> debacle.
+            </p>
+            <p>
+              To better understand the benefits and limitations of
+              non-representative polling,
+              <a href="http://weiwang.name/">Wei Wang</a>,
+              <a href="http://researchdmr.com/">David Rothschild</a>,
+              <a href="http://www.stat.columbia.edu/~gelman/">Andrew Gelman</a>
+              and I recently
+              <a
+                href="http://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf"
+                >tried our hand</a
+              >
+              at forecasting elections with a highly unconventional set of poll
+              responses.<sup
+                ><a id="FORECASTING1" href="#FORECASTING">[1]</a></sup
+              >
+              During the 45 days leading up to the 2012 U.S. presidential
+              election, David ran an opt-in, daily online poll on the Xbox
+              gaming platform, asking people which presidential candidate they
+              supported (Obama or Romney), as well as basic demographic
+              information about themselves. The poll garnered over 750,000
+              responses, but the respondents were far from representative of the
+              electorate. In particular, only 7% of responses were from women.
+              Eager not to repeat statistics history, we used one of
+              <a href="http://andrewgelman.com/2009/05/24/handy_statistic/"
+                >Andrew&#8217;s tools of choice</a
+              >, Multilevel Regression and Poststratification, or
+              <a
+                href="http://www.stat.columbia.edu/~gelman/research/published/misterp.pdf"
+                >Mr. P</a
+              >
+              for short, to correct for the extreme demographic skew of our
+              sample. The idea behind Mr. P is to first partition the population
+              into thousands of demographic cells. For example, one such cell
+              might correspond to 18-29 year-old, white Republican women living
+              in California. We then use the sample to estimate candidate
+              support within each cell. Since many of the cells are sparse
+              &#8212; or even empty &#8212; we use
+              <em
+                ><a href="http://www.stat.columbia.edu/~gelman/arm/"
+                  >multilevel regression</a
+                ></em
+              >, which improves estimates by effectively borrowing strength from
+              demographically similar cells. Finally, in the poststratification
+              step, the cell-level estimates are aggregated by weighting each
+              cell by its (estimated) proportion in the electorate.<sup
+                ><a id="VOTERS1" href="#VOTERS">[2]</a></sup
+              >
+            </p>
+            <h4 class="pullquote">
+              &#8220;With proper statistical adjustment, non-representative
+              polls yield accurate election forecasts, on par with predictions
+              based on traditional representative sampling.&#8221;
+            </h4>
+            <p>
+              The two graphs below show a sampling of our results. The first one
+              plots estimates of Obama support over the last 45 days of the
+              campaign for the 12 states with the most electoral votes. The red
+              line shows the Mr. P adjusted Xbox estimates (with a 95%
+              confidence band), the blue line shows estimates from
+              <a
+                href="http://elections.huffingtonpost.com/pollster/2012-general-election-romney-vs-obama"
+                >Pollster</a
+              >
+              (one of the leading sources for election forecasts, based on
+              traditional polling), the dotted horizontal line indicates the
+              ultimate election outcomes, and the three dotted vertical lines
+              correspond to the presidential debates. Though it&#8217;s
+              difficult, if not impossible, to definitively assess accuracy in
+              the weeks or months before election day, the Xbox estimates are
+              broadly consistent with Pollster. Moreover, on the day before the
+              election, across the 51 electoral college races, the Xbox
+              estimates are on average less than 2 percentage points off from
+              the eventual outcomes. Thus, it seems that with proper statistical
+              adjustment, non-representative polls yield accurate election
+              forecasts, on par with predictions based on traditional
+              representative sampling.
+            </p>
+            <p>
+              <a href="/wp-content/uploads/2013/09/mrp_snapshots_state.png"
+                ><img
+                  decoding="async"
+                  class="aligncenter"
+                  alt="Plots showing that the statistically adjusted Xbox estimates are broadly consistent with estimates from traditional polls"
+                  title="The statistically adjusted Xbox estimates are broadly consistent with estimates from traditional polls."
+                  src="/wp-content/uploads/2013/09/mrp_snapshots_state.png"
+              /></a>
+            </p>
+            <p>
+              It&#8217;s nice and perhaps surprising that we can use highly
+              skewed data to estimate state-level outcomes. But what about other
+              subpopulations? Can we estimate the views of older women, for
+              example, on a platform that caters to young men? The figure below
+              addresses this question, plotting estimates of Obama support for
+              all two-dimensional demographic subgroups (e.g., 18-29 year-old
+              Hispanics, and liberal college graduates) obtained from Xbox the
+              day before the election, and from the exit polls, which proxy for
+              the ground truth. The Xbox estimates are remarkably similar to
+              those from the exit polls. In particular, for women who are 65 and
+              older &#8212; a group whose preferences one might a priori believe
+              are hard to estimate from the Xbox data &#8212; the difference
+              between Xbox and the exit polls is a mere one percentage point.
+            </p>
+            <p>
+              <img
+                decoding="async"
+                class="aligncenter"
+                alt="Graph comparing estimates of voter intent for various two-dimensional demographic groups, as inferred via Xbox data and the exit polls."
+                title="Estimates of voter intent for various two-dimensional demographic groups, as inferred via Xbox data and the exit polls."
+                width="400px"
+                src="/wp-content/uploads/2013/09/demo_groups_two_way_interaction.png"
+              />
+            </p>
+            <p>
+              Non-representative polls offer the potential for fast, cheap, and
+              accurate estimates, and with ever declining response rates for
+              traditional polls, we may soon have no other choice. 75 years
+              after the <em>Literary Digest</em> failure, non-representative
+              polling &#8212; with appropriate statistical adjustments &#8212;
+              is due for a second act.
+            </p>
+            <p>
+              For further details, see our forthcoming paper,
+              <em
+                ><a
+                  href="http://5harad.com/papers/forecasting-with-nonrepresentative-polls.pdf"
+                  >Forecasting Elections with Non-Representative Polls</a
+                ></em
+              >.
+            </p>
+            <p><br />&nbsp;<br /></p>
+            <p>
+              <em
+                >Illustration by
+                <a href="http://krsavage.com/">Kelly Savage</a></em
+              >
+            </p>
+            <h2>Footnotes</h2>
+            <p>
+              <a id="FORECASTING" href="#FORECASTING1">[1]</a> Since we analyzed
+              the data after the 2012 election was over, we did not technically
+              make forecasts. But I swear we didn&#8217;t cheat!
+            </p>
+            <p>
+              <a id="VOTERS" href="#VOTERS1">[2]</a> Estimating the composition
+              of likely voters is itself a difficult task. For transparency,
+              simplicity, and replicability, we assume the composition of the
+              2012 electorate mirrors that of the 2008 electorate, as estimated
+              via exit polls.
+            </p>
+            <p class="tags">
+              <small
+                >Tags: <a href="/tag/elections/" rel="tag">elections</a>,
+                <a href="/tag/forecasting/" rel="tag">forecasting</a>,
+                <a href="/tag/xbox/" rel="tag">xbox</a></small
+              >
+            </p>
+            <p class="postmetadata alt">
+              <small>
+                Posted 2013 Sep 30.
+                <a href="/biasedpolls/feed/"
+                  >RSS feed for comments on this post.</a
+                >
+                Please <a href="#respond">leave a response</a>, or
+                <a href="/biasedpolls/trackback/" rel="trackback">trackback</a>
+                from your own site.
+              </small>
+            </p>
+          </div>
+        </div>
+
+        <div id="disqus_thread"></div>
+      </div>
+      <!-- begin sidebar -->
+      <div id="sidebar">
+        <div class="side-widget">
+          <h2>About</h2>
+          <div class="textwidget">
+            <a href="http://dreev.es/">Daniel Reeves</a> is a co-founder of
+            <a href="http://beeminder.com/">Beeminder</a> and
+            <a href="http://5harad.com/">Sharad Goel</a> is a Senior Researcher
+            at
+            <a href="http://research.microsoft.com/"
+              >Microsoft Research - New York City</a
+            >. They are both former members of the Microeconomics and Social
+            Systems (MESS) Group at Yahoo! Research.
+            <a href="http://krsavage.com/">Kelly Savage</a> illustrates the
+            blog.
+          </div>
+        </div>
+        <div class="side-widget">
+          <h2>Archives</h2>
+          <ul id="widget-collapsarch-6-top" class="collapsing archives list">
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2016/">2016 <span class="yearCount">(1)</span> </a>
+              <div style="display: none" id="collapsArch-2016:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2016/12/" title="December"
+                      >December <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2016-12:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end year -->
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2015/">2015 <span class="yearCount">(1)</span> </a>
+              <div style="display: none" id="collapsArch-2015:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2015/05/" title="May"
+                      >May <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2015-5:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end year -->
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2014/">2014 <span class="yearCount">(4)</span> </a>
+              <div style="display: none" id="collapsArch-2014:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2014/08/" title="August"
+                      >August <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2014-8:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2014/04/" title="April"
+                      >April <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2014-4:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2014/03/" title="March"
+                      >March <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2014-3:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2014/01/" title="January"
+                      >January <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2014-1:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end year -->
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2013/">2013 <span class="yearCount">(8)</span> </a>
+              <div style="display: none" id="collapsArch-2013:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/12/" title="December"
+                      >December <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-12:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/11/" title="November"
+                      >November <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-11:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/10/" title="October"
+                      >October <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-10:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/09/" title="September"
+                      >September <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-9:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/08/" title="August"
+                      >August <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-8:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/06/" title="June"
+                      >June <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-6:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/04/" title="April"
+                      >April <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-4:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2013/01/" title="January"
+                      >January <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2013-1:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end year -->
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2012/">2012 <span class="yearCount">(9)</span> </a>
+              <div style="display: none" id="collapsArch-2012:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/11/" title="November"
+                      >November <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-11:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/10/" title="October"
+                      >October <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-10:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/09/" title="September"
+                      >September <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-9:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/08/" title="August"
+                      >August <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-8:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/07/" title="July"
+                      >July <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-7:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/05/" title="May"
+                      >May <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-5:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/04/" title="April"
+                      >April <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-4:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/03/" title="March"
+                      >March <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-3:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2012/01/" title="January"
+                      >January <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2012-1:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end year -->
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2011/">2011 <span class="yearCount">(14)</span> </a>
+              <div style="display: none" id="collapsArch-2011:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/12/" title="December"
+                      >December <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-12:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/11/" title="November"
+                      >November <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-11:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/10/" title="October"
+                      >October <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-10:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/09/" title="September"
+                      >September <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-9:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/08/" title="August"
+                      >August <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-8:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/07/" title="July"
+                      >July <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-7:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/06/" title="June"
+                      >June <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-6:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/05/" title="May"
+                      >May <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-5:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/04/" title="April"
+                      >April <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-4:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/03/" title="March"
+                      >March <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-3:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/02/" title="February"
+                      >February <span class="monthCount">(2)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-2:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2011/01/" title="January"
+                      >January <span class="monthCount">(2)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2011-1:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end year -->
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2010/">2010 <span class="yearCount">(13)</span> </a>
+              <div style="display: none" id="collapsArch-2010:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/12/" title="December"
+                      >December <span class="monthCount">(2)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-12:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/11/" title="November"
+                      >November <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-11:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/10/" title="October"
+                      >October <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-10:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/09/" title="September"
+                      >September <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-9:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/08/" title="August"
+                      >August <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-8:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/07/" title="July"
+                      >July <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-7:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/06/" title="June"
+                      >June <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-6:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/05/" title="May"
+                      >May <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-5:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/04/" title="April"
+                      >April <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-4:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/03/" title="March"
+                      >March <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-3:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/02/" title="February"
+                      >February <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-2:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2010/01/" title="January"
+                      >January <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2010-1:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end year -->
+            <li class="collapsing archives expand">
+              <span title="click to expand" class="collapsing archives expand"
+                ><span class="sym">&#x25BA;</span></span
+              ><a href="/2009/">2009 <span class="yearCount">(16)</span> </a>
+              <div style="display: none" id="collapsArch-2009:6">
+                <ul>
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/12/" title="December"
+                      >December <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-12:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/11/" title="November"
+                      >November <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-11:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/10/" title="October"
+                      >October <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-10:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/09/" title="September"
+                      >September <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-9:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/08/" title="August"
+                      >August <span class="monthCount">(2)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-8:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/07/" title="July"
+                      >July <span class="monthCount">(2)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-7:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/06/" title="June"
+                      >June <span class="monthCount">(2)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-6:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/05/" title="May"
+                      >May <span class="monthCount">(1)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-5:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/04/" title="April"
+                      >April <span class="monthCount">(2)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-4:6"></div>
+                  </li>
+                  <!-- close expanded month -->
+                  <li class="collapsing archives expand">
+                    <span
+                      title="click to expand"
+                      class="collapsing archives expand"
+                      ><span class="sym">&#x25BA;</span></span
+                    ><a href="/2009/03/" title="March"
+                      >March <span class="monthCount">(3)</span>
+                    </a>
+                    <div style="display: none" id="collapsArch-2009-3:6"></div>
+                  </li>
+                  <!-- close month -->
+                </ul>
+              </div>
+            </li>
+            <!-- end of collapsing archives -->
+            <li style="display: none">
+              <script type="text/javascript">
+                // <![CDATA[
+                /* These variables are part of the Collapsing Archives Plugin
+                 * version: 2.0.5
+                 * revision: $Id: collapsArch.php 1715352 2017-08-18 14:30:00Z robfelty $
+                 * Copyright 2008 Robert Felty (robfelty.com)
+                 */
+                try {
+                  collapsItems["catTest"] = "test";
+                } catch (err) {
+                  collapsItems = new Object();
+                }
+                collapsItems["collapsArch-2016-12:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/outloud/' title='The Out-Loud-To-Your-Friend Constraint for Writing'>The Out-Loud-To-Your-Friend Constraint for Writing<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2015-5:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/smoking/' title='Smoking Sticks and Carrots'>Smoking Sticks and Carrots<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2014-8:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/robots/' title='Welcome, Job-Destroying Robots'>Welcome, Job-Destroying Robots<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2014-4:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/airbnb/' title='Measuring the Impact of the Sharing Economy'>Measuring the Impact of the Sharing Economy<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2014-3:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/tv/' title='Living the Robot-Mediated Life'>Living the Robot-Mediated Life<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2014-1:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/dating/' title='Sex, Race, and Politics in Online Dating'>Sex, Race, and Politics in Online Dating<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-12:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/uvi/' title='1000 Days of User-Visible Improvements'>1000 Days of User-Visible Improvements<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-11:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/bubble/' title='Popping the Filter Bubble'>Popping the Filter Bubble<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-10:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/yootles/' title='Yootles Postmortem'>Yootles Postmortem<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-9:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/biasedpolls/' title='Forecasting Elections with Dirty Data'>Forecasting Elections with Dirty Data<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-8:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/glass/' title='Google Glass(es)'>Google Glass(es)<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-6:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/virality/' title='This is Viral'>This is Viral<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-4:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/autonomy/' title='For Love and/or Money: Financial Autonomy in Marriage'>For Love and/or Money: Financial Autonomy in Marriage<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2013-1:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/rape/' title='Lies, Damned Lies, Rape, and Statistics'>Lies, Damned Lies, Rape, and Statistics<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-11:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/gas/' title='The Irrationality of Rationing'>The Irrationality of Rationing<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-10:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/snooze/' title='Email Snooze and Gmail Zero'>Email Snooze and Gmail Zero<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-9:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/olympics/' title='Olympic Records'>Olympic Records<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-8:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/the-new-digital-divide/' title='The New Digital Divide'>The New Digital Divide<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-7:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/expectorant/' title='Stochastic, Nerdtastic Restaurant Bill Splitting'>Stochastic, Nerdtastic Restaurant Bill Splitting<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-5:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/moneyball/' title='How Close is Close'>How Close is Close<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-4:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/deadlines/' title='How to Set Deadlines for Your Students'>How to Set Deadlines for Your Students<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-3:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/flexbind/' title='Flexible Self-Control'>Flexible Self-Control<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2012-1:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/polarized/' title='The Polarization of Political Parties'>The Polarization of Political Parties<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-12:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/twentyeleven/' title='2011 Plus or Minus a Decade'>2011 Plus or Minus a Decade<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-11:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/lies/' title='Politicians Never \"Lie\"'>Politicians Never \"Lie\"<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-10:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/nominology/' title='Nominology'>Nominology<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-9:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/smallworld/' title='How Small the World'>How Small the World<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-8:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/savings/' title='(More Than) A Penny Saved is a Penny Wasted, In Which I Trivialize the Entire Industry of Financial Planning'>(More Than) A Penny Saved is a Penny Wasted, In Which I Trivialize the Entire Industry of Financial Planning<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-7:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/viral/' title='This Post Won't Go Viral'>This Post Won't Go Viral<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-6:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/insurance/' title='Car Insurance and an Ear Full of Cider'>Car Insurance and an Ear Full of Cider<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-5:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/ai-plus-ui/' title='When Close Isn't Good Enough'>When Close Isn't Good Enough<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-4:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/tagtime/' title='TagTime: Stochastic Time Tracking for Space Cadets'>TagTime: Stochastic Time Tracking for Space Cadets<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-3:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/powerlaws/' title='Ode to Power Laws'>Ode to Power Laws<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-2:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/watson/' title='Humanity Lost on Jeopardy!'>Humanity Lost on Jeopardy!<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/silence/' title='Sounds of Silence'>Sounds of Silence<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2011-1:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/meta/' title='Meta Matters'>Meta Matters<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/citysearch/' title='Search in the City'>Search in the City<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-12:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/babygoog/' title='Twelve Years Ago'>Twelve Years Ago<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/webdemo/' title='Demographic Diversity on the Web'>Demographic Diversity on the Web<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-11:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/akrasia/' title='How To Do What You Want: Akrasia and Self-Binding'>How To Do What You Want: Akrasia and Self-Binding<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-10:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/metopera/' title='Out With the New, In With the Old'>Out With the New, In With the Old<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-9:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/birdshop/' title='Birds of a Feather Shop Together'>Birds of a Feather Shop Together<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-8:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/strangers/' title='Things That Never Happen'>Things That Never Happen<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-7:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/email/' title='Inbox Zeroer'>Inbox Zeroer<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-6:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/friendsense/' title='What Your Friends Don't Know About You'>What Your Friends Don't Know About You<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-5:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/sealedbids/' title='Extremely Weak Cryptography: Rot13 for Numbers'>Extremely Weak Cryptography: Rot13 for Numbers<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-4:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/misleading-means/' title='Misleading Means: On Drugs and Discrimination'>Misleading Means: On Drugs and Discrimination<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-3:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/calibration-results/' title='Yes, You Are (Maybe) Overconfident'>Yes, You Are (Maybe) Overconfident<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-2:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/calibration/' title='Are You Overconfident?'>Are You Overconfident?<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2010-1:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/prediction-without-markets/' title='Prediction Without Markets'>Prediction Without Markets<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-12:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/scrooge/' title='Scroogenomics vs Ulterior Motives (and Other Justifications for Gift Giving)'>Scroogenomics vs Ulterior Motives (and Other Justifications for Gift Giving)<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-11:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/what-can-search-predict/' title='What Can Search Predict?'>What Can Search Predict?<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-10:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/dst/' title='Precious, Precious Daylight'>Precious, Precious Daylight<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-9:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/scarequotes/' title='Grammatical Interlude: The Two Acceptable Uses of Quotation Marks'>Grammatical Interlude: The Two Acceptable Uses of Quotation Marks<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-8:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/anatomy-of-the-long-tail/' title='Anatomy of the Long Tail'>Anatomy of the Long Tail<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/centmail/' title='CentMail: Do Good, Fight Spam'>CentMail: Do Good, Fight Spam<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-7:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/wellmanblog/' title='High-Frequency Trading and the Robot-Led Holocaust'>High-Frequency Trading and the Robot-Led Holocaust<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/horse/' title='Beating a Sunk Horse'>Beating a Sunk Horse<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-6:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/sunk/' title='Hyper-Correcting for the Sunk-Cost Fallacy'>Hyper-Correcting for the Sunk-Cost Fallacy<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/buyrent/' title='Throwing Money Away (Buying vs Renting)'>Throwing Money Away (Buying vs Renting)<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-5:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/landlords/' title='The Real-Life Tragedy of Myerson and Satterthwaite's Impossibility Theorem: A Tale of High Drama, Intrigue, and Duplicity'>The Real-Life Tragedy of Myerson and Satterthwaite's Impossibility Theorem: A Tale of High Drama, Intrigue, and Duplicity<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-4:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/finding-the-market-bottom/' title='Finding the Market Bottom'>Finding the Market Bottom<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/anonymous-sources-at-the-new-york-times/' title='Anonymous Sources at The New York Times'>Anonymous Sources at The New York Times<\/a><\/li><\/ul>";
+                collapsItems["collapsArch-2009-3:6"] =
+                  "<ul>          <li class='collapsing archives item'><a href='http://messymatters.com/the-perfect-bracket/' title='The Perfect Bracket'>The Perfect Bracket<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/the-oracle-of-brackets/' title='The Oracle of Brackets'>The Oracle of Brackets<\/a><\/li>          <li class='collapsing archives item'><a href='http://messymatters.com/the-future-is-yesterday/' title='The Future is Yesterday'>The Future is Yesterday<\/a><\/li><\/ul>";
+                /*  Collapse Functions, version 2.0
+                 *
+                 *--------------------------------------------------------------------------*/
+                String.prototype.trim = function () {
+                  return this.replace(/^\s+|\s+$/g, "");
+                };
+
+                function createCookie(name, value, days) {
+                  if (days) {
+                    var date = new Date();
+                    date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+                    var expires = "; expires=" + date.toGMTString();
+                  } else {
+                    var expires = "";
+                  }
+                  document.cookie = name + "=" + value + expires + "; path=/";
+                }
+
+                function readCookie(name) {
+                  var nameEQ = name + "=";
+                  var ca = document.cookie.split(";");
+                  for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    while (c.charAt(0) == " ") {
+                      c = c.substring(1, c.length);
+                    }
+                    if (c.indexOf(nameEQ) == 0) {
+                      return c.substring(nameEQ.length, c.length);
+                    }
+                  }
+                  return null;
+                }
+
+                function eraseCookie(name) {
+                  createCookie(name, "", -1);
+                }
+
+                function addExpandCollapse(
+                  id,
+                  expandSym,
+                  collapseSym,
+                  accordion
+                ) {
+                  jQuery("#" + id + " span.expand").on(
+                    "click.collapsingArchives",
+                    function () {
+                      if (accordion == 1) {
+                        var theDiv = jQuery(this)
+                          .parent()
+                          .parent()
+                          .find("span.collapse")
+                          .parent()
+                          .children("div");
+                        jQuery(theDiv).hide("normal");
+                        jQuery(this)
+                          .parent()
+                          .parent()
+                          .find("span.collapse")
+                          .removeClass("collapse")
+                          .addClass("expand");
+                        createCookie(theDiv.attr("id"), 0, 7);
+                        jQuery(this)
+                          .parent()
+                          .parent()
+                          .find("span.sym")
+                          .html(expandSym);
+                        //jQuery('#' + id + ' .expand .sym').html(expandSym);
+                      }
+                      expandArch(this, expandSym, collapseSym);
+                      return false;
+                    }
+                  );
+                  jQuery("#" + id + " span.collapse").on(
+                    "click.collapsingArchives",
+                    function () {
+                      collapseArch(this, expandSym, collapseSym);
+                      return false;
+                    }
+                  );
+                }
+
+                function expandArch(symbol, expandSym, collapseSym) {
+                  var theDiv = jQuery(symbol).parent().children("div");
+                  try {
+                    if (collapsItems[jQuery(theDiv).attr("id")] != "") {
+                      jQuery(theDiv)
+                        .html(collapsItems[jQuery(theDiv).attr("id")])
+                        .show("normal");
+                    } else {
+                      jQuery(theDiv).show("normal");
+                    }
+                  } catch (err) {
+                    jQuery(theDiv).show("normal");
+                  }
+                  jQuery(symbol).removeClass("expand").addClass("collapse");
+                  jQuery(symbol).children(".sym").html(collapseSym);
+                  jQuery(symbol)
+                    .off("click.collapsingArchives")
+                    .on("click.collapsingArchives", function () {
+                      collapseArch(symbol, expandSym, collapseSym);
+                      return false;
+                    });
+                  createCookie(theDiv.attr("id"), 1, 7);
+                }
+                function collapseArch(symbol, expandSym, collapseSym) {
+                  var theDiv = jQuery(symbol).parent().children("div");
+                  jQuery(theDiv).hide("normal");
+                  jQuery(symbol).removeClass("collapse").addClass("expand");
+                  jQuery(symbol).children(".sym").html(expandSym);
+                  jQuery(symbol)
+                    .off("click.collapsingArchives")
+                    .on("click.collapsingArchives", function () {
+                      expandArch(symbol, expandSym, collapseSym);
+                      return false;
+                    });
+                  createCookie(theDiv.attr("id"), 0, 7);
+                }
+                addExpandCollapse(
+                  "widget-collapsarch-6-top",
+                  "&#x25BA;",
+                  "&#x25BC;",
+                  0
+                ); // ]]>
+              </script>
+            </li>
+          </ul>
+        </div>
+        <div class="side-widget">
+          <div class="textwidget">
+            <h2>
+              <a href="/flexbind">Messy</a>
+              <a href="http://beeminder.com/">Minding</a>
+            </h2>
+            <a href="http://beeminder.com/d/msymtrs">
+              <img
+                alt="dogfood graph"
+                src="http://beeminder.com/d/msymtrs-thumb.png"
+                width="160"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="side-widget">
+          <h2>Tags</h2>
+          <div class="tagcloud">
+            <a
+              href="/tag/ai/"
+              class="tag-cloud-link tag-link-123 tag-link-position-1"
+              style="font-size: 14.8571428571pt"
+              aria-label="ai (5 items)"
+              >ai</a
+            >
+            <a
+              href="/tag/akrasia/"
+              class="tag-cloud-link tag-link-132 tag-link-position-2"
+              style="font-size: 14.8571428571pt"
+              aria-label="akrasia (5 items)"
+              >akrasia</a
+            >
+            <a
+              href="/tag/arrows-theorem/"
+              class="tag-cloud-link tag-link-14 tag-link-position-3"
+              style="font-size: 8pt"
+              aria-label="arrow&#039;s theorem (1 item)"
+              >arrow&#039;s theorem</a
+            >
+            <a
+              href="/tag/basketball/"
+              class="tag-cloud-link tag-link-11 tag-link-position-4"
+              style="font-size: 12.2857142857pt"
+              aria-label="basketball (3 items)"
+              >basketball</a
+            >
+            <a
+              href="/tag/beeminder/"
+              class="tag-cloud-link tag-link-89 tag-link-position-5"
+              style="font-size: 18pt"
+              aria-label="beeminder (9 items)"
+              >beeminder</a
+            >
+            <a
+              href="/tag/calibration/"
+              class="tag-cloud-link tag-link-64 tag-link-position-6"
+              style="font-size: 10.5714285714pt"
+              aria-label="calibration (2 items)"
+              >calibration</a
+            >
+            <a
+              href="/tag/commitment-devices/"
+              class="tag-cloud-link tag-link-93 tag-link-position-7"
+              style="font-size: 13.7142857143pt"
+              aria-label="commitment devices (4 items)"
+              >commitment devices</a
+            >
+            <a
+              href="/tag/crime/"
+              class="tag-cloud-link tag-link-81 tag-link-position-8"
+              style="font-size: 12.2857142857pt"
+              aria-label="crime (3 items)"
+              >crime</a
+            >
+            <a
+              href="/tag/data/"
+              class="tag-cloud-link tag-link-88 tag-link-position-9"
+              style="font-size: 12.2857142857pt"
+              aria-label="data (3 items)"
+              >data</a
+            >
+            <a
+              href="/tag/decision-theory/"
+              class="tag-cloud-link tag-link-66 tag-link-position-10"
+              style="font-size: 12.2857142857pt"
+              aria-label="decision theory (3 items)"
+              >decision theory</a
+            >
+            <a
+              href="/tag/economics/"
+              class="tag-cloud-link tag-link-27 tag-link-position-11"
+              style="font-size: 22pt"
+              aria-label="economics (18 items)"
+              >economics</a
+            >
+            <a
+              href="/tag/email/"
+              class="tag-cloud-link tag-link-43 tag-link-position-12"
+              style="font-size: 12.2857142857pt"
+              aria-label="email (3 items)"
+              >email</a
+            >
+            <a
+              href="/tag/fallacies/"
+              class="tag-cloud-link tag-link-34 tag-link-position-13"
+              style="font-size: 19.5714285714pt"
+              aria-label="fallacies (12 items)"
+              >fallacies</a
+            >
+            <a
+              href="/tag/flu/"
+              class="tag-cloud-link tag-link-3 tag-link-position-14"
+              style="font-size: 8pt"
+              aria-label="flu (1 item)"
+              >flu</a
+            >
+            <a
+              href="/tag/google/"
+              class="tag-cloud-link tag-link-6 tag-link-position-15"
+              style="font-size: 14.8571428571pt"
+              aria-label="google (5 items)"
+              >google</a
+            >
+            <a
+              href="/tag/guest-posts/"
+              class="tag-cloud-link tag-link-160 tag-link-position-16"
+              style="font-size: 10.5714285714pt"
+              aria-label="guest posts (2 items)"
+              >guest posts</a
+            >
+            <a
+              href="/tag/homophily/"
+              class="tag-cloud-link tag-link-73 tag-link-position-17"
+              style="font-size: 10.5714285714pt"
+              aria-label="homophily (2 items)"
+              >homophily</a
+            >
+            <a
+              href="/tag/insurance/"
+              class="tag-cloud-link tag-link-21 tag-link-position-18"
+              style="font-size: 10.5714285714pt"
+              aria-label="insurance (2 items)"
+              >insurance</a
+            >
+            <a
+              href="/tag/investment/"
+              class="tag-cloud-link tag-link-33 tag-link-position-19"
+              style="font-size: 12.2857142857pt"
+              aria-label="investment (3 items)"
+              >investment</a
+            >
+            <a
+              href="/tag/march-madness/"
+              class="tag-cloud-link tag-link-12 tag-link-position-20"
+              style="font-size: 10.5714285714pt"
+              aria-label="march madness (2 items)"
+              >march madness</a
+            >
+            <a
+              href="/tag/market/"
+              class="tag-cloud-link tag-link-7 tag-link-position-21"
+              style="font-size: 10.5714285714pt"
+              aria-label="market (2 items)"
+              >market</a
+            >
+            <a
+              href="/tag/mechanism-design/"
+              class="tag-cloud-link tag-link-26 tag-link-position-22"
+              style="font-size: 15.8571428571pt"
+              aria-label="mechanism design (6 items)"
+              >mechanism design</a
+            >
+            <a
+              href="/tag/music/"
+              class="tag-cloud-link tag-link-87 tag-link-position-23"
+              style="font-size: 12.2857142857pt"
+              aria-label="music (3 items)"
+              >music</a
+            >
+            <a
+              href="/tag/news/"
+              class="tag-cloud-link tag-link-122 tag-link-position-24"
+              style="font-size: 10.5714285714pt"
+              aria-label="news (2 items)"
+              >news</a
+            >
+            <a
+              href="/tag/new-york-city/"
+              class="tag-cloud-link tag-link-145 tag-link-position-25"
+              style="font-size: 10.5714285714pt"
+              aria-label="new york city (2 items)"
+              >new york city</a
+            >
+            <a
+              href="/tag/new-york-times/"
+              class="tag-cloud-link tag-link-23 tag-link-position-26"
+              style="font-size: 12.2857142857pt"
+              aria-label="new york times (3 items)"
+              >new york times</a
+            >
+            <a
+              href="/tag/overconfidence/"
+              class="tag-cloud-link tag-link-65 tag-link-position-27"
+              style="font-size: 10.5714285714pt"
+              aria-label="overconfidence (2 items)"
+              >overconfidence</a
+            >
+            <a
+              href="/tag/politics/"
+              class="tag-cloud-link tag-link-75 tag-link-position-28"
+              style="font-size: 15.8571428571pt"
+              aria-label="politics (6 items)"
+              >politics</a
+            >
+            <a
+              href="/tag/prediction/"
+              class="tag-cloud-link tag-link-4 tag-link-position-29"
+              style="font-size: 20.5714285714pt"
+              aria-label="prediction (14 items)"
+              >prediction</a
+            >
+            <a
+              href="/tag/psychology/"
+              class="tag-cloud-link tag-link-67 tag-link-position-30"
+              style="font-size: 13.7142857143pt"
+              aria-label="psychology (4 items)"
+              >psychology</a
+            >
+            <a
+              href="/tag/rationality/"
+              class="tag-cloud-link tag-link-35 tag-link-position-31"
+              style="font-size: 19.1428571429pt"
+              aria-label="rationality (11 items)"
+              >rationality</a
+            >
+            <a
+              href="/tag/real-estate/"
+              class="tag-cloud-link tag-link-31 tag-link-position-32"
+              style="font-size: 10.5714285714pt"
+              aria-label="real estate (2 items)"
+              >real estate</a
+            >
+            <a
+              href="/tag/rent/"
+              class="tag-cloud-link tag-link-30 tag-link-position-33"
+              style="font-size: 10.5714285714pt"
+              aria-label="rent (2 items)"
+              >rent</a
+            >
+            <a
+              href="/tag/robots/"
+              class="tag-cloud-link tag-link-39 tag-link-position-34"
+              style="font-size: 14.8571428571pt"
+              aria-label="robots (5 items)"
+              >robots</a
+            >
+            <a
+              href="/tag/social-networks/"
+              class="tag-cloud-link tag-link-74 tag-link-position-35"
+              style="font-size: 12.2857142857pt"
+              aria-label="social networks (3 items)"
+              >social networks</a
+            >
+            <a
+              href="/tag/sports/"
+              class="tag-cloud-link tag-link-22 tag-link-position-36"
+              style="font-size: 12.2857142857pt"
+              aria-label="sports (3 items)"
+              >sports</a
+            >
+            <a
+              href="/tag/startups/"
+              class="tag-cloud-link tag-link-141 tag-link-position-37"
+              style="font-size: 10.5714285714pt"
+              aria-label="startups (2 items)"
+              >startups</a
+            >
+            <a
+              href="/tag/sunk-costs/"
+              class="tag-cloud-link tag-link-36 tag-link-position-38"
+              style="font-size: 10.5714285714pt"
+              aria-label="sunk costs (2 items)"
+              >sunk costs</a
+            >
+            <a
+              href="/tag/vix/"
+              class="tag-cloud-link tag-link-9 tag-link-position-39"
+              style="font-size: 8pt"
+              aria-label="vix (1 item)"
+              >vix</a
+            >
+            <a
+              href="/tag/volatility/"
+              class="tag-cloud-link tag-link-8 tag-link-position-40"
+              style="font-size: 8pt"
+              aria-label="volatility (1 item)"
+              >volatility</a
+            >
+            <a
+              href="/tag/wagers/"
+              class="tag-cloud-link tag-link-90 tag-link-position-41"
+              style="font-size: 12.2857142857pt"
+              aria-label="wagers (3 items)"
+              >wagers</a
+            >
+            <a
+              href="/tag/web-search/"
+              class="tag-cloud-link tag-link-56 tag-link-position-42"
+              style="font-size: 10.5714285714pt"
+              aria-label="web search (2 items)"
+              >web search</a
+            >
+            <a
+              href="/tag/wisdom-of-crowds/"
+              class="tag-cloud-link tag-link-13 tag-link-position-43"
+              style="font-size: 12.2857142857pt"
+              aria-label="wisdom of crowds (3 items)"
+              >wisdom of crowds</a
+            >
+            <a
+              href="/tag/yahoo/"
+              class="tag-cloud-link tag-link-5 tag-link-position-44"
+              style="font-size: 14.8571428571pt"
+              aria-label="yahoo (5 items)"
+              >yahoo</a
+            >
+            <a
+              href="/tag/yootles/"
+              class="tag-cloud-link tag-link-17 tag-link-position-45"
+              style="font-size: 13.7142857143pt"
+              aria-label="yootles (4 items)"
+              >yootles</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- end sidebar -->
+    </div>
+    <!-- begin footer -->
+    <div id="footer">
+      <!--
     Copyright &copy; 2023 <a href="http://messymatters.com">Messy Matters</a>. All Rights Reserved.<br />
     <span class="red">Magazine Basic</span> theme designed by <a
     href="http://tinkerpriestmedia.com"><span
     class="red">c.bavota</span></a>, with customizations by <a
     href="http://robfelty.com"><span class="red">Robert Felty</span></a>.<br />
 -->
-    Powered by <a href="http://wpengine.com/?a_aid=4faee64c398e4">WP Engine</a>. Theme based on <a href="http://bavotasan.com/">c.bavota</a>'s Magazine Basic. And we owe a ton to <a href="http://robfelty.com/">Rob Felty</a>.
-</div>
-<script type="text/javascript" src="/wp-content/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1" id="wpaudio-js"></script>
-<script type="text/javascript" src="/wp-includes/js/comment-reply.min.js?ver=6.1.1" id="comment-reply-js"></script>
-<script type="text/javascript" id="disqus_count-js-extra">
-/* <![CDATA[ */
-var countVars = {"disqusShortname":"messymatters"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.17" id="disqus_count-js"></script>
-<script type="text/javascript" id="disqus_embed-js-extra">
-/* <![CDATA[ */
-var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.17"},"disqusIdentifier":"1678 \/?p=1678","disqusShortname":"messymatters","disqusTitle":"Forecasting Elections with Dirty Data","disqusUrl":"\/biasedpolls\/","postId":"1678"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.17" id="disqus_embed-js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML%2CSafe.js&#038;ver=6.1.1" id="mathjax-js"></script>
-<!-- Magazine Basic theme designed by c.bavota - http://tinkerpriestmedia.com -->
-</body>
+      Powered by
+      <a href="http://wpengine.com/?a_aid=4faee64c398e4">WP Engine</a>. Theme
+      based on <a href="http://bavotasan.com/">c.bavota</a>'s Magazine Basic.
+      And we owe a ton to <a href="http://robfelty.com/">Rob Felty</a>.
+    </div>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/wpaudio-mp3-player/wpaudio.min.js?ver=3.1"
+      id="wpaudio-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/comment-reply.min.js?ver=6.1.1"
+      id="comment-reply-js"
+    ></script>
+    <script type="text/javascript" id="disqus_count-js-extra">
+      /* <![CDATA[ */
+      var countVars = { disqusShortname: "messymatters" };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.17"
+      id="disqus_count-js"
+    ></script>
+    <script type="text/javascript" id="disqus_embed-js-extra">
+      /* <![CDATA[ */
+      var embedVars = {
+        disqusConfig: { integration: "wordpress 3.0.17" },
+        disqusIdentifier: "1678 \/?p=1678",
+        disqusShortname: "messymatters",
+        disqusTitle: "Forecasting Elections with Dirty Data",
+        disqusUrl: "\/biasedpolls\/",
+        postId: "1678",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.17"
+      id="disqus_embed-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML%2CSafe.js&#038;ver=6.1.1"
+      id="mathjax-js"
+    ></script>
+    <!-- Magazine Basic theme designed by c.bavota - http://tinkerpriestmedia.com -->
+  </body>
 </html>
