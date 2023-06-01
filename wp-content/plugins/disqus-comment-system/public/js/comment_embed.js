@@ -12,12 +12,6 @@ var disqus_config = function () {
     onIdentify: fires when user is authenticated
     */
   var dsqConfig = embedVars.disqusConfig;
-
-  console.log("disqus_config_custom", disqus_config_custom);
-  console.log("dsqConfig", dsqConfig);
-  console.log("embedVars", embedVars);
-  console.log("this.page", this.page);
-
   this.page.integration = dsqConfig.integration;
   this.page.remote_auth_s3 = dsqConfig.remote_auth_s3;
   this.page.api_key = dsqConfig.api_key;
