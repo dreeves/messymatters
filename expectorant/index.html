@@ -7,10 +7,8 @@
     <meta
       name="description"
       content="
-
 We have worked out what we believe is the fastest fair way to split a restaurant bill!
-You know what the state of the art is like 
-so this is quite a bre..."
+You know what the state of the art is like so this is quite a bre..."
     />
     <meta
       name="keywords"
@@ -667,14 +665,6 @@ so this is quite a bre..."
             alt="rss"
             height="25"
         /></a>
-        <a href="http://feeds2.feedburner.com/messymatters"
-          ><img
-            src="http://feeds2.feedburner.com/~fc/messymatters?bg=99CCFF&amp;fg=444444&amp;anim=0"
-            height="26"
-            width="88"
-            style="border: 0"
-            alt=""
-        /></a>
       </div>
       <div id="title">
         <a href="/">Messy Matters</a>
@@ -713,328 +703,174 @@ so this is quite a bre..."
                 src="/wp-content/uploads/2012/06/pizza_roulette.png"
               />
             </p>
-            <p>
-              We have worked out what we believe is the fastest fair way to
-              split a restaurant bill! You know
-              <a
-                href="http://www.moddb.com/groups/humour-satire-parody/videos/headache-36-splitting-the-bill"
-                >what the state of the art is like</a
-              >
-              so this is quite a
-              <a
-                href="http://www.theonion.com/articles/caltech-physicists-successfully-split-the-bill,2037/"
-                >breakthrough</a
-              >. To be clear about the &#8220;fastest fair way&#8221; it helps
-              to compare to the extremes. First, the slowest fair way to split a
-              bill is to compute exactly what everyone ordered. Groan. Dividing
-              the bill equally avoids the hassle of figuring out who got what
-              but is still pretty annoying, making change and whatnot. And of
-              course that&#8217;s unfair to the people who ordered less, not to
-              mention that
-              <a href="http://www.gelfmagazine.com/archives/moneygrubbing.php"
-                >it distorts what people order</a
-              >.
-            </p>
-            <p>
-              If you&#8217;re not a stickler for fairness and social efficiency,
-              the hands-down fastest solution is
-              <a
-                href="http://www.urbandictionary.com/define.php?term=credit+card+roulette"
-                >credit card roulette</a
-              >: put everyone&#8217;s credit card in a hat and pick one. That
-              person pays the whole bill. If everyone happened to have spent the
-              same amount, then credit card roulette is also perfectly fair.
-              <a id="EXP1" href="#EXP">[1]</a>
-            </p>
-            <p>
-              The question, then, is how to get as close as possible to the
-              convenience of credit card roulette but with perfect fairness:
-              everyone pays, in expectation, exactly what they owe. Fortunately,
-              and perhaps surprisingly, we <em>don&#8217;t</em> need to figure
-              out who ordered what&thinsp;&mdash;&thinsp;for the most
-              part&thinsp;&mdash;&thinsp;in order to achieve this.
-            </p>
-            <p>
-              Here&#8217;s what you do! Start with any item on the bill. The
-              person who ordered that item pays the bill with probability equal
-              to the cost of that item divided by the subtotal. Flip the
-              appropriately biased coin <a id="FLP1" href="#FLP">[2]</a>; if
-              that person is it, then you&#8217;re done. If not, then subtract
-              that item from the subtotal and repeat, recursively, with another
-              arbitrary item. If you start with expensive items then
-              you&#8217;ll probably find the person who&#8217;s paying after a
-              handful of items, but it doesn&#8217;t matter for fairness what
-              order you pick things in. You won&#8217;t have to figure out all
-              the confusing drinks and appetizers (yet the outcome is as fair as
-              if you had!).
-            </p>
-            <h2>Expectorant</h2>
-            <p>
-              <a href="http://oddhead.com/">David Pennock</a> is the one who
-              first thought of this algorithm. We&#8217;ll leave it as an
-              exercise for the reader to prove that it works. Proving that
-              it&#8217;s the fastest fair algorithm should also be
-              straightforward, once you pin down what &#8220;fastest&#8221;
-              means. But enough theory.
-              <a href="http://bethaknee.com/">Bethany Soule</a> and I wrote a
-              little Android app that makes this algorithm quite convenient. We
-              call it
-              <a
-                href="https://play.google.com/store/apps/details?id=pro.ba&amp;hl=en"
-                >Expectorant</a
-              >
-              (&#8220;exquisite fairness in expectation&#8221;). Here&#8217;s an
-              example of how it implements the above procedure:
-            </p>
-            <p>
-              <span style="float: right; padding: 0px 15px">
-                <a
-                  href="https://play.google.com/store/apps/details?id=pro.ba&#038;hl=en"
-                  ><img
-                    decoding="async"
-                    class="alignright"
-                    src="/wp-content/uploads/2012/07/expectorize.png"
-                /></a>
-              </span>
-            </p>
-            <p>
-              Say the subtotal is $100 and the items on the bill are $5, $25,
-              $60, and $10. Enter <tt>100:5</tt> and have the person who ordered
-              the $5 item pick a number from 1 to 20. If their number is lit up
-              (a 5% chance) they get to pay the whole bill! If not, amend the
-              expression as <tt>100:5,25</tt> and repeat for the person who got
-              the $25 item. They&#8217;ll &#8220;win&#8221; with probability
-              25/(100-5). If they&#8217;re off the hook, amend again to
-              <tt>100:5,25,60</tt>. This time most
-              likely&thinsp;&mdash;&thinsp;p =
-              60/(100-5-25)&thinsp;&mdash;&thinsp;the $60 person will win the
-              honor of paying the bill. If not, notice that
-              <tt>100:5,25,60,10</tt> yields 10/(100-5-25-60) = 1. So if the
-              process makes it to the last item on the bill then whoever got
-              that item is it. Mathemagically, it doesn&#8217;t matter what
-              order you put the items in&thinsp;&mdash;&thinsp;each person
-              &#8220;wins&#8221; (pays the whole bill) with probability equal to
-              their own fair share of the bill. In other words, you pay in
-              expectation exactly your fair share. Including tax and tip, even
-              though we never entered those. Pretty slick! Speaking of tips,
-              remember you can minimize the hassle by starting with the most
-              expensive items. Then you don&#8217;t have to figure out who most
-              of the items belong to. Oh, and if 3 people split the $10 pickled
-              monkey balls just treat it as 3 items, $10/3 each (expressions
-              instead of numbers are allowed).
-            </p>
-            <h2>I bet I can game this by&#8230;</h2>
-            <p>
-              You really can&#8217;t! It doesn&#8217;t matter if you get two
-              cheap appetizers instead of one entree or if you arrange to go
-              first or last. Your probability of paying will be the sum of the
-              costs of your dishes divided by the subtotal. That&#8217;s true
-              even if none of your dishes were ever identified on the bill as
-              yours. Another common question about this algorithm is what
-              happens if no one gets chosen. The answer is that that can&#8217;t
-              happen. If the process makes it to the last item on the bill then
-              whoever got that item is it. But it rarely gets to the last item,
-              which is the beauty of it. On average you&#8217;ll only traverse
-              half the bill&thinsp;&mdash;&thinsp;and that&#8217;s half in terms
-              of dollar value, not number of items. Which is much less than half
-              the items if most of the bill is concentrated in a few expensive
-              entrees.
-            </p>
-            <p>
-              To help see that the order doesn&#8217;t matter, that being up
-              first is no better or worse than being up last, here&#8217;s a
-              dirt simple example: Suppose three of us each ordered $1 items.
-              The first person will pay with probability 1/3, just as they
-              should. The second person pays with probability 1/2 if the first
-              person is off the hook, which happens with probability 2/3. So the
-              second person&#8217;s probability is 2/3&sdot;1/2 = 1/3. Perfect.
-              And the third person will definitely pay if the first two people
-              are off the hook, which happens with probability 2/3&sdot;1/2 =
-              1/3.
-            </p>
-            <p>
-              In general, the key to why this works, fairly, even without
-              computing what everyone ordered, is this: Imagine a pie chart
-              where everyone has slices of a unit pie in proportion to the
-              amounts they owe. The total probability that you should pay is
-              equal to the total area of your slices. But we can decompose that
-              starting with one slice of size x, where your other slices total
-              y. The probability you should pay is x + y which is x +
-              y(1-x)/(1-x). That second term is what you get by renormalizing
-              the rest of the pie after subtracting x. In other words, you first
-              pay with probability x and then the rest of your probability (and
-              everyone else&#8217;s) is covered in the recursive step, if you
-              get to it.
-            </p>
-            <h2>Bonus Expectorizing</h2>
-            <p>
-              Expectorant is actually a more general tool. You can enter a
-              probability (between 0 and 1) or an arithmetic expression that
-              evaluates to a probability. A subset of the numbers 1-20 will
-              light up such that any given number will be lit up with the given
-              probability.
-            </p>
-            <p>
-              Here&#8217;s another way that&#8217;s useful. Say you owe me $7
-              for lunch but only have a twenty. If you give me the twenty with
-              probability 7/20 then in expectation you&#8217;ve paid me $7! So
-              type in <tt>7/20</tt> and tell me to pick a number from 1 to 20.
-              Hit &#8220;Expectorize&#8221;&thinsp;&mdash;&thinsp;or have me do
-              it so I know you didn&#8217;t cheat&thinsp;&mdash;&thinsp;and if
-              my number is lit up then I lucked out and get the $20. (If you
-              trust Expectorant to randomize properly&thinsp;&mdash;&thinsp;you
-              can, we promise&thinsp;&mdash;&thinsp;then you can just always
-              choose 1, or any number. <a id="GRN1" href="#GRN">[3]</a>)
-            </p>
-            <p>
-              We&#8217;ve even added some handy syntactic sugar to generalize
-              the case of needing to pay someone with one of two amounts, one of
-              which is too small and one which is too big. Entering something
-              like <tt>7@5,20</tt> is a shortcut for <tt>(7-5)/(20-5)</tt>.
-              That&#8217;s the probability p such that (1-p)&sdot;5 + p&sdot;20
-              = 7. WTF? Here&#8217;s TF: If you have a five and a twenty and owe
-              me $7, then give me the twenty with that probability and the five
-              otherwise. Exquisitely fair (in expectation)!
-            </p>
-            <h2>Addendum: A Faster Fair Method!</h2>
-            <p>
-              There&#8217;s been a
-              <a href="http://news.ycombinator.com/item?id=4259633"
-                >lively discussion of Expectorant on Hacker News</a
-              >
-              since this went to press. The best comment was by
-              <a href="http://news.ycombinator.com/user?id=lmm"
-                >Michael Donaghy</a
-              >
-              who pointed out a faster version of the mechanism: Pick a uniform
-              random number between 0 and the subtotal and walk down the bill
-              adding up the costs (oblivious to who ordered what) until you hit
-              the item that pushes you over the chosen number. Whoever ordered
-              that item pays. One complication: if that item is something that
-              occurs more than once on the bill then you need a way to
-              disambiguate. You could randomize again or you could use a
-              pre-decided ordering of the diners. Either way, you have to make
-              sure to identify all the people who ordered that item.
-              That&#8217;s perhaps a disadvantage compared to our version of
-              Expectorant where items are always considered one at a time in
-              isolation. But other than that, this version is certainly faster,
-              and just as fair.
-            </p>
-            <p><br />&nbsp;<br /></p>
-            <h2>Related reading</h2>
-            <ul>
-              <li>
-                &#8220;<a
-                  href="http://www.nytimes.com/2007/05/06/style/tmagazine/06tjacobs.html"
-                  >You Do the Math</a
-                >&#8221; in the New York Times
-              </li>
-              <li>
-                <a
-                  href="http://www.chicagocdr.org/cdrpubs/pdf_index/cdr_523.pdf"
-                  >Academic paper that concludes that splitting evenly is
-                  inefficient</a
-                >
-              </li>
-              <li>
-                <a href="http://www.gelfmagazine.com/archives/moneygrubbing.php"
-                  >Interview with the author of the above paper</a
-                >
-              </li>
-              <li>
-                <a
-                  href="http://mindyourdecisions.com/blog/2008/01/29/game-theory-tuesdays-dividing-a-restaurant-bill/"
-                  >Splitting the bill at restaurants using game theory</a
-                >
-              </li>
-              <li>
-                Advice columnists weigh in: &#8220;<a
-                  href="http://www.chow.com/food-news/54076/but-i-only-drank-water/"
-                  >But I Only Drank Water</a
-                >&#8221;, &#8220;<a
-                  href="http://www.bundle.com/article/dining-out-i-eat-veggie-pay-i-ordered-steak/"
-                  >Dining out, I eat veggie &#8230; but pay like I ordered
-                  steak</a
-                >&#8221;, &#8220;<a
-                  href="http://dinersjournal.blogs.nytimes.com/2007/09/24/a-measure-of-guidance-dividing-the-bill/"
-                  >A Measure of Guidance</a
-                >&#8221;, &#8220;<a
-                  href="http://www.restaurantgal.com/2007/04/but-i-only-got-the-soup/"
-                  >But I Only Got the Soup</a
-                >&#8221;
-              </li>
-              <li>
-                UPDATE: &#8220;<a
-                  href="http://mathwithbaddrawings.com/2013/08/21/five-math-experts-split-the-check/"
-                  >Five Math Experts Split the Check</a
-                >&#8221;
-              </li>
-            </ul>
-            <h2>Footnotes</h2>
-            <p>
-              <a id="EXP" href="#EXP1">[1]</a> A common complaint about
-              stochastic schemes is that they&#8217;re &#8220;only fair if you
-              do it repeatedly with the same group of people&#8221;.
-              That&#8217;s true if you insist on ex post fairness. We&#8217;re
-              usually happy with ex ante fairness. Consider selling me a
-              (perfectly fairly priced) lottery ticket for a dollar.
-              That&#8217;s guaranteed to be unfair, ex post. Either you sold me
-              a worthless piece of paper for a dollar, or I got a million
-              dollars and only paid a dollar for it. But the fact that none of
-              us knew which would happen made the one dollar price fair. Same
-              story with venture capital investment, for example. You may need a
-              gambling mentality to be down with it, but it&#8217;s quite fair
-              even if only done once. The fact that it averages out in the long
-              term to be perfectly fair ex post is icing on the cake.
-            </p>
-            <p>
-              <a id="FLP" href="#FLP1">[2]</a> Here&#8217;s a way two people can
-              flip a biased coin using nothing but their brains. It&#8217;s even
-              quite robust to the notorious inability of humans to generate
-              plausible random numbers. Person one writes down a fraction p of
-              the numbers from 1 to 20. Person two guesses a number from 1 to
-              20. If their guess was one of the written down numbers, call the
-              biased coin flip heads. We haven&#8217;t tested this rigorously
-              but our sense from doing this a lot amongst ourselves is that the
-              two people&#8217;s lack of randomness pretty much cancels out,
-              particularly if they&#8217;re trying for opposite outcomes, and
-              yields reasonably random Bernoulli outcomes. Of course with
-              numbers 1 to 20 you&#8217;re limited to a granularity of 5% on the
-              probabilities. You could use, say, 1 to 100 but that&#8217;s a bit
-              unwieldy.
-            </p>
-            <p>
-              <a id="GRN" href="#GRN1">[3]</a> There&#8217;s a very small way in
-              which you do have to trust Expectorant: If the probability
-              percentage is not a multiple of 5. For example, to get a 1%
-              probability you&#8217;d need to light up a fifth of one of the
-              numbers (1-20). That&#8217;s not allowed so Expectorant lights up
-              <em>one</em> number with 1/5 probability. It always does this
-              fairly for probabilities that don&#8217;t work out to an integer
-              number of numbers lit up. In theory it could cheat and round in
-              the wrong direction. But it doesn&#8217;t, so you&#8217;re
-              actually getting probabilities to many decimal places of fairness,
-              despite the discrete grid.
-            </p>
-            <p><br />&nbsp;<br /></p>
-            <p>
-              <em
-                >Illustration:
-                <a href="http://krsavage.com/">Kelly Savage</a></em
-              ><br />
-              <em
-                >The ingenious restaurant bill splitting algorithm was devised
-                by <a href="http://dpennock.com/">Dave Pennock</a> of,
-                appropriately,
-                <a href="http://oddhead.com/">oddhead.com</a>.</em
-              >
-              <em
-                >Thanks to <a href="http://5harad.com/">Sharad Goel</a> and
-                <a href="http://krsavage.com/">Kelly Savage</a> for
-                expectorizing the bill with us every time we go out to
-                dinner.</em
-              >
-            </p>
+<p>We have worked out what we believe is the fastest fair way to split a restaurant bill!
+You know <a href="http://www.moddb.com/groups/humour-satire-parody/videos/headache-36-splitting-the-bill">what the state of the art is like</a> 
+so this is quite a <a href="http://www.theonion.com/articles/caltech-physicists-successfully-split-the-bill,2037/">breakthrough</a>.
+To be clear about the &#8220;fastest fair way&#8221; it helps to compare to the extremes.
+First, the slowest fair way to split a bill is to compute exactly what everyone ordered. Groan.
+Dividing the bill equally avoids the hassle of figuring out who got what but is still pretty annoying, making change and whatnot.
+And of course that&#8217;s unfair to the people who ordered less, not to mention that <a href="http://www.gelfmagazine.com/archives/moneygrubbing.php">it distorts what people order</a>.</p>
+
+<p>If you&#8217;re not a stickler for fairness and social efficiency, the hands-down fastest solution is <a href="http://www.urbandictionary.com/define.php?term=credit+card+roulette">credit card roulette</a>: put everyone&#8217;s credit card in a hat and pick one.
+That person pays the whole bill.
+If everyone happened to have spent the same amount, then credit card roulette is also perfectly fair. <a id="EXP1" href="#EXP">[1]</a></p>
+
+<p>The question, then, is how to get as close as possible to the convenience of credit card roulette but with perfect fairness: everyone pays, in expectation, exactly what they owe.
+Fortunately, and perhaps surprisingly, we <em>don&#8217;t</em> need to figure out who ordered what&thinsp;&mdash;&thinsp;for the most part&thinsp;&mdash;&thinsp;in order to achieve this.</p>
+
+<p>Here&#8217;s what you do! 
+Start with any item on the bill.
+The person who ordered that item pays the bill with probability equal to the cost of that item divided by the subtotal.
+Flip the appropriately biased coin <a id="FLP1" href="#FLP">[2]</a>; if that person is it, then you&#8217;re done.
+If not, then subtract that item from the subtotal and repeat, recursively, with another arbitrary item.
+If you start with expensive items then you&#8217;ll probably find the person who&#8217;s paying after a handful of items, but it doesn&#8217;t matter for fairness what order you pick things in.
+You won&#8217;t have to figure out all the confusing drinks and appetizers (yet the outcome is as fair as if you had!).</p>
+
+<h2>Expectorant</h2>
+
+<p><a href="http://oddhead.com">David Pennock</a> is the one who first thought of this algorithm.
+We&#8217;ll leave it as an exercise for the reader to prove that it works.
+Proving that it&#8217;s the fastest fair algorithm should also be straightforward, once you pin down what &#8220;fastest&#8221; means.
+But enough theory.
+<a href="http://bethaknee.com">Bethany Soule</a> and I wrote a little Android app 
+[UPDATE: Now a web app] 
+that makes this algorithm quite convenient.
+We call it 
+<a href="https://expectorant.yootl.es" title="UPDATE: This originally pointed to play.google.com/store/apps/details?id=pro.ba&amp;hl=en but it's no longer in the Google app store">Expectorant</a> 
+(&#8220;exquisite fairness in expectation&#8221;).
+Here&#8217;s an example of how it implements the above procedure:</p>
+
+<p><span style="float:right;padding:0px 15px;">
+<a href="https://expectorant.yootl.es"><img class="alignright" src="http://messymatters.com/wp-content/uploads/2012/07/expectorize.png"></a>
+</span></p>
+
+<p>Say the subtotal is $100 and the items on the bill are $5, $25, $60, and $10.
+Enter <tt>100:5</tt> and have the person who ordered the $5 item pick a number from 1 to 20.
+If their number is lit up (a 5% chance) they get to pay the whole bill!
+If not, amend the expression as <tt>100:5,25</tt> and repeat for the person who got the $25 item. 
+They&#8217;ll &#8220;win&#8221; with probability 25/(100-5).
+If they&#8217;re off the hook, amend again to <tt>100:5,25,60</tt>.
+This time most likely&thinsp;&mdash;&thinsp;p = 60/(100-5-25)&thinsp;&mdash;&thinsp;the $60 person will win the honor of paying the bill.
+If not, notice that <tt>100:5,25,60,10</tt> yields 10/(100-5-25-60) = 1.
+So if the process makes it to the last item on the bill then whoever got that item is it.
+Mathemagically, it doesn&#8217;t matter what order you put the items in&thinsp;&mdash;&thinsp;each person &#8220;wins&#8221; (pays the whole bill) with probability equal to their own fair share of the bill.
+In other words, you pay in expectation exactly your fair share.
+Including tax and tip, even though we never entered those. Pretty slick!
+Speaking of tips, remember you can minimize the hassle by starting with the most expensive items.
+Then you don&#8217;t have to figure out who most of the items belong to.
+Oh, and if 3 people split the $10 pickled monkey balls just treat it as 3 items, $10/3 each (expressions instead of numbers are allowed).</p>
+
+<h2>I bet I can game this by&#8230;</h2>
+
+<p>You really can&#8217;t! It doesn&#8217;t matter if you get two cheap appetizers instead of one entree or if you arrange to go first or last.
+Your probability of paying will be the sum of the costs of your dishes divided by the subtotal.
+That&#8217;s true even if none of your dishes were ever identified on the bill as yours.
+Another common question about this algorithm is what happens if no one gets chosen.
+The answer is that that can&#8217;t happen.
+If the process makes it to the last item on the bill then whoever got that item is it.
+But it rarely gets to the last item, which is the beauty of it.
+On average you&#8217;ll only traverse half the bill&thinsp;&mdash;&thinsp;and that&#8217;s half in terms of dollar value, not number of items.
+Which is much less than half the items if most of the bill is concentrated in a few expensive entrees.</p>
+
+<p>To help see that the order doesn&#8217;t matter, that being up first is no better or worse than being up last, here&#8217;s a dirt simple example:
+Suppose three of us each ordered $1 items.
+The first person will pay with probability 1/3, just as they should.
+The second person pays with probability 1/2 if the first person is off the hook, which happens with probability 2/3.
+So the second person&#8217;s probability is 2/3&sdot;1/2 = 1/3. Perfect.
+And the third person will definitely pay if the first two people are off the hook, which happens with probability 2/3&sdot;1/2 = 1/3.</p>
+
+<p>In general, the key to why this works, fairly, even without computing what everyone ordered, is this:
+Imagine a pie chart where everyone has slices of a unit pie in proportion to the amounts they owe.
+The total probability that you should pay is equal to the total area of your slices.
+But we can decompose that starting with one slice of size x, where your other slices total y.
+The probability you should pay is x + y which is x + y(1-x)/(1-x).
+That second term is what you get by renormalizing the rest of the pie after subtracting x.
+In other words, you first pay with probability x and then the rest of your probability (and everyone else&#8217;s) is covered in the recursive step, if you get to it.</p>
+
+<h2>Bonus Expectorizing</h2>
+
+<p>Expectorant is actually a more general tool.
+You can enter a probability (between 0 and 1) or an arithmetic expression that evaluates to a probability.
+A subset of the numbers 1-20 will light up such that any given number will be lit up with the given probability.</p>
+
+<p>Here&#8217;s another way that&#8217;s useful.
+Say you owe me $7 for lunch but only have a twenty.
+If you give me the twenty with probability 7/20 then in expectation you&#8217;ve paid me $7!
+So type in <tt>7/20</tt> and tell me to pick a number from 1 to 20.
+Hit &#8220;Expectorize&#8221;&thinsp;&mdash;&thinsp;or have me do it so I know you didn&#8217;t cheat&thinsp;&mdash;&thinsp;and if my number is lit up then I lucked out and get the $20.
+(If you trust Expectorant to randomize properly&thinsp;&mdash;&thinsp;you can, we promise&thinsp;&mdash;&thinsp;then you can just always choose 1, or any number. <a id="GRN1" href="#GRN">[3]</a>)</p>
+
+<p>We&#8217;ve even added some handy syntactic sugar to generalize the case of needing to pay someone with one of two amounts, one of which is too small and one which is too big.
+Entering something like <tt>7@5,20</tt> is a shortcut for <tt>(7-5)/(20-5)</tt>.
+That&#8217;s the probability p such that (1-p)&sdot;5 + p&sdot;20 = 7. WTF? Here&#8217;s TF: 
+If you have a five and a twenty and owe me $7, then give me the twenty with that probability and the five otherwise.
+Exquisitely fair (in expectation)!</p>
+
+<h2>Addendum: A Faster Fair Method!</h2>
+
+<p>There&#8217;s been a <a href="http://news.ycombinator.com/item?id=4259633">lively discussion of Expectorant on Hacker News</a> since this went to press.
+The best comment was by <a href="http://news.ycombinator.com/user?id=lmm">Michael Donaghy</a> who pointed out a faster version of the mechanism:
+Pick a uniform random number between 0 and the subtotal and walk down the bill adding up the costs (oblivious to who ordered what) until you hit the item that pushes you over the chosen number.
+Whoever ordered that item pays.
+One complication: if that item is something that occurs more than once on the bill then you need a way to disambiguate.
+You could randomize again or you could use a pre-decided ordering of the diners.
+Either way, you have to make sure to identify all the people who ordered that item.
+That&#8217;s perhaps a disadvantage compared to our version of Expectorant where items are always considered one at a time in isolation.
+But other than that, this version is certainly faster, and just as fair.</p>
+
+<p><br>&nbsp;<br></p>
+
+<h2>Related reading</h2>
+
+<ul>
+<li>&#8220;<a href="http://www.nytimes.com/2007/05/06/style/tmagazine/06tjacobs.html">You Do the Math</a>&#8221; in the New York Times</li>
+<li><a href="http://www.chicagocdr.org/cdrpubs/pdf_index/cdr_523.pdf">Academic paper that concludes that splitting evenly is inefficient</a></li>
+<li><a href="http://www.gelfmagazine.com/archives/moneygrubbing.php">Interview with the author of the above paper</a></li>
+<li><a href="http://mindyourdecisions.com/blog/2008/01/29/game-theory-tuesdays-dividing-a-restaurant-bill/">Splitting the bill at restaurants using game theory</a></li>
+<li>Advice columnists weigh in: &#8220;<a href="http://www.chow.com/food-news/54076/but-i-only-drank-water/">But I Only Drank Water</a>&#8221;, 
+&#8220;<a href="http://www.bundle.com/article/dining-out-i-eat-veggie-pay-i-ordered-steak/">Dining out, I eat veggie &#8230; but pay like I ordered steak</a>&#8221;, 
+&#8220;<a href="http://dinersjournal.blogs.nytimes.com/2007/09/24/a-measure-of-guidance-dividing-the-bill/">A Measure of Guidance</a>&#8221;, 
+&#8220;<a href="http://www.restaurantgal.com/2007/04/but-i-only-got-the-soup/">But I Only Got the Soup</a>&#8221;</li>
+<li>UPDATE: &#8220;<a href="http://mathwithbaddrawings.com/2013/08/21/five-math-experts-split-the-check/">Five Math Experts Split the Check</a>&#8221;</li>
+</ul>
+
+<h2>Footnotes</h2>
+
+<p><a id="EXP" href="#EXP1">[1]</a>
+A common complaint about stochastic schemes is that they&#8217;re &#8220;only fair if you do it repeatedly with the same group of people&#8221;.
+That&#8217;s true if you insist on ex post fairness.
+We&#8217;re usually happy with ex ante fairness.
+Consider selling me a (perfectly fairly priced) lottery ticket for a dollar.
+That&#8217;s guaranteed to be unfair, ex post.
+Either you sold me a worthless piece of paper for a dollar, or I got a million dollars and only paid a dollar for it.
+But the fact that none of us knew which would happen made the one dollar price fair.
+Same story with venture capital investment, for example.
+You may need a gambling mentality to be down with it, but it&#8217;s quite fair even if only done once.
+The fact that it averages out in the long term to be perfectly fair ex post is icing on the cake.</p>
+
+<p><a id="FLP" href="#FLP1">[2]</a>
+Here&#8217;s a way two people can flip a biased coin using nothing but their brains. 
+It&#8217;s even quite robust to the notorious inability of humans to generate plausible random numbers.
+Person one writes down a fraction p of the numbers from 1 to 20.
+Person two guesses a number from 1 to 20. 
+If their guess was one of the written down numbers, call the biased coin flip heads.
+We haven&#8217;t tested this rigorously but our sense from doing this a lot amongst ourselves is that the two people&#8217;s lack of randomness pretty much cancels out, particularly if they&#8217;re trying for opposite outcomes, and yields reasonably random Bernoulli outcomes.
+Of course with numbers 1 to 20 you&#8217;re limited to a granularity of 5% on the probabilities.
+You could use, say, 1 to 100 but that&#8217;s a bit unwieldy.</p>
+
+<p><a id="GRN" href="#GRN1">[3]</a>
+There&#8217;s a very small way in which you do have to trust Expectorant: If the probability percentage is not a multiple of 5.
+For example, to get a 1% probability you&#8217;d need to light up a fifth of one of the numbers (1-20).
+That&#8217;s not allowed so Expectorant lights up <em>one</em> number with 1/5 probability.
+It always does this fairly for probabilities that don&#8217;t work out to an integer number of numbers lit up.
+In theory it could cheat and round in the wrong direction.
+But it doesn&#8217;t, so you&#8217;re actually getting probabilities to many decimal places of fairness, despite the discrete grid.</p>
+
+<p><br>&nbsp;<br></p>
+
+<p><em>Illustration: <a href="http://krsavage.com">Kelly Savage</a></em><br />
+<em>The ingenious restaurant bill splitting algorithm was devised by <a href="http://dpennock.com/">Dave Pennock</a> of, appropriately, <a href="http://oddhead.com">oddhead.com</a>.</em>
+<em>Thanks to <a href="http://5harad.com">Sharad Goel</a> and <a href="http://krsavage.com">Kelly Savage</a> for expectorizing the bill with us every time we go out to dinner.</em></p>
             <p class="tags">
               <small
                 >Tags: <a href="/tag/economics/" rel="tag">economics</a>,
