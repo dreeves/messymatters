@@ -978,3 +978,328 @@ table td {
 	padding: 5px;
 	border-style: ridge;
 }
+
+/*
+ * Responsive adjustments for the static WordPress export.
+ *
+ * Keep the original Magazine Basic look; only relax the fixed layout where it
+ * hurts reading or small screens. The extra selector specificity is deliberate:
+ * every exported page contains a later inline block with the old fixed widths.
+ */
+
+html {
+	background: #fff;
+	-webkit-text-size-adjust: 100%;
+}
+
+html body {
+	box-sizing: border-box;
+	width: 800px;
+	max-width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding: 0;
+	color: #444;
+	background: #fff;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+a:focus {
+	outline: 2px dotted #205b87;
+	outline-offset: 2px;
+}
+
+#search {
+	box-sizing: border-box;
+	max-width: 100%;
+	padding: 5px 7px;
+	border: 1px solid #999;
+	border-radius: 0;
+	color: #222;
+	background: #fff;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#search:focus {
+	border-color: #205b87;
+	outline: 1px solid #205b87;
+	outline-offset: 1px;
+}
+
+body #leftcontent .post .entry {
+	font-size: 17px;
+	line-height: 1.55;
+	text-align: justify;
+	hyphens: auto;
+	overflow-wrap: break-word;
+}
+
+body #leftcontent .storycontent {
+	font-size: 15px;
+	line-height: 1.5;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+body #leftcontent .posts .entry {
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+#leftcontent .entry p,
+#leftcontent .storycontent p {
+	margin: 0 0 1em;
+}
+
+#leftcontent .entry li + li {
+	margin-top: .35em;
+}
+
+#leftcontent .entry h2,
+#leftcontent .entry h3 {
+	font-family: Georgia, Times, serif;
+	line-height: 1.2;
+}
+
+#leftcontent .entry h2 {
+	margin: 1.7em 0 .45em;
+	font-size: 25px;
+}
+
+#leftcontent .entry h3 {
+	margin: 1.5em 0 .4em;
+	font-size: 20px;
+}
+
+#leftcontent .entry a {
+	text-decoration: underline;
+}
+
+body #leftcontent img,
+body #leftcontent video,
+body #leftcontent iframe,
+body #leftcontent object,
+body #leftcontent embed {
+	max-width: 100%;
+}
+
+body #leftcontent img,
+body #leftcontent video {
+	height: auto;
+}
+
+body .wp-caption {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+#leftcontent pre {
+	box-sizing: border-box;
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: pre-wrap;
+}
+
+#leftcontent table {
+	display: block;
+	box-sizing: border-box;
+	max-width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.navigation::after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+@media (max-width: 50rem) {
+	html body {
+		width: 100%;
+		padding: 0 12px 2rem;
+	}
+
+	body #header {
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		float: none;
+		width: 100%;
+		padding: .75rem 0 1rem;
+	}
+
+	body #title {
+		order: 1;
+		float: none !important;
+		margin: .5rem 0 0;
+		font-size: 40px;
+		line-height: 1;
+	}
+
+	body #description {
+		order: 2;
+		clear: none !important;
+		float: none !important;
+		margin: .5rem 0 0;
+	}
+
+	body #header-search {
+		box-sizing: border-box;
+		order: 3;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		float: none !important;
+		width: 100%;
+		margin: 1rem 0 0 !important;
+		text-align: left !important;
+	}
+
+	#header-search form {
+		flex: 1;
+	}
+
+	#header-search br {
+		display: none;
+	}
+
+	#search {
+		width: 100%;
+		min-height: 40px;
+		font-size: 16px;
+	}
+
+	#header-search a {
+		display: inline-block;
+		line-height: 0;
+	}
+
+	body #leftcontent,
+	body #sidebar,
+	body #secondsidebar {
+		box-sizing: border-box;
+		width: 100%;
+		min-width: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	body #sidebar,
+	body #secondsidebar {
+		margin-top: 2rem;
+		padding-top: 0;
+	}
+
+	body #sidebar .side-widget,
+	body #secondsidebar .side-widget {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	body #leftcontent .post {
+		float: none;
+		max-width: 573px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	body #leftcontent .post h1,
+	body #leftcontent .ind-post h1 {
+		font-size: 32px;
+		line-height: 1.12;
+	}
+
+	body #leftcontent .post .entry {
+		font-size: 17px;
+		line-height: 1.55;
+		text-align: left;
+		hyphens: none;
+	}
+
+	body #leftcontent .storycontent,
+	body #leftcontent .posts .entry {
+		font-size: 16px;
+	}
+
+	body #twocol,
+	body #threecol,
+	body #threecol2,
+	body .commentlist {
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 37.5rem) {
+	body #twocol,
+	body #threecol,
+	body #threecol2 {
+		background: none;
+	}
+
+	body .twopost,
+	body .threepost {
+		float: none;
+		width: 100%;
+		margin: 0;
+		padding: 1rem 0;
+		border-top: 1px solid #aaa;
+	}
+
+	body .twopost:first-child,
+	body .threepost:first-child {
+		padding-top: 0;
+		border-top: 0;
+	}
+
+	body .pullquote,
+	body #leftcontent div.sidebar {
+		box-sizing: border-box;
+		float: none;
+		width: 100%;
+		margin: 1.5em 0;
+	}
+
+	#leftcontent .navigation > .alignleft,
+	#leftcontent .navigation > .alignright {
+		box-sizing: border-box;
+		float: none;
+		width: 100% !important;
+		margin: .5em 0;
+		text-align: left;
+	}
+
+	#leftcontent .entry img.alignleft,
+	#leftcontent .entry img.alignright {
+		display: block;
+		float: none;
+		margin: 1em auto;
+	}
+}
+
+@media print {
+	html body {
+		width: auto;
+		max-width: none;
+		padding: 0;
+	}
+
+	#header-search,
+	#sidebar,
+	#secondsidebar,
+	#disqus_thread,
+	.navigation {
+		display: none !important;
+	}
+
+	body #leftcontent {
+		width: auto;
+		margin: 0;
+	}
+}
