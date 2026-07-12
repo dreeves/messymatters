@@ -35,6 +35,11 @@ while read line; do
             continue
         fi
 
+        # Never turn another complete slug into a shortcut.
+        if grep -Fxq "$substring" "$input_file"; then
+            continue
+        fi
+
         # Write the redirect rule to the output file
         echo "      - type: redirect" >> $output_file
         echo "        source: /$substring" >> $output_file

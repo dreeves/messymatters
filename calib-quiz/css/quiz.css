@@ -1,0 +1,164 @@
+html {
+  background: #eee;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  color: #222;
+  font: small/1.4 "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+#container {
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  margin: 14px;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.question {
+  margin: 0 0 3px;
+  padding: 7px 9px 10px;
+  border-left: 3px solid transparent;
+}
+
+.question:hover,
+.question:focus-within {
+  background: #fff7c0;
+}
+
+.question.good {
+  border-left-color: #527a35;
+}
+
+.question.bad {
+  border-left-color: #a33;
+}
+
+fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.desc {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 5px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.range {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) 1.5em;
+  align-items: end;
+  gap: 6px;
+  max-width: 290px;
+}
+
+.range label {
+  min-width: 0;
+  color: #444;
+  font-size: 85%;
+}
+
+.range label span {
+  display: block;
+}
+
+.range input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  margin-top: 2px;
+  padding: 4px;
+  border: 1px solid #aaa;
+  border-bottom-color: #ddd;
+  background: #fff;
+  color: #333;
+  font: inherit;
+}
+
+.range input:focus {
+  outline: 2px solid #4a6fa5;
+  outline-offset: 1px;
+}
+
+.range b {
+  padding-bottom: 4px;
+  font-weight: normal;
+}
+
+.mark {
+  padding-bottom: 2px;
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.good .mark {
+  color: #527a35;
+}
+
+.bad .mark {
+  color: #a33;
+}
+
+.true-value {
+  margin: 5px 0 0;
+  color: #444;
+  font-size: 90%;
+}
+
+.buttons,
+.score-result {
+  padding: 10px 9px;
+}
+
+#saveForm {
+  padding: 2px 9px;
+  font: inherit;
+}
+
+.score-result {
+  margin-top: 4px;
+  border-top: 1px dotted #aaa;
+  font-size: 105%;
+}
+
+.score-result:focus {
+  outline: 2px solid #4a6fa5;
+  outline-offset: -2px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 360px) {
+  body {
+    padding: 0;
+  }
+
+  #container {
+    box-shadow: none;
+  }
+
+  form {
+    margin: 8px;
+  }
+}

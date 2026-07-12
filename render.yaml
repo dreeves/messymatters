@@ -377,9 +377,6 @@ services:
         source: /calibratio
         destination: /calibration
       - type: redirect
-        source: /calibration
-        destination: /calibration-results
-      - type: redirect
         source: /calibration-
         destination: /calibration-results
       - type: redirect
