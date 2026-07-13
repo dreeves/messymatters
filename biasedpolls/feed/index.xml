@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Forecasting Elections with Dirty Data	</title>
-	<atom:link href="/biasedpolls/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/biasedpolls/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/biasedpolls/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Thu, 21 Nov 2013 11:51:00 +0000</lastBuildDate>

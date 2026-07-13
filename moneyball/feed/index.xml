@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: How Close is Close	</title>
-	<atom:link href="/moneyball/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/moneyball/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/moneyball/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Tue, 25 Nov 2014 12:52:00 +0000</lastBuildDate>

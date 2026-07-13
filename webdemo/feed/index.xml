@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Demographic Diversity on the Web	</title>
-	<atom:link href="/webdemo/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/webdemo/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/webdemo/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Mon, 30 Jan 2012 15:45:28 +0000</lastBuildDate>

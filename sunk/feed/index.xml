@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Hyper-Correcting for the Sunk-Cost Fallacy	</title>
-	<atom:link href="/sunk/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/sunk/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/sunk/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 17 Jan 2018 04:57:37 +0000</lastBuildDate>

@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: This is Viral	</title>
-	<atom:link href="/virality/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/virality/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/virality/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Thu, 20 Jun 2013 03:28:00 +0000</lastBuildDate>

@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Sex, Race, and Politics in Online Dating	</title>
-	<atom:link href="/dating/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/dating/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/dating/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Fri, 08 May 2015 06:44:00 +0000</lastBuildDate>

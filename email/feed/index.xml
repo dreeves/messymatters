@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Inbox Zeroer	</title>
-	<atom:link href="/email/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/email/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/email/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 29 Apr 2015 11:02:19 +0000</lastBuildDate>

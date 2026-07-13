@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Email Snooze and Gmail Zero	</title>
-	<atom:link href="/snooze/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/snooze/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/snooze/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Mon, 24 Aug 2020 19:45:57 +0000</lastBuildDate>

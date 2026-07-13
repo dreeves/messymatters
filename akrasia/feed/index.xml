@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: How To Do What You Want: Akrasia and Self-Binding	</title>
-	<atom:link href="/akrasia/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/akrasia/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/akrasia/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 17 Jan 2018 04:56:44 +0000</lastBuildDate>

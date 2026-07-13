@@ -5,15 +5,11 @@ input_file="input.txt"
 output_file="output.yaml"
 
 # Delete the output file if it already exists
-if [ -f "$output_file" ]; then
-    rm $output_file
-fi
-
 # Open the output file and write the initial "routes:" line
-echo "    routes:" > $output_file
+echo "    routes:" > "$output_file"
 
 # Read each line of the input file
-while read line; do
+while IFS= read -r line; do
     # Remove any leading or trailing whitespace from the line
     line=$(echo $line | xargs)
 
@@ -26,7 +22,7 @@ while read line; do
         substring=${line:0:$i}
 
         # Check if the redirect rule is a duplicate
-        if grep -q "source: /$substring" $output_file; then
+        if grep -Fqx "        source: /$substring" "$output_file"; then
             continue
         fi
 

@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Stochastic, Nerdtastic Restaurant Bill Splitting	</title>
-	<atom:link href="/expectorant/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/expectorant/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/expectorant/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Sat, 01 Oct 2022 21:22:58 +0000</lastBuildDate>

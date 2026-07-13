@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: The Polarization of Political Parties	</title>
-	<atom:link href="/polarized/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/polarized/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/polarized/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Fri, 13 Jun 2014 12:54:49 +0000</lastBuildDate>

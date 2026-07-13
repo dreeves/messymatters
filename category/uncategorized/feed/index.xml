@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Uncategorized &#8211; Messy Matters</title>
-	<atom:link href="/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/category/uncategorized/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Thu, 28 Jul 2022 20:06:30 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 	<item>
 		<title>The Out-Loud-To-Your-Friend Constraint for Writing</title>
 		<link>/outloud/</link>
-					<comments>/outloud/#respond</comments>
+					<comments>/outloud/#comments</comments>
 		
 		<dc:creator><![CDATA[dreeves]]></dc:creator>
 		<pubDate>Sat, 31 Dec 2016 19:44:33 +0000</pubDate>
@@ -127,7 +127,7 @@ See also #3, #7, and #9 in the related reading above.</p>
 <p><br>&nbsp;<br></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/outloud/feed/</wfw:commentRss>
+					<wfw:commentRss>/outloud/feed/index.xml</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
@@ -234,7 +234,7 @@ As a matter of principle, I recommend skipping the above paragraph and going str
 <a href="http://www.nejm.org/doi/full/10.1056/NEJMoa1414293" title="Randomized Trial of Four Financial-Incentive Programs for Smoking Cessation">the paper</a>.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/smoking/feed/</wfw:commentRss>
+					<wfw:commentRss>/smoking/feed/index.xml</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
@@ -329,7 +329,7 @@ For example, people could be hired at public expense to work on infrastructure p
 <p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/robots/feed/</wfw:commentRss>
+					<wfw:commentRss>/robots/feed/index.xml</wfw:commentRss>
 			<slash:comments>7</slash:comments>
 		
 		
@@ -410,7 +410,7 @@ Our work highlights the need to weigh any positive change the sharing economy ca
 <p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/airbnb/feed/</wfw:commentRss>
+					<wfw:commentRss>/airbnb/feed/index.xml</wfw:commentRss>
 			<slash:comments>4</slash:comments>
 		
 		
@@ -628,7 +628,7 @@ What&#8217;s the equilibrium of the repeated game with consistently mismatched p
 My guess is a mixed strategy where you accept some small risk of the person who cares most losing but mostly the person who cares most wins and pays a small fraction of their true utility to the loser.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/tv/feed/</wfw:commentRss>
+					<wfw:commentRss>/tv/feed/index.xml</wfw:commentRss>
 			<slash:comments>5</slash:comments>
 		
 		
@@ -709,7 +709,7 @@ racism is likely also a factor &#8212; as highlighted by the
 <a href="http://www.nytimes.com/2013/06/01/business/media/cheerios-ad-with-interracial-family-brings-out-internet-hate.html">backlash against Cheerios</a> for airing a commercial featuring an interracial couple &#8212; it is by no means the only one.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/dating/feed/</wfw:commentRss>
+					<wfw:commentRss>/dating/feed/index.xml</wfw:commentRss>
 			<slash:comments>3</slash:comments>
 		
 		
@@ -944,7 +944,7 @@ So you can adjust your goal, but you can&#8217;t change it out of laziness, unle
 <p><br>&nbsp;<br></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/uvi/feed/</wfw:commentRss>
+					<wfw:commentRss>/uvi/feed/index.xml</wfw:commentRss>
 			<slash:comments>12</slash:comments>
 		
 		
@@ -1038,7 +1038,7 @@ filter out sports, entertainment, weather and other topics for which ideological
 <p><a id="PERSONALIZATION" href="#PERSONALIZATION1">[4]</a> Personalization on social media results from a combination of algorithmic filtering, the relative similarity of social contacts, and explicit decisions to follow like-minded individuals.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/bubble/feed/</wfw:commentRss>
+					<wfw:commentRss>/bubble/feed/index.xml</wfw:commentRss>
 			<slash:comments>4</slash:comments>
 		
 		
@@ -1127,7 +1127,7 @@ Proponents of such local currencies cite many other benefits, such as valuing pe
 <p><em>Illustration by <a href="http://krsavage.com/">Kelly Savage</a></em></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/yootles/feed/</wfw:commentRss>
+					<wfw:commentRss>/yootles/feed/index.xml</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
@@ -1220,7 +1220,7 @@ In particular, for women who are 65 and older &#8212; a group whose preferences 
 For transparency, simplicity, and replicability, we assume the composition of the 2012 electorate mirrors that of the 2008 electorate, as estimated via exit polls.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/biasedpolls/feed/</wfw:commentRss>
+					<wfw:commentRss>/biasedpolls/feed/index.xml</wfw:commentRss>
 			<slash:comments>2</slash:comments>
 		
 		

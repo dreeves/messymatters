@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Out With the New, In With the Old	</title>
-	<atom:link href="/metopera/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/metopera/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/metopera/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Tue, 29 Aug 2017 03:56:37 +0000</lastBuildDate>

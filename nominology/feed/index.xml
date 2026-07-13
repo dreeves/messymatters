@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Nominology	</title>
-	<atom:link href="/nominology/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/nominology/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/nominology/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Sun, 11 Sep 2022 22:27:18 +0000</lastBuildDate>

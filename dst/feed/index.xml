@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Precious, Precious Daylight	</title>
-	<atom:link href="/dst/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/dst/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/dst/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Mon, 31 Oct 2011 20:07:33 +0000</lastBuildDate>

@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Popping the Filter Bubble	</title>
-	<atom:link href="/bubble/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/bubble/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/bubble/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 15 Oct 2014 10:48:58 +0000</lastBuildDate>

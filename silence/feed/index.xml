@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Sounds of Silence	</title>
-	<atom:link href="/silence/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/silence/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/silence/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 09 May 2012 21:41:03 +0000</lastBuildDate>

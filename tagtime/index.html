@@ -35,7 +35,7 @@ then you need a time tracker...."
       rel="alternate"
       type="application/rss+xml"
       title="Messy Matters RSS Feed"
-      href="/feed/"
+      href="/category/uncategorized/feed/index.xml"
     />
     <link rel="pingback" href="/xmlrpc.php" />
     <!--[if IE]>
@@ -69,7 +69,7 @@ then you need a time tracker...."
       rel="alternate"
       type="application/rss+xml"
       title="Messy Matters &raquo; TagTime: Stochastic Time Tracking for Space Cadets Comments Feed"
-      href="/tagtime/feed/"
+      href="/tagtime/feed/index.xml"
     />
     <!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
     <!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
@@ -532,7 +532,7 @@ then you need a time tracker...."
         </form>
         <br />
         <!-- fussery by dreeves and goel-->
-        <a href="/?feed=rss2"
+        <a href="/category/uncategorized/feed/index.xml"
           ><img
             src="/wp-content/themes/messymatters/images/rss-big.png"
             alt="rss"
@@ -927,7 +927,7 @@ then you need a time tracker...."
             <p class="postmetadata alt">
               <small>
                 Posted 2011 Apr 30.
-                <a href="/tagtime/feed/">RSS feed for comments on this post.</a>
+                <a href="/tagtime/feed/index.xml">RSS feed for comments on this post.</a>
                 Both comments and pings are currently closed while we perform
                 server maintenance.
               </small>
@@ -1477,8 +1477,8 @@ then you need a time tracker...."
                 c=.95) and a TagTime gap of g (eg, g=.75) for n pings:
               </p>
               <p>
-                $$ left{g Q^{-1}left(n,frac{c+1}{2}right),g
-                Q^{-1}left(n,frac{1}{2}-frac{c}{2}right)right}$$
+                $$ &#92;left&#92;{g Q^{-1}&#92;left(n,&#92;frac{c+1}{2}&#92;right),g
+                Q^{-1}&#92;left(n,&#92;frac{1}{2}-&#92;frac{c}{2}&#92;right)&#92;right&#92;}$$
               </p>
               <p>So for 13 pings I&#8217;m getting {5.19146, 15.7212}.</p>
               <div class="reply"></div>
@@ -1504,9 +1504,9 @@ then you need a time tracker...."
                 &#8220;+2&#8221; there seems to correspond to a &#8220;+1&#8221;
                 on the right side of your formula: 
                 <a
-                  href="http://www.wolframalpha.com/input/?i=%7Bg+InverseGammaRegularized%5Bn%2C+%281+%2B+c%29/2%5D%2C+++g+InverseGammaRegularized%5Bn%2B1%2C+1/2+-+c/2%5D%7D+where+g%3D.75%2C+c%3D.95%2C+n%3D13"
+                  href="http://www.wolframalpha.com/input/?i=%7Bg+InverseGammaRegularized%5Bn%2C+%281+%2B+c%29%2F2%5D%2C+++g+InverseGammaRegularized%5Bn%2B1%2C+1%2F2+-+c%2F2%5D%7D+where+g%3D.75%2C+c%3D.95%2C+n%3D13"
                   rel="nofollow ugc"
-                  >http://www.wolframalpha.com/input/?i=%7Bg+InverseGammaRegularized%5Bn%2C+%281+%2B+c%29/2%5D%2C+++g+InverseGammaRegularized%5Bn%2B1%2C+1/2+-+c/2%5D%7D+where+g%3D.75%2C+c%3D.95%2C+n%3D13</a
+                  >http://www.wolframalpha.com/input/?i=%7Bg+InverseGammaRegularized%5Bn%2C+%281+%2B+c%29%2F2%5D%2C+++g+InverseGammaRegularized%5Bn%2B1%2C+1%2F2+-+c%2F2%5D%7D+where+g%3D.75%2C+c%3D.95%2C+n%3D13</a
                 >
               </p>
               <div class="reply"></div>
@@ -1930,9 +1930,9 @@ then you need a time tracker...."
               </p>
               <p>
                 <a
-                  href="http://www.wolframalpha.com/input/?i=%7B+%281+/+%281%2Bz%5E2/n%29%29%28p+%2B+z%5E2/%282n%29+-+z*sqrt%28+p%281-p%29/n+%2B+z%5E2/%284n%5E2%29%29%29%2C+%281+/+%281%2Bz%5E2/n%29%29%28p+%2B+z%5E2/%282n%29+%2B+z*sqrt%28+p%281-p%29/n+%2B+z%5E2/%284n%5E2%29%29%29+%7D+where+n%3D58%2C+p%3D13/58%2C+z%3D1.96"
+                  href="http://www.wolframalpha.com/input/?i=%7B+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+-+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29%2C+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+%2B+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29+%7D+where+n%3D58%2C+p%3D13%2F58%2C+z%3D1.96"
                   rel="nofollow ugc"
-                  >http://www.wolframalpha.com/input/?i=%7B+%281+/+%281%2Bz%5E2/n%29%29%28p+%2B+z%5E2/%282n%29+-+z*sqrt%28+p%281-p%29/n+%2B+z%5E2/%284n%5E2%29%29%29%2C+%281+/+%281%2Bz%5E2/n%29%29%28p+%2B+z%5E2/%282n%29+%2B+z*sqrt%28+p%281-p%29/n+%2B+z%5E2/%284n%5E2%29%29%29+%7D+where+n%3D58%2C+p%3D13/58%2C+z%3D1.96</a
+                  >http://www.wolframalpha.com/input/?i=%7B+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+-+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29%2C+%281+%2F+%281%2Bz%5E2%2Fn%29%29%28p+%2B+z%5E2%2F%282n%29+%2B+z*sqrt%28+p%281-p%29%2Fn+%2B+z%5E2%2F%284n%5E2%29%29%29+%7D+where+n%3D58%2C+p%3D13%2F58%2C+z%3D1.96</a
                 >
               </p>
               <p>

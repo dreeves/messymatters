@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Flexible Self-Control	</title>
-	<atom:link href="/flexbind/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/flexbind/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/flexbind/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Sun, 23 Aug 2015 17:20:23 +0000</lastBuildDate>

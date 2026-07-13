@@ -377,6 +377,9 @@ services:
         source: /calibratio
         destination: /calibration
       - type: redirect
+        source: /calibration
+        destination: /calibration/
+      - type: redirect
         source: /calibration-
         destination: /calibration-results
       - type: redirect
@@ -398,20 +401,8 @@ services:
         source: /calibration-result
         destination: /calibration-results
       - type: redirect
-        source: /cat
-        destination: /category
-      - type: redirect
-        source: /cate
-        destination: /category
-      - type: redirect
-        source: /categ
-        destination: /category
-      - type: redirect
-        source: /catego
-        destination: /category
-      - type: redirect
-        source: /categor
-        destination: /category
+        source: /category
+        destination: /category/uncategorized/
       - type: redirect
         source: /ce
         destination: /centmail
@@ -534,13 +525,10 @@ services:
         destination: /expectorant
       - type: redirect
         source: /f
-        destination: /feed
+        destination: /finding-the-market-bottom
       - type: redirect
-        source: /fe
-        destination: /feed
-      - type: redirect
-        source: /fee
-        destination: /feed
+        source: /feed
+        destination: /category/uncategorized/feed/index.xml
       - type: redirect
         source: /fi
         destination: /finding-the-market-bottom
@@ -747,7 +735,7 @@ services:
         destination: /meta
       - type: redirect
         source: /meta
-        destination: /metapoll
+        destination: /meta/
       - type: redirect
         source: /metap
         destination: /metapoll
@@ -918,13 +906,10 @@ services:
         destination: /outloud
       - type: redirect
         source: /p
-        destination: /page
+        destination: /pgnames
       - type: redirect
-        source: /pa
-        destination: /page
-      - type: redirect
-        source: /pag
-        destination: /page
+        source: /page
+        destination: /
       - type: redirect
         source: /pg
         destination: /pgnames
@@ -1296,10 +1281,10 @@ services:
         destination: /sunk
       - type: redirect
         source: /t
-        destination: /tag
+        destination: /tagtime
       - type: redirect
         source: /ta
-        destination: /tag
+        destination: /tagtime
       - type: redirect
         source: /tag
         destination: /tagtime
@@ -1569,7 +1554,7 @@ services:
         destination: /viral
       - type: redirect
         source: /viral
-        destination: /virality
+        destination: /viral/
       - type: redirect
         source: /virali
         destination: /virality
@@ -1693,3 +1678,21 @@ services:
       - type: redirect
         source: /what-can-search-predic
         destination: /what-can-search-predict
+      - type: redirect
+        source: /y
+        destination: /yootles
+      - type: redirect
+        source: /yo
+        destination: /yootles
+      - type: redirect
+        source: /yoo
+        destination: /yootles
+      - type: redirect
+        source: /yoot
+        destination: /yootles
+      - type: redirect
+        source: /yootl
+        destination: /yootles
+      - type: redirect
+        source: /yootle
+        destination: /yootles

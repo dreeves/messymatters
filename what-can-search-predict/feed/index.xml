@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: What Can Search Predict?	</title>
-	<atom:link href="/what-can-search-predict/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/what-can-search-predict/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/what-can-search-predict/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Sat, 01 Mar 2014 18:34:36 +0000</lastBuildDate>

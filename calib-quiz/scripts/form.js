@@ -21,40 +21,30 @@
     );
   }
 
+  function constrain(question) {
+    const inputs = question.querySelectorAll("input");
+    inputs[1].min = inputs[0].value;
+  }
+
   questions.forEach(function (question) {
-    question.querySelectorAll("input").forEach(function (input) {
-      input.addEventListener("input", function () {
-        input.setCustomValidity("");
-      });
+    constrain(question);
+    question.querySelector("input").addEventListener("input", function () {
+      constrain(question);
     });
   });
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
 
+    questions.forEach(constrain);
     if (!form.reportValidity()) return;
 
-    const ranges = [];
-    let reversed = null;
-
-    questions.forEach(function (question) {
+    const ranges = questions.map(function (question) {
       const inputs = question.querySelectorAll("input");
       const min = Number(inputs[0].value);
       const max = Number(inputs[1].value);
-
-      inputs[1].setCustomValidity("");
-      if (min > max && reversed === null) {
-        inputs[1].setCustomValidity("min greater than the max");
-        reversed = inputs[1];
-      }
-
-      ranges.push([min, max]);
+      return [min, max];
     });
-
-    if (reversed !== null) {
-      reversed.reportValidity();
-      return;
-    }
 
     const scored = quiz.score(ranges);
     if (!scored.valid) return;

@@ -1,14 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Meta Tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Calibration Quiz</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="/calib-quiz/css/quiz.css" />
+    <!-- JavaScript -->
     <script src="/calib-quiz/scripts/score.js" defer></script>
     <script src="/calib-quiz/scripts/form.js" defer></script>
   </head>
   <body id="public">
+<!--
+    <img id="top" src="images/top.png" alt="" />
+-->
     <div id="container">
       <form
         id="calibration-quiz"
@@ -17,6 +23,17 @@
         method="get"
         autocomplete="off"
       >
+<!--
+<div class="info">
+
+	<h2><a href="http://messymatters.com">Messy Matters</a> Calibration Quiz</h2>
+	<div>For each of the questions below, provide a numerical range that you are 90% sure contains the correct answer.
+	In particular, if you have &#8220;no idea&#8221; then give a very wide range; 
+	and if you happen to be quite certain then give a narrow range.
+	<p>If you are perfectly calibrated then 90% of your intervals (no more, no less) should contain the right answers.</p>
+	<p><b>Please try your best, but don't look up the answers!</b></div></p>
+</div>
+-->
         <ol>
           <li class="question">
             <fieldset>
@@ -164,13 +181,13 @@
             aria-live="polite"
             hidden
           >
-            <strong
-              >Number of good intervals you got, out of 10:
-              <span id="score"></span
-            ></strong>
+            <strong><span id="score"></span> out of 10</strong>
           </li>
         </ol>
       </form>
-    </div>
+    </div><!--container-->
+<!--
+<img id="bottom" src="images/bottom.png" alt="" />
+-->
   </body>
 </html>

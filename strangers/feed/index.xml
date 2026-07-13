@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Things That Never Happen	</title>
-	<atom:link href="/strangers/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/strangers/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/strangers/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Fri, 10 Sep 2010 17:10:12 +0000</lastBuildDate>

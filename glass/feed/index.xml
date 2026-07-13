@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Google Glass(es)	</title>
-	<atom:link href="/glass/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/glass/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/glass/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 13 Nov 2013 03:27:00 +0000</lastBuildDate>

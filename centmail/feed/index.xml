@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: CentMail: Do Good, Fight Spam	</title>
-	<atom:link href="/centmail/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/centmail/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/centmail/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 30 Sep 2009 00:10:04 +0000</lastBuildDate>

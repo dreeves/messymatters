@@ -12,7 +12,6 @@ buyrent
 calib-quiz
 calibration
 calibration-results
-category
 centmail
 citysearch
 dating
@@ -20,7 +19,6 @@ deadlines
 dst
 email
 expectorant
-feed
 finding-the-market-bottom
 flexbind
 friendsense
@@ -39,7 +37,6 @@ moneyball
 nominology
 olympics
 outloud
-page
 pgnames
 polarized
 powerlaws
@@ -59,7 +56,6 @@ smoking
 snooze
 strangers
 sunk
-tag
 tagtime
 the-future-is-yesterday
 the-new-digital-divide

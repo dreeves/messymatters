@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Prediction Without Markets	</title>
-	<atom:link href="/prediction-without-markets/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/prediction-without-markets/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/prediction-without-markets/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Fri, 13 Apr 2018 01:07:17 +0000</lastBuildDate>

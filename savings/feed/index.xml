@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: (More Than) A Penny Saved is a Penny Wasted, In Which I Trivialize the Entire Industry of Financial Planning	</title>
-	<atom:link href="/savings/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/savings/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/savings/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Wed, 26 Aug 2015 04:46:48 +0000</lastBuildDate>

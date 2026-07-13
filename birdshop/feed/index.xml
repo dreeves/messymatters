@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: Birds of a Feather Shop Together	</title>
-	<atom:link href="/birdshop/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/birdshop/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/birdshop/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Sun, 09 Oct 2011 11:43:47 +0000</lastBuildDate>

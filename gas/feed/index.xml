@@ -8,7 +8,7 @@
 <channel>
 	<title>
 	Comments on: The Irrationality of Rationing	</title>
-	<atom:link href="/gas/feed/" rel="self" type="application/rss+xml" />
+	<atom:link href="/gas/feed/index.xml" rel="self" type="application/rss+xml" />
 	<link>/gas/</link>
 	<description>Bring your own data</description>
 	<lastBuildDate>Fri, 07 Nov 2014 09:39:07 +0000</lastBuildDate>
